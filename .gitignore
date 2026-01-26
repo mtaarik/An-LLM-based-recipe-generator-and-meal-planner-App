@@ -1,0 +1,37 @@
+# --- Security ---
+.env
+
+# --- Python / Environment ---
+venv/
+env/
+.venv/
+bin/
+lib/
+share/
+Include/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# --- Databases (Keep your schema, but ignore the actual data) ---
+*.db
+*.sqlite3
+
+# --- Data & Large Files (Don't upload 100MB+ files to GitHub) ---
+data/raw/
+data/processed/
+data/embeddings/
+# Note: You usually want to keep the folder structure but ignore the files. 
+# GitHub doesn't track empty folders, so people often put a '.gitkeep' file inside.
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log

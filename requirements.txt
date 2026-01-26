@@ -1,0 +1,9 @@
+pandas
+scikit-learn
+sentence-transformers
+numpy
+faiss-cpu
+ipykernel
+jupyter
+notebook
+groq

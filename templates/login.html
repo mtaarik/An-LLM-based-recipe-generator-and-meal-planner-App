@@ -1,0 +1,187 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="background-animation"></div>
+<div id="authScreen" class="auth-container">
+    <div class="auth-card">
+        <h1 class="auth-title">LLM Recipe Generator</h1>
+        
+        <!-- Login Form -->
+        <div id="loginForm" class="auth-form">
+            <div class="form-group">
+                <input type="text" class="form-input" id="loginUsername" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-input" id="loginPassword" placeholder="Password" required>
+            </div>
+            <button type="submit" class="auth-btn" id="loginBtn">
+                <span class="btn-text">Sign In</span>
+                <div class="loading" style="display: none;"></div>
+            </button>
+            <div class="auth-switch">
+                Don't have an account? <a href="#" id="showRegister">Sign up</a>
+            </div>
+        </div>
+        
+        <!-- Register Form -->
+        <div id="registerForm" class="auth-form" style="display: none;">
+            <div class="form-group">
+                <input type="text" class="form-input" id="registerUsername" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-input" id="registerEmail" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-input" id="registerPassword" placeholder="Password" required>
+            </div>
+            <button type="submit" class="auth-btn" id="registerBtn">
+                <span class="btn-text">Sign Up</span>
+                <div class="loading" style="display: none;"></div>
+            </button>
+            <div class="auth-switch">
+                Already have an account? <a href="#" id="showLogin">Sign in</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    Made by: Mohamed Oussama Rafiq, Mohamed Amine Tarik
+</footer>
+
+<script>
+    let isLoading = false;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        setupEventListeners();
+    });
+
+    function setupEventListeners() {
+        document.getElementById('showRegister').addEventListener('click', (e) => {
+            e.preventDefault();
+            showRegisterForm();
+        });
+
+        document.getElementById('showLogin').addEventListener('click', (e) => {
+            e.preventDefault();
+            showLoginForm();
+        });
+
+        document.getElementById('loginBtn').addEventListener('click', handleLogin);
+        document.getElementById('registerBtn').addEventListener('click', handleRegister);
+
+        // Enter key submissions
+        document.getElementById('loginUsername').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') handleLogin();
+        });
+        document.getElementById('loginPassword').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') handleLogin();
+        });
+        document.getElementById('registerPassword').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') handleRegister();
+        });
+    }
+
+    function showLoginForm() {
+        document.getElementById('loginForm').style.display = 'flex';
+        document.getElementById('registerForm').style.display = 'none';
+    }
+
+    function showRegisterForm() {
+        document.getElementById('loginForm').style.display = 'none';
+        document.getElementById('registerForm').style.display = 'flex';
+    }
+
+    async function handleLogin() {
+        if (isLoading) return;
+
+        const username = document.getElementById('loginUsername').value.trim();
+        const password = document.getElementById('loginPassword').value;
+
+        if (!username || !password) {
+            alert('Please fill in all fields');
+            return;
+        }
+
+        setLoading(document.getElementById('loginBtn'), true);
+
+        try {
+            const response = await fetch('/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                credentials: 'include',
+                body: JSON.stringify({ username, password })
+            });
+
+            const data = await response.json();
+
+            if (response.ok) {
+                window.location.href = '/';
+            } else {
+                alert(data.error || 'Login failed');
+            }
+        } catch (error) {
+            alert('Network error. Please try again.');
+        }
+
+        setLoading(document.getElementById('loginBtn'), false);
+    }
+
+    async function handleRegister() {
+        if (isLoading) return;
+
+        const username = document.getElementById('registerUsername').value.trim();
+        const email = document.getElementById('registerEmail').value.trim();
+        const password = document.getElementById('registerPassword').value;
+
+        if (!username || !email || !password) {
+            alert('Please fill in all fields');
+            return;
+        }
+
+        setLoading(document.getElementById('registerBtn'), true);
+
+        try {
+            const response = await fetch('/register', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ username, email, password })
+            });
+
+            const data = await response.json();
+
+            if (response.ok) {
+                alert('Registration successful! Please login.');
+                showLoginForm();
+                document.getElementById('loginUsername').value = username;
+            } else {
+                alert(data.error || 'Registration failed');
+            }
+        } catch (error) {
+            alert('Network error. Please try again.');
+        }
+
+        setLoading(document.getElementById('registerBtn'), false);
+    }
+
+    function setLoading(button, loading) {
+        isLoading = loading;
+        const btnText = button.querySelector('.btn-text');
+        const spinner = button.querySelector('.loading');
+        
+        if (loading) {
+            btnText.style.display = 'none';
+            spinner.style.display = 'block';
+            button.disabled = true;
+        } else {
+            btnText.style.display = 'block';
+            spinner.style.display = 'none';
+            button.disabled = false;
+        }
+    }
+</script>
+{% endblock %}

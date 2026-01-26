@@ -1,0 +1,392 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="background-animation"></div>
+
+<div class="app-container expanded">
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <button class="sidebar-toggle" id="sidebarToggle">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        
+        <div class="sidebar-header">
+            <div class="logo">🍳</div>
+            <div class="logo-text">Recipe Bot</div>
+        </div>
+        
+        <nav class="sidebar-nav">
+            <div class="nav-item active" data-section="chat">
+                <i class="nav-icon fas fa-comments"></i>
+                <span class="nav-text">Chat</span>
+            </div>
+            <div class="nav-item" data-section="history">
+                <i class="nav-icon fas fa-history"></i>
+                <span class="nav-text">History</span>
+            </div>
+            <div class="nav-item" data-section="profile">
+                <i class="nav-icon fas fa-user"></i>
+                <span class="nav-text">Profile</span>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="header-title">An LLM Based Recipe Generator</h1>
+            <div class="user-menu">
+                <div class="user-avatar" id="userAvatar">{{ username[0].upper() }}</div>
+                <div class="dropdown" id="userDropdown">
+                    <div class="dropdown-item" data-section="profile">
+                        <i class="fas fa-user"></i>
+                        <span>Profile</span>
+                    </div>
+                    <div class="dropdown-item" id="logoutBtn">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span>Logout</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Chat Section -->
+        <div id="chatSection" class="content-area active">
+            <div class="chat-container">
+                <div class="messages-container" id="messagesContainer">
+                    <!-- Messages will appear here -->
+                </div>
+                
+                <div class="chat-input-container">
+                    <div class="chat-input-wrapper">
+                        <textarea class="chat-input" id="chatInput" placeholder="Ask me about any recipe or cooking technique..." rows="1"></textarea>
+                        <button class="send-btn" id="sendBtn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- History Section -->
+        <div id="historySection" class="content-area">
+            <div class="history-container">
+                <h2 style="margin-bottom: 30px; color: var(--primary);">Conversation History</h2>
+                <div id="historyContent">
+                    <!-- History items will be loaded here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile Section -->
+        <div id="profileSection" class="content-area">
+            <div class="profile-container">
+                <div class="profile-card">
+                    <div class="profile-avatar" id="profileAvatar">{{ username[0].upper() }}</div>
+                    <h2 id="profileName">{{ username }}</h2>
+                    <div class="profile-info" id="profileInfo">
+                        <!-- Profile data will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Overlay -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+</div>
+
+<script>
+    let isLoading = false;
+    let currentUser = '{{ username }}';
+
+    document.addEventListener('DOMContentLoaded', function() {
+        initializeApp();
+    });
+
+    function initializeApp() {
+        setupEventListeners();
+        loadHistory();
+        loadProfile();
+        autoResizeTextarea();
+    }
+
+    function setupEventListeners() {
+        // Sidebar navigation
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', () => {
+                const section = item.dataset.section;
+                switchSection(section);
+                
+                // Update active nav item
+                document.querySelectorAll('.nav-item').forEach(nav => nav.classList.remove('active'));
+                item.classList.add('active');
+            });
+        });
+
+        // Sidebar toggle
+        document.getElementById('sidebarToggle').addEventListener('click', toggleSidebar);
+
+        // User dropdown
+        document.getElementById('userAvatar').addEventListener('click', toggleUserDropdown);
+        
+        // Profile dropdown item
+        document.querySelector('.dropdown-item[data-section="profile"]').addEventListener('click', () => {
+            switchSection('profile');
+            document.querySelectorAll('.nav-item').forEach(nav => nav.classList.remove('active'));
+            document.querySelector('.nav-item[data-section="profile"]').classList.add('active');
+            toggleUserDropdown();
+        });
+
+        // Logout
+        document.getElementById('logoutBtn').addEventListener('click', logout);
+
+        // Chat functionality
+        document.getElementById('sendBtn').addEventListener('click', sendMessage);
+        document.getElementById('chatInput').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+
+        // Mobile overlay
+        document.getElementById('mobileOverlay').addEventListener('click', closeMobileSidebar);
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.user-menu')) {
+                document.getElementById('userDropdown').classList.remove('show');
+            }
+        });
+    }
+
+    function switchSection(sectionName) {
+        // Hide all sections
+        document.querySelectorAll('.content-area').forEach(area => {
+            area.classList.remove('active');
+        });
+        
+        // Show selected section
+        document.getElementById(sectionName + 'Section').classList.add('active');
+        
+        // Load data if needed
+        if (sectionName === 'history') {
+            loadHistory();
+        } else if (sectionName === 'profile') {
+            loadProfile();
+        }
+    }
+
+    function toggleSidebar() {
+        const container = document.querySelector('.app-container');
+        const sidebar = document.getElementById('sidebar');
+        const icon = document.querySelector('.sidebar-toggle i');
+        
+        if (window.innerWidth <= 768) {
+            // Mobile behavior
+            sidebar.classList.toggle('mobile-open');
+            document.getElementById('mobileOverlay').classList.toggle('show');
+        } else {
+            // Desktop behavior
+            container.classList.toggle('expanded');
+            icon.classList.toggle('fa-chevron-left');
+            icon.classList.toggle('fa-chevron-right');
+        }
+    }
+
+    function closeMobileSidebar() {
+        document.getElementById('sidebar').classList.remove('mobile-open');
+        document.getElementById('mobileOverlay').classList.remove('show');
+    }
+
+    function toggleUserDropdown() {
+        document.getElementById('userDropdown').classList.toggle('show');
+    }
+
+    function autoResizeTextarea() {
+        const textarea = document.getElementById('chatInput');
+        textarea.addEventListener('input', function() {
+            this.style.height = 'auto';
+            this.style.height = Math.min(this.scrollHeight, 120) + 'px';
+        });
+    }
+
+    async function sendMessage() {
+        if (isLoading) return;
+
+        const input = document.getElementById('chatInput');
+        const message = input.value.trim();
+        
+        if (!message) return;
+
+        // Add user message to chat
+        addMessage(message, 'user');
+        input.value = '';
+        input.style.height = 'auto';
+
+        // Show loading state
+        setLoading(true);
+        const loadingMessage = addMessage('Thinking...', 'bot', true);
+
+        try {
+            const response = await fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                credentials: 'include',
+                body: JSON.stringify({ prompt: message })
+            });
+
+            const data = await response.json();
+
+            // Remove loading message
+            loadingMessage.remove();
+
+            if (response.ok) {
+                addMessage(data.response, 'bot');
+            } else {
+                addMessage('Sorry, there was an error processing your request. Please try again.', 'bot');
+                if (data.error === 'Not authenticated') {
+                    window.location.href = '/';
+                }
+            }
+        } catch (error) {
+            loadingMessage.remove();
+            addMessage('Network error. Please check your connection and try again.', 'bot');
+        }
+
+        setLoading(false);
+    }
+
+    function addMessage(content, type, isLoading = false) {
+        const messagesContainer = document.getElementById('messagesContainer');
+        const messageDiv = document.createElement('div');
+        messageDiv.className = `message ${type}`;
+        
+        const avatar = type === 'user' ? currentUser[0].toUpperCase() : '🤖';
+        const loadingClass = isLoading ? ' style="opacity: 0.7;"' : '';
+        
+        messageDiv.innerHTML = `
+            <div class="message-avatar">${avatar}</div>
+            <div class="message-content"${loadingClass}>
+                ${isLoading ? '<div class="loading"></div> ' + content : content}
+            </div>
+        `;
+        
+        messagesContainer.appendChild(messageDiv);
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        
+        return messageDiv;
+    }
+
+    function setLoading(loading) {
+        isLoading = loading;
+        const sendBtn = document.getElementById('sendBtn');
+        const chatInput = document.getElementById('chatInput');
+        
+        sendBtn.disabled = loading;
+        chatInput.disabled = loading;
+        
+        if (loading) {
+            sendBtn.innerHTML = '<div class="loading"></div>';
+        } else {
+            sendBtn.innerHTML = '<i class="fas fa-paper-plane"></i>';
+        }
+    }
+
+    async function loadHistory() {
+        const historyContent = document.getElementById('historyContent');
+        historyContent.innerHTML = '<div style="text-align: center; padding: 40px;"><div class="loading"></div></div>';
+
+        try {
+            const response = await fetch('/history', {
+                credentials: 'include'
+            });
+
+            const data = await response.json();
+
+            if (response.ok) {
+                if (data.messages && data.messages.length > 0) {
+                    historyContent.innerHTML = '';
+                    data.messages.forEach(msg => {
+                        const historyItem = document.createElement('div');
+                        historyItem.className = 'history-item';
+                        historyItem.innerHTML = `
+                            <div class="history-question">Q: ${msg.prompt}</div>
+                            <div class="history-answer">A: ${msg.response}</div>
+                            <div class="history-timestamp">${formatTimestamp(msg.timestamp)}</div>
+                        `;
+                        historyContent.appendChild(historyItem);
+                    });
+                } else {
+                    historyContent.innerHTML = '<div style="text-align: center; padding: 40px; color: var(--text-muted);">No conversation history yet. Start chatting to see your history here!</div>';
+                }
+            } else {
+                historyContent.innerHTML = '<div style="text-align: center; padding: 40px; color: var(--error);">Error loading history</div>';
+                if (data.error === 'Not authenticated') {
+                    window.location.href = '/';
+                }
+            }
+        } catch (error) {
+            historyContent.innerHTML = '<div style="text-align: center; padding: 40px; color: var(--error);">Network error loading history</div>';
+        }
+    }
+
+    async function loadProfile() {
+        const profileInfo = document.getElementById('profileInfo');
+        profileInfo.innerHTML = '<div style="text-align: center; padding: 20px;"><div class="loading"></div></div>';
+
+        try {
+            const response = await fetch('/profile', {
+                credentials: 'include'
+            });
+
+            const data = await response.json();
+
+            if (response.ok) {
+                profileInfo.innerHTML = `
+                    <div class="info-row">
+                        <span class="info-label">Username</span>
+                        <span class="info-value">${data.username}</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Email</span>
+                        <span class="info-value">${data.email}</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Member Since</span>
+                        <span class="info-value">${formatTimestamp(data.member_since)}</span>
+                    </div>
+                `;
+            } else {
+                profileInfo.innerHTML = '<div style="text-align: center; padding: 20px; color: var(--error);">Error loading profile</div>';
+                if (data.error === 'Not authenticated') {
+                    window.location.href = '/';
+                }
+            }
+        } catch (error) {
+            profileInfo.innerHTML = '<div style="text-align: center; padding: 20px; color: var(--error);">Network error loading profile</div>';
+        }
+    }
+
+    function formatTimestamp(timestamp) {
+        const date = new Date(timestamp);
+        return date.toLocaleString();
+    }
+
+    function logout() {
+        window.location.href = '/logout';
+    }
+
+    // Handle window resize
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768) {
+            document.getElementById('sidebar').classList.remove('mobile-open');
+            document.getElementById('mobileOverlay').classList.remove('show');
+        }
+    });
+</script>
+{% endblock %}
