@@ -1,7 +1,7 @@
 # Moroccan-aware Recipe RAG: technical report (v2)
 
 > A retrieval-augmented recipe assistant for Moroccan and international cuisine.
-> v1 was a first-year school project; v2 is a rebuild driven by measurement: a labelled
+> v1 was the original prototype; v2 is a rebuild driven by measurement: a labelled
 > benchmark, an ablation study, and a fix for every failure the benchmark exposed.
 
 ## Results at a glance

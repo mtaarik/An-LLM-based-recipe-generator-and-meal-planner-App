@@ -46,3 +46,7 @@ logs/
 .claude/
 colab_jobs.parquet
 embeddings.zip
+
+# --- Local-only files ---
+rapport et presentation/
+docs/PITCH.md

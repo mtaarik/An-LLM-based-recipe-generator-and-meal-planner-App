@@ -5,10 +5,9 @@ A recipe assistant that answers in **French, English or Moroccan Darija**, groun
 corpus-mined spelling-variant lexicon for Darija dish names, LLM query understanding,
 cross-encoder reranking, cited answers and an evaluation suite.
 
-> v1 was a first-year engineering school project (ENSIAS). v2 is a measured rebuild: every
-> component below exists because it improved a benchmark, and the benchmark is in the repo.
-> Full write-up: **[docs/TECHNICAL_REPORT.md](docs/TECHNICAL_REPORT.md)** · pitch and
-> interview notes: **[docs/PITCH.md](docs/PITCH.md)**.
+> v1 was the original prototype. v2 is a measured rebuild: every component below exists
+> because it improved a benchmark, and the benchmark is in the repo.
+> Full write-up: **[docs/TECHNICAL_REPORT.md](docs/TECHNICAL_REPORT.md)**.
 
 ## Results
 
@@ -95,11 +94,6 @@ eval/           benchmark (queries.yaml), judge + metrics, experiments, results/
 tests/          unit tests
 app.py          Flask app (auth, chat with memory, sources, history)
 templates/      UI
-docs/           technical report, pitch
+docs/           technical report
 notebooks/      v1 exploration (history)
 ```
-
-## Authors
-
-Mohamed Amine Tarik · Mohamed Oussama Rafiq (v1, supervised by Prof. H. Benbrahim, ENSIAS).
-v2 rebuild by Mohamed Amine Tarik.

@@ -1,6 +1,6 @@
 # Notebooks (v1 exploration)
 
-These notebooks are the original first-year exploration (data loading, preprocessing,
+These notebooks are the original v1 exploration (data loading, preprocessing,
 embedding generation, retrieval and RAG experiments). They are kept for history.
 
 The production pipeline now lives in the `recipe_rag/` package and is run with:
