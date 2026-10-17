@@ -1,0 +1,474 @@
+{
+ "threshold": 6.591372966766357,
+ "balanced_accuracy": 0.7083333333333334,
+ "rows": [
+  {
+   "qid": "mfr01",
+   "score": 5.169454574584961,
+   "positive": true,
+   "top": "Vegetarian Harira"
+  },
+  {
+   "qid": "mfr02",
+   "score": 5.4931416511535645,
+   "positive": true,
+   "top": "Chicken pastilla"
+  },
+  {
+   "qid": "mfr03",
+   "score": 8.663893699645996,
+   "positive": true,
+   "top": "Rfissa (Moroccan Chicken With Lentils)"
+  },
+  {
+   "qid": "mfr04",
+   "score": 6.282998085021973,
+   "positive": true,
+   "top": "Zaalouk Spicy Aubergine Salad Morocco"
+  },
+  {
+   "qid": "mfr05",
+   "score": 6.529840469360352,
+   "positive": false,
+   "top": "Easy Chicken Tagine Tajine With Olives And Lemon"
+  },
+  {
+   "qid": "mfr06",
+   "score": 7.554131507873535,
+   "positive": true,
+   "top": "Couscous With Seven Vegetables"
+  },
+  {
+   "qid": "mfr07",
+   "score": 8.530913352966309,
+   "positive": true,
+   "top": "Tajine Kefta \u0153uf"
+  },
+  {
+   "qid": "mfr08",
+   "score": 4.496455192565918,
+   "positive": true,
+   "top": "Beghrir \u2013 1000 Hole Pancakes"
+  },
+  {
+   "qid": "mfr09",
+   "score": 2.6160740852355957,
+   "positive": false,
+   "top": "M'Semen - Spiced Savoury Stuffed Moroccan Cr\u00eapes"
+  },
+  {
+   "qid": "mfr10",
+   "score": 8.600513458251953,
+   "positive": true,
+   "top": "Moroccan Chebakia (Sesame Cookies with Honey) for Ramadan"
+  },
+  {
+   "qid": "mfr11",
+   "score": 6.633225440979004,
+   "positive": true,
+   "top": "Moroccan Harcha Semolina Pan-Fried Flatbread"
+  },
+  {
+   "qid": "mfr12",
+   "score": 2.4930481910705566,
+   "positive": false,
+   "top": "Briouate Moroccan chicken"
+  },
+  {
+   "qid": "mfr13",
+   "score": 9.39885139465332,
+   "positive": true,
+   "top": "Moroccan Mint Tea"
+  },
+  {
+   "qid": "mfr14",
+   "score": 2.8288674354553223,
+   "positive": false,
+   "top": "Moroccan Anise Bread"
+  },
+  {
+   "qid": "mfr15",
+   "score": 4.222067356109619,
+   "positive": true,
+   "top": "Moroccan Gazelle Horns (Kab El Ghzal) (Cornes De Gazelle)"
+  },
+  {
+   "qid": "mfr16",
+   "score": 6.974898815155029,
+   "positive": true,
+   "top": "Quick Fish Tagine with Chermoula + a Video"
+  },
+  {
+   "qid": "mfr17",
+   "score": 5.319948673248291,
+   "positive": true,
+   "top": "Almondy Honey And Vanilla Layer Cake with Amlou Filling"
+  },
+  {
+   "qid": "mfr18",
+   "score": 4.300219535827637,
+   "positive": true,
+   "top": "Bissara - Split Peas and Fava Beans Dip"
+  },
+  {
+   "qid": "dar01",
+   "score": 7.362467288970947,
+   "positive": true,
+   "top": "Moroccan Tangia Marrakchia"
+  },
+  {
+   "qid": "dar02",
+   "score": 1.2394566535949707,
+   "positive": true,
+   "top": "Moroccan Chicken Bastilla"
+  },
+  {
+   "qid": "dar03",
+   "score": 1.0510685443878174,
+   "positive": true,
+   "top": "Moroccan Chicken and Onion Tagine Recipe With Djaj Beldi"
+  },
+  {
+   "qid": "dar04",
+   "score": 4.036535739898682,
+   "positive": false,
+   "top": "Rsti Roesti"
+  },
+  {
+   "qid": "dar05",
+   "score": 1.1279374361038208,
+   "positive": true,
+   "top": "Zaalouk Spicy Aubergine Salad Morocco"
+  },
+  {
+   "qid": "dar06",
+   "score": 6.171441555023193,
+   "positive": false,
+   "top": "Ayaou M Semmen"
+  },
+  {
+   "qid": "dar07",
+   "score": 4.675316333770752,
+   "positive": true,
+   "top": "Moroccan Honeycomb Pancakes Beghrir"
+  },
+  {
+   "qid": "dar08",
+   "score": 2.760829448699951,
+   "positive": true,
+   "top": "Chebakia - La Rose des Sables"
+  },
+  {
+   "qid": "dar09",
+   "score": 2.601674795150757,
+   "positive": true,
+   "top": "Moroccan Semolina Cookies (Ghoriba)"
+  },
+  {
+   "qid": "dar10",
+   "score": 10.315394401550293,
+   "positive": true,
+   "top": "Moroccan Harcha Semolina Pan-Fried Flatbread"
+  },
+  {
+   "qid": "dar11",
+   "score": 2.3635573387145996,
+   "positive": true,
+   "top": "Moroccan Kefta (Ground Meat) Briouat"
+  },
+  {
+   "qid": "dar12",
+   "score": 10.772128105163574,
+   "positive": true,
+   "top": "Moroccan Kefta Tagine"
+  },
+  {
+   "qid": "dar13",
+   "score": 10.863898277282715,
+   "positive": true,
+   "top": "Seffa Medfouna Recipe (Vermicelli With Saffron Chicken)"
+  },
+  {
+   "qid": "dar14",
+   "score": 7.408545017242432,
+   "positive": false,
+   "top": "Moroccan Lamb Tagine With Raisins, Almonds, and Honey"
+  },
+  {
+   "qid": "dar15",
+   "score": 1.5924408435821533,
+   "positive": true,
+   "top": "Bissara Fava Bean Puree"
+  },
+  {
+   "qid": "ien01",
+   "score": 8.545367240905762,
+   "positive": false,
+   "top": "Classic Lasagna With Meat Sauce Tomatoes And Bechamel Sauce L"
+  },
+  {
+   "qid": "ien02",
+   "score": 10.507616996765137,
+   "positive": true,
+   "top": "Silken Chicken Tikka Masala"
+  },
+  {
+   "qid": "ien03",
+   "score": 9.311152458190918,
+   "positive": true,
+   "top": "Super Moist Banana Bread"
+  },
+  {
+   "qid": "ien04",
+   "score": 8.191704750061035,
+   "positive": true,
+   "top": "Authentic Pad Thai"
+  },
+  {
+   "qid": "ien05",
+   "score": 10.823336601257324,
+   "positive": true,
+   "top": "French Onion Soup With Cheese Croutons"
+  },
+  {
+   "qid": "ien06",
+   "score": 8.311904907226562,
+   "positive": true,
+   "top": "The Ultimate Spaghetti Carbonara"
+  },
+  {
+   "qid": "ien07",
+   "score": 9.626204490661621,
+   "positive": true,
+   "top": "Creamy Spinach Mushroom Risotto"
+  },
+  {
+   "qid": "ien08",
+   "score": 5.446645259857178,
+   "positive": true,
+   "top": "Truffle Hummus"
+  },
+  {
+   "qid": "ien09",
+   "score": 10.721131324768066,
+   "positive": true,
+   "top": "Chicken Biryani"
+  },
+  {
+   "qid": "ien10",
+   "score": 10.918538093566895,
+   "positive": true,
+   "top": "Shakshuka With Spinach & Feta Cheese"
+  },
+  {
+   "qid": "ien11",
+   "score": 7.642053127288818,
+   "positive": true,
+   "top": "Tiramisu"
+  },
+  {
+   "qid": "ifr01",
+   "score": 6.450523853302002,
+   "positive": false,
+   "top": "Chocolate Foundant Puddings"
+  },
+  {
+   "qid": "ifr02",
+   "score": 7.989313125610352,
+   "positive": false,
+   "top": "Gratineed Onion Soup"
+  },
+  {
+   "qid": "ifr03",
+   "score": 9.197793960571289,
+   "positive": true,
+   "top": "Quiche Lorraine"
+  },
+  {
+   "qid": "ifr04",
+   "score": 7.356342792510986,
+   "positive": true,
+   "top": "Boeuf Bourguignon"
+  },
+  {
+   "qid": "ifr05",
+   "score": 6.93143367767334,
+   "positive": true,
+   "top": "Ratatouille With Poached Eggs And Garlic Croutons"
+  },
+  {
+   "qid": "ifr06",
+   "score": 4.346768379211426,
+   "positive": true,
+   "top": "Vanilla Creme Brulee"
+  },
+  {
+   "qid": "ifr07",
+   "score": 6.591372966766357,
+   "positive": true,
+   "top": "Tarte Tatin Aux Poires"
+  },
+  {
+   "qid": "ifr08",
+   "score": 8.58655834197998,
+   "positive": true,
+   "top": "Nicoise Salad With Grilled Tuna"
+  },
+  {
+   "qid": "ifr09",
+   "score": 8.05585765838623,
+   "positive": true,
+   "top": "Coq Au Vin"
+  },
+  {
+   "qid": "ifr10",
+   "score": 8.995760917663574,
+   "positive": true,
+   "top": "Gratin Dauphinois Classic French Potatoes Baked In Cream"
+  },
+  {
+   "qid": "ifr11",
+   "score": 9.853304862976074,
+   "positive": true,
+   "top": "Easy Blender Chocolate Mousse"
+  },
+  {
+   "qid": "ifr12",
+   "score": 1.7908248901367188,
+   "positive": true,
+   "top": "M'Semen - Spiced Savoury Stuffed Moroccan Cr\u00eapes"
+  },
+  {
+   "qid": "ing01",
+   "score": -0.7971335649490356,
+   "positive": false,
+   "top": "Chicken And Rice Dinner"
+  },
+  {
+   "qid": "ing02",
+   "score": 4.897225856781006,
+   "positive": true,
+   "top": "Scrambled Egg With Spinach And Feta On Toast"
+  },
+  {
+   "qid": "ing03",
+   "score": 4.023809909820557,
+   "positive": true,
+   "top": "Chickpea Salad With Cumin And Lemon"
+  },
+  {
+   "qid": "ing04",
+   "score": 4.23861026763916,
+   "positive": true,
+   "top": "Ground Beef And Potato Meal"
+  },
+  {
+   "qid": "ing05",
+   "score": 2.4674110412597656,
+   "positive": false,
+   "top": "Croustade Aux Pommes Et Erable"
+  },
+  {
+   "qid": "ing06",
+   "score": 10.281230926513672,
+   "positive": true,
+   "top": "Salmon With Lemon And Dill"
+  },
+  {
+   "qid": "ing07",
+   "score": 5.121772766113281,
+   "positive": false,
+   "top": "Coconut Lentils And Rice Arroz Con Lentejas Y Coco"
+  },
+  {
+   "qid": "ing08",
+   "score": 6.320792198181152,
+   "positive": true,
+   "top": "Zucchini Tomato And Mozzarella Quesadillas"
+  },
+  {
+   "qid": "ing09",
+   "score": 1.215965747833252,
+   "positive": false,
+   "top": "Orange Mousse With Almonds Mousse A L Orange Et Aux Amandes"
+  },
+  {
+   "qid": "ing10",
+   "score": 10.287453651428223,
+   "positive": true,
+   "top": "Tofu And Broccoli Stir Fry Martha Stewart"
+  },
+  {
+   "qid": "con01",
+   "score": 0.8777693510055542,
+   "positive": true,
+   "top": "Speedy Veggie Stew"
+  },
+  {
+   "qid": "con02",
+   "score": 7.877518177032471,
+   "positive": true,
+   "top": "Chia Chocolate Pudding Vegan"
+  },
+  {
+   "qid": "con03",
+   "score": 9.103475570678711,
+   "positive": true,
+   "top": "Allergen Free Gluten Free Bread"
+  },
+  {
+   "qid": "con04",
+   "score": -0.7619021534919739,
+   "positive": true,
+   "top": "250 Calorie Dinner"
+  },
+  {
+   "qid": "con05",
+   "score": 9.927361488342285,
+   "positive": true,
+   "top": "Tajine Bil Khodar Vegetable Tagine"
+  },
+  {
+   "qid": "con06",
+   "score": 5.132569789886475,
+   "positive": true,
+   "top": "Vegetable Noodle Soup Gluten Dairy And Egg Free"
+  },
+  {
+   "qid": "con07",
+   "score": 7.29943323135376,
+   "positive": true,
+   "top": "Healthy Pasta Puttanesca"
+  },
+  {
+   "qid": "con08",
+   "score": 10.856056213378906,
+   "positive": true,
+   "top": "Vegan Greek Quinoa Salad"
+  },
+  {
+   "qid": "una01",
+   "score": 1.7505497932434082,
+   "positive": false,
+   "top": "Muhammara"
+  },
+  {
+   "qid": "una02",
+   "score": 4.5399065017700195,
+   "positive": false,
+   "top": "Algerian Mchewek My Traditional Family"
+  },
+  {
+   "qid": "una03",
+   "score": 3.802800416946411,
+   "positive": false,
+   "top": "Shakshouka"
+  },
+  {
+   "qid": "una07",
+   "score": 1.1056678295135498,
+   "positive": false,
+   "top": "Traditional Senegalese Soup"
+  }
+ ]
+}

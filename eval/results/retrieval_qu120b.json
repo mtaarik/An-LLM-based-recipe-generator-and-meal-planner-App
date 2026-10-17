@@ -1,0 +1,3569 @@
+[
+ {
+  "system": "full_llm",
+  "qid": "mfr01",
+  "category": "moroccan_fr",
+  "query": "comment préparer une harira",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 5668.711099991924,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Vegetarian Harira",
+   "Moroccan Harira Soup",
+   "Harira (Moroccan Bean Soup)"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Comment préparer une harira ?",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "harira",
+   "dish_names": [
+    "harira"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr02",
+  "category": "moroccan_fr",
+  "query": "recette de pastilla au poulet",
+  "ndcg@10": 0.8643145546088337,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 5324.8120000062045,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   2
+  ],
+  "top3": [
+   "Moroccan Pastilla with chicken",
+   "Moroccan Chicken Pastilla Pot Pie",
+   "Moroccan Chicken Pastilla"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de pastilla au poulet",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "chicken pastilla",
+   "dish_names": [
+    "pastilla",
+    "bastilla",
+    "bstilla",
+    "b'stilla"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr03",
+  "category": "moroccan_fr",
+  "query": "rfissa marocaine aux lentilles et msemen",
+  "ndcg@10": 0.9708923176105698,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 5428.568500006804,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0
+  ],
+  "top3": [
+   "Rfissa (Moroccan Chicken With Lentils)",
+   "Rfissa Moroccan Chicken With Lentils",
+   "Rfissa Express – Fragrant chicken and lentils with papardelle"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de rfissa marocaine aux lentilles et msemen",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "rfissa lentils msemen",
+   "dish_names": [
+    "rfissa"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr04",
+  "category": "moroccan_fr",
+  "query": "zaalouk d'aubergines",
+  "ndcg@10": 0.7654992883429056,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.75,
+  "latency_ms": 4070.9934999904362,
+  "grades": [
+   2,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "top3": [
+   "Paula Wolfert'S Moroccan Eggplant Zaalouk",
+   "Hajar S Eggplant Aubergine Braniya Salad",
+   "Zaalouk Dip"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de zaalouk d'aubergines",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "Zaalouk eggplant",
+   "dish_names": [
+    "Zaalouk"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr05",
+  "category": "moroccan_fr",
+  "query": "tajine de poulet aux citrons confits et olives",
+  "ndcg@10": 0.8200685179888282,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 6056.827099993825,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Chicken Tajine With Preserved Lemon And Olives",
+   "Moroccan Chicken Tagine with Olives and Preserved Lemons",
+   "Chicken Tajine with Preserved Lemons and Olives"
+  ],
+  "expanded": {
+   "tajine": [
+    "tagine"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Recette de tajine de poulet aux citrons confits et olives",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "chicken tagine preserved lemons olives",
+   "dish_names": [
+    "Chicken Tagine with Preserved Lemons and Olives",
+    "tajine",
+    "tagine"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr06",
+  "category": "moroccan_fr",
+  "query": "couscous aux sept légumes",
+  "ndcg@10": 0.8238375070554743,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 5033.335799991619,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "top3": [
+   "Couscous With Seven Vegetables",
+   "Couscous with seven vegetables",
+   "Seven Vegetable Couscous"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de couscous aux sept légumes",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "couscous seven vegetables",
+   "dish_names": [
+    "couscous"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr07",
+  "category": "moroccan_fr",
+  "query": "tajine de kefta aux oeufs",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 5782.9514000040945,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Kefta Tajine Moroccan Spiced Meatballs W Eggs In Tomato Sauce",
+   "Kefta Tagine with Eggs in Tomato Sauce {Kefta Mkawra}",
+   "Spicy Egg Meatball And Tomato Tagine Kefta Mkaouara"
+  ],
+  "expanded": {
+   "tajine": [
+    "tagine"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Recette de tajine de kefta aux œufs",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "tagine kefta eggs",
+   "dish_names": [
+    "Kefta Tagine",
+    "tajine de kefta",
+    "tagine kefta"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr08",
+  "category": "moroccan_fr",
+  "query": "baghrir, les crêpes mille trous",
+  "ndcg@10": 0.9363792118010482,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 4471.24420000182,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "Beghrir – 1000 Hole Pancakes",
+   "Beghrir (Moroccan Pancakes)",
+   "Baghrir pancakes with brown butter spiced apples"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de baghrir, les crêpes mille trous",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "baghrir",
+   "dish_names": [
+    "baghrir"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr09",
+  "category": "moroccan_fr",
+  "query": "msemen feuilleté maison",
+  "ndcg@10": 0.5056427642465516,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 3583.5706000070786,
+  "grades": [
+   0,
+   2,
+   0,
+   0,
+   2,
+   2,
+   2,
+   0,
+   2,
+   2
+  ],
+  "top3": [
+   "M'Semen - Spiced Savoury Stuffed Moroccan Crêpes",
+   "Stuffed Msemen (Rghaif) – Stuffed Moroccan Flatbread",
+   "Crispy Moroccan Pancakes (M'Smmen)"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de msemen feuilleté maison",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "msemen",
+   "dish_names": [
+    "msemen",
+    "rghaif",
+    "m'semen"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr10",
+  "category": "moroccan_fr",
+  "query": "chebakia pour le ramadan",
+  "ndcg@10": 0.8625618335428545,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8571428571428571,
+  "latency_ms": 5590.717599989148,
+  "grades": [
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Chebakia (Sesame Cookies with Honey) for Ramadan",
+   "Chebakia - La Rose des Sables",
+   "Khabeesa"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de chebakia pour le ramadan",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "chebakia",
+   "dish_names": [
+    "Chebakia"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr11",
+  "category": "moroccan_fr",
+  "query": "harcha à la semoule",
+  "ndcg@10": 0.892210845475489,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8333333333333334,
+  "latency_ms": 4172.772400008398,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Harcha Semolina Pan-Fried Flatbread",
+   "Moroccan Harcha (Harsha) - Semolina Pan-Fried Flatbread",
+   "Mini Harcha or mini Moroccan cake with semolina"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de harcha à la semoule",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "harcha semolina",
+   "dish_names": [
+    "harcha"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr12",
+  "category": "moroccan_fr",
+  "query": "briouates aux amandes",
+  "ndcg@10": 0.7785913713489249,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 4740.8161999919685,
+  "grades": [
+   2,
+   1,
+   2,
+   0,
+   0,
+   1,
+   0,
+   0,
+   1,
+   1
+  ],
+  "top3": [
+   "Honey Almond Briouats",
+   "Moroccan Kefta (Ground Meat) Briouat",
+   "Almond and Honey Briouate - Dairy Free (Coconut Oil)"
+  ],
+  "expanded": {
+   "briouates": [
+    "briouats",
+    "briouate"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Recette de briouates aux amandes",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "briouats almonds",
+   "dish_names": [
+    "briouats",
+    "briouates",
+    "briouate"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr13",
+  "category": "moroccan_fr",
+  "query": "thé à la menthe marocain",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 2512.254999994184,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Moroccan Mint Tea",
+   "Moroccan Mint Tea",
+   "Moroccan Mint Tea Cocktail"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de thé à la menthe marocain",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "Moroccan mint tea",
+   "dish_names": [
+    "Moroccan mint tea",
+    "thé à la menthe",
+    "thé à la menthe marocain"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr14",
+  "category": "moroccan_fr",
+  "query": "pain marocain khobz fait maison",
+  "ndcg@10": 0.4327725091963492,
+  "mrr@10": 0.3333333333333333,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 5511.681100004353,
+  "grades": [
+   0,
+   0,
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "My Rough Khoubz Moroccan Flat Bread",
+   "My Rough Khoubz -- Moroccan Flat Bread.",
+   "Moroccan Bread - Khobz"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de pain marocain khobz fait maison",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "khobz Moroccan bread homemade",
+   "dish_names": [
+    "khobz",
+    "khobz marocain"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr15",
+  "category": "moroccan_fr",
+  "query": "cornes de gazelle",
+  "ndcg@10": 0.8009634987298764,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.75,
+  "latency_ms": 3703.273300008732,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   2,
+   0,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Gazelle Horns Kab El Ghzal Cornes De Gazelle",
+   "Moroccan Gazelle Horns (Kab El Ghzal) (Cornes De Gazelle)",
+   "The Gazelle Horn"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de cornes de gazelle",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "cornes de gazelle",
+   "dish_names": [
+    "cornes de gazelle"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr16",
+  "category": "moroccan_fr",
+  "query": "tajine de poisson à la chermoula",
+  "ndcg@10": 0.92663607790064,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 5492.314500006614,
+  "grades": [
+   2,
+   2,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Quick Fish Tagine with Chermoula + a Video",
+   "Moroccan Fish Tagine",
+   "Moroccan Chermoula Marinade"
+  ],
+  "expanded": {
+   "tajine": [
+    "tagine"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Recette de tajine de poisson à la chermoula",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "fish tagine chermoula",
+   "dish_names": [
+    "fish tagine",
+    "tajine",
+    "tagine"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr17",
+  "category": "moroccan_fr",
+  "query": "amlou aux amandes et huile d'argan",
+  "ndcg@10": 0.8706086854269929,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8333333333333334,
+  "latency_ms": 3630.726000003051,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Amlou",
+   "Amlou Cookies",
+   "Amlou"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette d'amlou aux amandes et huile d'argan",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "amlou almonds argan oil",
+   "dish_names": [
+    "amlou"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "mfr18",
+  "category": "moroccan_fr",
+  "query": "bissara, soupe de fèves",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 4350.367999999435,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Bissara - Split Peas and Fava Beans Dip",
+   "Bissara Fava Bean Puree",
+   "Moroccan Bean Dip - Bessara"
+  ],
+  "expanded": {
+   "bissara": [
+    "bessara",
+    "byessar"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Recette de bissara, soupe de fèves",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "bessara fava bean soup",
+   "dish_names": [
+    "bissara",
+    "bessara",
+    "byessar"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "dar01",
+  "category": "darija",
+  "query": "comment faire une tanjia marrakchia",
+  "ndcg@10": 0.4584660801557625,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 5617.171499994583,
+  "grades": [
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Tangia Marrakchia",
+   "Marrakech Tagine Bread",
+   "Marrakech Chutney"
+  ],
+  "expanded": {
+   "tanjia": [
+    "tangia"
+   ],
+   "marrakchia": [
+    "marrakech",
+    "marrakesh"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Comment faire une tanjia marrakchia ?",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "tangia Marrakech",
+   "dish_names": [
+    "Tangia",
+    "tangia"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "dar02",
+  "category": "darija",
+  "query": "bstilla",
+  "ndcg@10": 0.3589542101716347,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 3948.953099999926,
+  "grades": [
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Chicken Bastilla",
+   "Chicken Bastilla",
+   "Tomato Basil Strata"
+  ],
+  "expanded": {
+   "bstilla": [
+    "bastilla",
+    "stilla"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Recette de bastilla",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "bastilla",
+   "dish_names": [
+    "bastilla",
+    "bstilla",
+    "stilla"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "dar03",
+  "category": "darija",
+  "query": "tajine djaj m'hamer",
+  "ndcg@10": 0.7136540102475307,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 4727.778500004206,
+  "grades": [
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "Tagine Tajine Chicken With Carrots",
+   "Moroccan Chicken and Onion Tagine Recipe With Djaj Beldi",
+   "Chicken tagine with figs and fruity couscous"
+  ],
+  "expanded": {
+   "tajine": [
+    "tagine"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Recette de tajine de poulet m'hamer",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "chicken tagine",
+   "dish_names": [
+    "chicken tagine",
+    "tajine",
+    "tagine"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "dar04",
+  "category": "darija",
+  "query": "rafissa",
+  "ndcg@10": 0.7756199604526249,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 4382.346200000029,
+  "grades": [
+   2,
+   0,
+   2,
+   2,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Rfissa (Moroccan Chicken With Lentils)",
+   "Rsti Roesti",
+   "Rfissa Moroccan Chicken With Lentils"
+  ],
+  "expanded": {
+   "rafissa": [
+    "rfissa"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Recette de rafissa",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "rfissa",
+   "dish_names": [
+    "Rafissa",
+    "rfissa"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "dar05",
+  "category": "darija",
+  "query": "zalouk",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 4295.405299999402,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Paula Wolfert'S Moroccan Eggplant Zaalouk",
+   "Zaalouk Spicy Aubergine Salad Morocco",
+   "Zaalouk Dip"
+  ],
+  "expanded": {
+   "zalouk": [
+    "zaalouk"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Recette de zaalouk",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "zaalouk",
+   "dish_names": [
+    "Zaalouk",
+    "zalouk"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "dar06",
+  "category": "darija",
+  "query": "msemmen",
+  "ndcg@10": 0.4615686847425479,
+  "mrr@10": 0.25,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 3364.1563999990467,
+  "grades": [
+   0,
+   0,
+   0,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   2
+  ],
+  "top3": [
+   "Ayaou M Semmen",
+   "Crispy Moroccan Pancakes (M'Smmen)",
+   "M'Semen - Spiced Savoury Stuffed Moroccan Crêpes"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de msemmen",
+   "language": "ar",
+   "intent": "recipe",
+   "search_query": "msemmen",
+   "dish_names": [
+    "Msemmen",
+    "msmen",
+    "m'semen"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "dar07",
+  "category": "darija",
+  "query": "beghrir",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 3471.2806999887107,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Moroccan Honeycomb Pancakes Beghrir",
+   "Beghrir (Moroccan Pancakes)",
+   "Beghrir (Moroccan Pancakes)"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de beghrir",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "beghrir",
+   "dish_names": [
+    "Beghrir",
+    "Baghrir",
+    "Bghrir"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "dar08",
+  "category": "darija",
+  "query": "chebakya au miel",
+  "ndcg@10": 0.9878316351280038,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 5574.294599995483,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   2
+  ],
+  "top3": [
+   "Moroccan Chebakia (Sesame Cookies with Honey) for Ramadan",
+   "Chebakia - La Rose des Sables",
+   "Chebakia"
+  ],
+  "expanded": {
+   "chebakya": [
+    "chebakia",
+    "shebakia"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Recette de chebakia au miel",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "chebakia honey",
+   "dish_names": [
+    "chebakia",
+    "shebakia"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "dar09",
+  "category": "darija",
+  "query": "ghoriba",
+  "ndcg@10": 0.6698623505528798,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 4206.3730000081705,
+  "grades": [
+   0,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Ghoraiybah",
+   "Moroccan Semolina Cookies (Ghoriba)",
+   "Arabic Cardamom Shortbread Gorayba"
+  ],
+  "expanded": {
+   "ghoriba": [
+    "ghriba",
+    "gorayba"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Recette de ghoriba",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "ghoriba ghriba gorayba",
+   "dish_names": [
+    "ghoriba",
+    "ghriba",
+    "gorayba"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "dar10",
+  "category": "darija",
+  "query": "harsha",
+  "ndcg@10": 0.9671081267272548,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 4462.091800000053,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   2,
+   0,
+   2,
+   0
+  ],
+  "top3": [
+   "Moroccan Harcha Semolina Pan-Fried Flatbread",
+   "Moroccan Harcha (Harsha) - Semolina Pan-Fried Flatbread",
+   "Hajar S Harcha"
+  ],
+  "expanded": {
+   "harsha": [
+    "harcha"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Harsha recipe",
+   "language": "en",
+   "intent": "recipe",
+   "search_query": "harcha",
+   "dish_names": [
+    "Harsha",
+    "harcha"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "dar11",
+  "category": "darija",
+  "query": "briwat",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 4673.782600002596,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Moroccan Kefta (Ground Meat) Briouat",
+   "Honey Almond Briouats",
+   "Moroccan Tuna Briouats (Stuffed Pastries)"
+  ],
+  "expanded": {
+   "briwat": [
+    "briouat"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Recette de briwat",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "briouat",
+   "dish_names": [
+    "briouat",
+    "briwat"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "dar12",
+  "category": "darija",
+  "query": "kefta mkaouara",
+  "ndcg@10": 0.92663607790064,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 4630.594999995083,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Moroccan Kefta Tagine",
+   "Spicy Egg Meatball And Tomato Tagine Kefta Mkaouara",
+   "Tagine Kefta Mkawra (Moroccan Tagine of Meatballs)"
+  ],
+  "expanded": {
+   "mkaouara": [
+    "mkawra"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Recette de kefta mkawra",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "kefta mkawra",
+   "dish_names": [
+    "kefta mkawra",
+    "kefta mkaouara"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "dar13",
+  "category": "darija",
+  "query": "seffa medfouna",
+  "ndcg@10": 0.5413996682199069,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 8029.852299994673,
+  "grades": [
+   2,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Seffa Medfouna Recipe (Vermicelli With Saffron Chicken)",
+   "Herbed Cheese Madeleines",
+   "Madagascar Romazava"
+  ],
+  "expanded": {
+   "medfouna": [
+    "madfoune"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Recette de seffa et medfouna",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "seffa medfouna madfoune",
+   "dish_names": [
+    "seffa",
+    "medfouna",
+    "madfoune"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "dar14",
+  "category": "darija",
+  "query": "mrouzia",
+  "ndcg@10": 0.44208191769213484,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 8010.109000009834,
+  "grades": [
+   1,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Lamb Tagine With Raisins, Almonds, and Honey",
+   "Moroccan Lamb Tagine (Mrouzia)",
+   "Rsti Roesti"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de mrouzia",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "mrouzia",
+   "dish_names": [
+    "Mrouzia"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "moroccan",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "dar15",
+  "category": "darija",
+  "query": "bessara",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 3194.238200012478,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Bissara Fava Bean Puree",
+   "Bissara - Split Peas and Fava Beans Dip",
+   "Moroccan Bean Dip - Bessara"
+  ],
+  "expanded": {
+   "bessara": [
+    "byessar",
+    "bissara"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Recette de bessara",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "bessara byessar bissara",
+   "dish_names": [
+    "bessara",
+    "byessar",
+    "bissara"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ien01",
+  "category": "intl_en",
+  "query": "classic beef lasagna",
+  "ndcg@10": 0.806984674510095,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 4187.548899993999,
+  "grades": [
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   2,
+   2
+  ],
+  "top3": [
+   "Classic Lasagna With Meat Sauce Tomatoes And Bechamel Sauce L",
+   "Lasagna Oamc",
+   "Noah S Lasagna"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Classic beef lasagna recipe",
+   "language": "en",
+   "intent": "recipe",
+   "search_query": "classic beef lasagna",
+   "dish_names": [
+    "lasagna"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "italian",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ien02",
+  "category": "intl_en",
+  "query": "chicken tikka masala",
+  "ndcg@10": 0.8899541168509599,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 4856.784399991739,
+  "grades": [
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Silken Chicken Tikka Masala",
+   "Chicken Tikka Masala",
+   "Tikka Chicken With Pumpkin Curry"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de chicken tikka masala",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "chicken tikka masala",
+   "dish_names": [
+    "chicken tikka masala"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "indian",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ien03",
+  "category": "intl_en",
+  "query": "moist banana bread",
+  "ndcg@10": 0.8482378089219647,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 4312.446500000078,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Super Moist Banana Bread",
+   "Moist And Easy Banana Bread",
+   "Allison S Banana Bread"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Moist banana bread recipe",
+   "language": "en",
+   "intent": "recipe",
+   "search_query": "banana bread moist",
+   "dish_names": [
+    "banana bread"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ien04",
+  "category": "intl_en",
+  "query": "authentic pad thai with shrimp",
+  "ndcg@10": 0.884113699148598,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 3989.8585000046296,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   2,
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "Yummy Shrimp Pad Thai",
+   "Authentic Pad Thai",
+   "Pad Thai Fried Noodles With Shrimp"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Authentic Pad Thai with shrimp",
+   "language": "en",
+   "intent": "recipe",
+   "search_query": "pad thai shrimp",
+   "dish_names": [
+    "Pad Thai"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "thai",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ien05",
+  "category": "intl_en",
+  "query": "french onion soup with gruyere",
+  "ndcg@10": 0.8285229673188254,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 3710.731699989992,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   1,
+   2,
+   1,
+   2
+  ],
+  "top3": [
+   "French Onion Soup With Cheese Croutons",
+   "Oh So Good French Onion Soup",
+   "French Onion Soup With Cider"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "French onion soup with gruyere",
+   "language": "en",
+   "intent": "recipe",
+   "search_query": "French onion soup gruyere",
+   "dish_names": [
+    "French onion soup"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "french",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ien06",
+  "category": "intl_en",
+  "query": "spaghetti carbonara",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 3331.3487999985227,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "The Ultimate Spaghetti Carbonara",
+   "Spaghetti Carbonara Pie",
+   "Hearty Spaghetti Carbonara"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de spaghetti carbonara",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "spaghetti carbonara",
+   "dish_names": [
+    "spaghetti carbonara"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ien07",
+  "category": "intl_en",
+  "query": "creamy mushroom risotto",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 3840.7363000005716,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Mushroom Risotto With Italian Sausage Sauce",
+   "Wild Mushroom And Barley Risotto",
+   "Creamy Spinach Mushroom Risotto"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Creamy mushroom risotto recipe",
+   "language": "en",
+   "intent": "recipe",
+   "search_query": "mushroom risotto",
+   "dish_names": [
+    "Mushroom Risotto"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "italian",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ien08",
+  "category": "intl_en",
+  "query": "homemade hummus",
+  "ndcg@10": 0.9305687780632227,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 3503.9533999952255,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   2
+  ],
+  "top3": [
+   "Homemade Houmous Hummus",
+   "Truffle Hummus",
+   "Homemade Hummus"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Homemade hummus recipe",
+   "language": "en",
+   "intent": "recipe",
+   "search_query": "hummus",
+   "dish_names": [
+    "hummus"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ien09",
+  "category": "intl_en",
+  "query": "chicken biryani",
+  "ndcg@10": 0.955830517697074,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 4901.759200001834,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   2
+  ],
+  "top3": [
+   "Chicken Biryani",
+   "Fuss Free Biryani Chicken",
+   "Indian Moghul Chicken Biryani"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de chicken biryani",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "chicken biryani",
+   "dish_names": [
+    "chicken biryani"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ien10",
+  "category": "intl_en",
+  "query": "shakshuka with feta",
+  "ndcg@10": 0.7917063341896683,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 4445.486999989953,
+  "grades": [
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   2
+  ],
+  "top3": [
+   "Shakshuka With Spinach & Feta Cheese",
+   "Eggs In Tomato Sauce With Chickpeas And Feta",
+   "Shakshouka"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Shakshuka with feta",
+   "language": "en",
+   "intent": "recipe",
+   "search_query": "shakshuka feta",
+   "dish_names": [
+    "shakshuka"
+   ],
+   "include_ingredients": [
+    "feta"
+   ],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ien11",
+  "category": "intl_en",
+  "query": "classic tiramisu",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 3614.9216999911005,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Tiramisu",
+   "Tiramisu Di Franco",
+   "Tiramisu Parfaits"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Classic tiramisu recipe",
+   "language": "en",
+   "intent": "recipe",
+   "search_query": "tiramisu",
+   "dish_names": [
+    "tiramisu"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ifr01",
+  "category": "intl_fr",
+  "query": "gâteau au chocolat fondant",
+  "ndcg@10": 0.660296120435178,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 3299.8997999966377,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   2,
+   1,
+   0,
+   0
+  ],
+  "top3": [
+   "Individual Chocolate Cake Fondant",
+   "Chocolate Rolled Fondant",
+   "Chocolate Fondant"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de gâteau au chocolat fondant",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "chocolate fondant cake",
+   "dish_names": [
+    "Chocolate fondant cake",
+    "gâteau au chocolat fondant"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ifr02",
+  "category": "intl_fr",
+  "query": "soupe à l'oignon gratinée",
+  "ndcg@10": 0.5495434168590021,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.4,
+  "latency_ms": 4067.506499995943,
+  "grades": [
+   1,
+   2,
+   2,
+   2,
+   2,
+   1,
+   0,
+   0,
+   0,
+   1
+  ],
+  "top3": [
+   "Gratineed Onion Soup",
+   "Soupe A L Oignon Gratinee French Onion Soup",
+   "Jacques Pepin S Onion Soup Gratinee"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de soupe à l'oignon gratinée",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "French onion soup gratin",
+   "dish_names": [
+    "French onion soup",
+    "soupe à l'oignon",
+    "onion soup"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "french",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ifr03",
+  "category": "intl_fr",
+  "query": "quiche lorraine",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 4245.411099997,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Quiche Lorraine",
+   "Chipotle Quiche Lorraine",
+   "Sudden Quiche Lorraine"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de quiche lorraine",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "quiche lorraine",
+   "dish_names": [
+    "Quiche Lorraine"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "french",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ifr04",
+  "category": "intl_fr",
+  "query": "boeuf bourguignon",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 5109.265099992626,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Boeuf Bourguignon",
+   "Boeuf Bourguignonne Beef Burgundy Stew",
+   "Shortcut Boeuf Beef Bourguignon"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de boeuf bourguignon",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "beef bourguignon",
+   "dish_names": [
+    "Beef Bourguignon",
+    "boeuf bourguignon"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ifr05",
+  "category": "intl_fr",
+  "query": "ratatouille provençale",
+  "ndcg@10": 0.7702043899253146,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 4294.018799992045,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   2,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "Ratatouille With Poached Eggs And Garlic Croutons",
+   "Ratatouille Moosewood Cookbook",
+   "Thai Coconut Ratatouille"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de ratatouille provençale",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "ratatouille provencale",
+   "dish_names": [
+    "ratatouille",
+    "ratatouille provençale"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ifr06",
+  "category": "intl_fr",
+  "query": "crème brûlée à la vanille",
+  "ndcg@10": 0.42838543210841196,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.3,
+  "latency_ms": 3236.8003000010503,
+  "grades": [
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Vanilla Bean Creme Brulee",
+   "Vanilla Creme Brulee",
+   "Creamy Iced Vanilla Caramel Coffee"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de crème brûlée à la vanille",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "crème brûlée vanilla",
+   "dish_names": [
+    "crème brûlée"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ifr07",
+  "category": "intl_fr",
+  "query": "tarte tatin aux pommes",
+  "ndcg@10": 0.8899541168509599,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 3369.2030000092927,
+  "grades": [
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Tarte Tatin",
+   "Apple Tarte Tatin",
+   "Apple And Pomegranate Tart Tartin"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de tarte tatin aux pommes",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "apple tarte tatin",
+   "dish_names": [
+    "Apple Tarte Tatin",
+    "tarte tatin",
+    "tarte tatin aux pommes"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ifr08",
+  "category": "intl_fr",
+  "query": "salade niçoise au thon",
+  "ndcg@10": 0.7759944384848244,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 4411.7922999867005,
+  "grades": [
+   2,
+   0,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Nicoise Salad With Grilled Tuna",
+   "Nioise Salad With Fresh Tuna",
+   "Tuna Sandwiches Nicoise Style"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de salade niçoise au thon",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "Niçoise salad tuna",
+   "dish_names": [
+    "Niçoise salad",
+    "salade niçoise"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "french",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ifr09",
+  "category": "intl_fr",
+  "query": "coq au vin",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 3977.8373000008287,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Easy Coq Au Vin",
+   "Coq Au Vin",
+   "Coq Au Vin Chicken Braised In Wine"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de coq au vin",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "coq au vin",
+   "dish_names": [
+    "coq au vin"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "french",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ifr10",
+  "category": "intl_fr",
+  "query": "gratin dauphinois",
+  "ndcg@10": 0.933745776545611,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 4683.274700000766,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "Gratin Dauphinois Classic French Potatoes Baked In Cream",
+   "Gratin Dauphinois Aussie Style",
+   "Gratin Potatoes Dauphinois"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de gratin dauphinois",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "gratin dauphinois",
+   "dish_names": [
+    "Gratin dauphinois"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "french",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ifr11",
+  "category": "intl_fr",
+  "query": "mousse au chocolat facile",
+  "ndcg@10": 0.8318477135310891,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 3136.8206000042846,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Easy Blender Chocolate Mousse",
+   "Chocolate Mousse The Easy Way",
+   "Chocolate Mousse"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de mousse au chocolat facile",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "chocolate mousse easy",
+   "dish_names": [
+    "Chocolate mousse"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ifr12",
+  "category": "intl_fr",
+  "query": "pâte à crêpes sucrées",
+  "ndcg@10": 0.914856882358379,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 4895.171999989543,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Magic Pan Sweet Crepe Batter",
+   "Basic Crepes Mix In Blender",
+   "Crepe Batter A La Julia Child"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de pâte à crêpes sucrées",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "sweet crepe batter",
+   "dish_names": [
+    "crêpes",
+    "crepes"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": "french",
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ing01",
+  "category": "ingredients",
+  "query": "j'ai du poulet, du riz et des poivrons, que puis-je cuisiner ?",
+  "ndcg@10": 0.5958595188912912,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 3878.4092999994755,
+  "grades": [
+   2,
+   2,
+   0,
+   0,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Chicken Peppers Rice Caribbean Style",
+   "Spicy Chicken Kielbasa And Rice With Red Bell Peppers",
+   "Lemon Pepper Chicken Breasts On A Bed Of Rice"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Que puis-je cuisiner avec du poulet, du riz et des poivrons ?",
+   "language": "fr",
+   "intent": "ingredients",
+   "search_query": "chicken rice peppers",
+   "dish_names": [],
+   "include_ingredients": [
+    "chicken",
+    "rice",
+    "bell pepper"
+   ],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ing02",
+  "category": "ingredients",
+  "query": "what can I make with eggs, spinach and feta",
+  "ndcg@10": 0.8553475075669356,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 3638.357799994992,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "Spinach Tomato Scrambled Egg With Feta Cheese",
+   "Scrambled Egg With Spinach And Feta On Toast",
+   "Greek Frittata With Spinach Oregano And Feta Cheese"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "What can I make with eggs, spinach and feta?",
+   "language": "en",
+   "intent": "ingredients",
+   "search_query": "eggs spinach feta",
+   "dish_names": [],
+   "include_ingredients": [
+    "egg",
+    "spinach",
+    "feta"
+   ],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ing03",
+  "category": "ingredients",
+  "query": "recette avec des pois chiches, des tomates et du cumin",
+  "ndcg@10": 0.8899541168509599,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 4588.056599997799,
+  "grades": [
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Chickpea Salad With Cumin And Lemon",
+   "Coconut Chickpea Soup With Tomato Chunks And Fried Cumin",
+   "Chick-Pea Tomato Stew with Moroccan Flavors"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette avec des pois chiches, des tomates et du cumin",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "chickpeas tomatoes cumin",
+   "dish_names": [],
+   "include_ingredients": [
+    "chickpea",
+    "tomato",
+    "cumin"
+   ],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ing04",
+  "category": "ingredients",
+  "query": "I have ground beef, potatoes and onions",
+  "ndcg@10": 0.9305687780632227,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 3524.4634999980917,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   2
+  ],
+  "top3": [
+   "Ground Beef And Twice Baked Potato Pie",
+   "Ground Beef Au Gratin Potatoes With Vegetables",
+   "Ground Beef And Potato Casserole"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "What recipes can I make with ground beef, potatoes and onions?",
+   "language": "en",
+   "intent": "ingredients",
+   "search_query": "ground beef potatoes onions",
+   "dish_names": [],
+   "include_ingredients": [
+    "ground beef",
+    "potato",
+    "onion"
+   ],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ing05",
+  "category": "ingredients",
+  "query": "idée de dessert avec des pommes et de la cannelle",
+  "ndcg@10": 0.8006937664098819,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 3207.3781999934,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Cinnamon Apple Dessert Wrap",
+   "Warm Skillet Cinnamon Apples",
+   "Healthy Apple Cinnamon Breakfast"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Idée de dessert avec des pommes et de la cannelle",
+   "language": "fr",
+   "intent": "ingredients",
+   "search_query": "apple cinnamon dessert",
+   "dish_names": [],
+   "include_ingredients": [
+    "apple",
+    "cinnamon"
+   ],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ing06",
+  "category": "ingredients",
+  "query": "salmon with lemon and dill",
+  "ndcg@10": 0.7799082337019199,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 3718.9785999944434,
+  "grades": [
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Salmon With Dill",
+   "Salmon Risotto With Dill Lemon",
+   "Baked Lemon Salmon With Lemon Dill Sauce"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Salmon with lemon and dill recipe",
+   "language": "en",
+   "intent": "recipe",
+   "search_query": "salmon lemon dill",
+   "dish_names": [
+    "Salmon with lemon and dill"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ing07",
+  "category": "ingredients",
+  "query": "lentilles corail et lait de coco",
+  "ndcg@10": 0.8863992957602966,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 4093.0972999922233,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   1,
+   2
+  ],
+  "top3": [
+   "Red Lentil And Carrot Soup With Coconut For The Crock Pot",
+   "Red Lentil Coconut Curry",
+   "Coconut Dhal"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Quelles recettes avec des lentilles corail et du lait de coco ?",
+   "language": "fr",
+   "intent": "ingredients",
+   "search_query": "red lentils coconut milk",
+   "dish_names": [],
+   "include_ingredients": [
+    "red lentil",
+    "coconut milk"
+   ],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ing08",
+  "category": "ingredients",
+  "query": "zucchini, tomatoes and mozzarella",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 3815.619400003925,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Zucchini Con Mozzarella",
+   "Zucchini Tomato And Mozzarella Quesadillas",
+   "Grilled Zucchini Casserole"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recipes with zucchini, tomatoes and mozzarella",
+   "language": "en",
+   "intent": "ingredients",
+   "search_query": "zucchini tomatoes mozzarella",
+   "dish_names": [],
+   "include_ingredients": [
+    "zucchini",
+    "tomatoes",
+    "mozzarella"
+   ],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ing09",
+  "category": "ingredients",
+  "query": "j'ai de l'agneau, des pruneaux et des amandes",
+  "ndcg@10": 0.13886244387355454,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.1,
+  "latency_ms": 4082.556300010765,
+  "grades": [
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Orange Mousse With Almonds Mousse A L Orange Et Aux Amandes",
+   "Lamb And Prune Tagine",
+   "Tomatoes And Onions And Peas Oh My"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Quelles recettes puis‑je préparer avec de l'agneau, des pruneaux et des amandes ?",
+   "language": "fr",
+   "intent": "ingredients",
+   "search_query": "j'ai de l'agneau, des pruneaux et des amandes",
+   "dish_names": [],
+   "include_ingredients": [
+    "lamb",
+    "prunes",
+    "almonds"
+   ],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "ing10",
+  "category": "ingredients",
+  "query": "tofu and broccoli stir fry",
+  "ndcg@10": 0.8913319177463098,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 4219.203500004369,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   1
+  ],
+  "top3": [
+   "Tofu And Broccoli Stir Fry Martha Stewart",
+   "Tofu Stir Fry",
+   "Healthy Eggplant Broccoli And Tofu Stir Fry In Garlic Sauce"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Tofu and broccoli stir fry recipe",
+   "language": "en",
+   "intent": "recipe",
+   "search_query": "tofu broccoli stir fry",
+   "dish_names": [
+    "stir fry"
+   ],
+   "include_ingredients": [
+    "tofu",
+    "broccoli"
+   ],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "con01",
+  "category": "constraints",
+  "query": "un plat végétarien rapide, en moins de 30 minutes",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 4776.368299993919,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Quick Curried Vegetable Saute",
+   "Quick Veggie Chili",
+   "Mark Bittman S Fast Vegetable Soup"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Un plat végétarien rapide en moins de 30 minutes",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "vegetarian quick recipe 30 minutes",
+   "dish_names": [],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [
+    "vegetarian"
+   ],
+   "max_minutes": 30,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "con02",
+  "category": "constraints",
+  "query": "vegan chocolate dessert",
+  "ndcg@10": 0.841492960259019,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 3377.4551000096835,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   0,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Chia Chocolate Pudding Vegan",
+   "Decadent Chocolate Frosting Or Mousse Vegan",
+   "Decadent Vegan Chocolate Mousse"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de dessert au chocolat vegan",
+   "language": "en",
+   "intent": "recipe",
+   "search_query": "vegan chocolate dessert",
+   "dish_names": [
+    "chocolate dessert"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [
+    "vegan"
+   ],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "con03",
+  "category": "constraints",
+  "query": "gluten-free bread",
+  "ndcg@10": 0.9052116356304492,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 4041.4889000094263,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Allergen Free Gluten Free Bread",
+   "Gluten Free White Bread Almost Supermarket Style",
+   "Easy Gluten Free Sandwich Bread"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Gluten-free bread recipe",
+   "language": "en",
+   "intent": "recipe",
+   "search_query": "gluten-free bread",
+   "dish_names": [
+    "bread",
+    "pain"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [
+    "gluten-free"
+   ],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "con04",
+  "category": "constraints",
+  "query": "chicken dinner under 400 calories",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 3124.2141999973683,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Ma S Chicken Dinner",
+   "Sunday Chicken Dinner",
+   "Easy Swiss Chicken Dinner"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de dîner au poulet sous 400 calories",
+   "language": "en",
+   "intent": "recipe",
+   "search_query": "chicken dinner",
+   "dish_names": [
+    "chicken dinner"
+   ],
+   "include_ingredients": [
+    "chicken"
+   ],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": null,
+   "max_calories": 400,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "con05",
+  "category": "constraints",
+  "query": "tajine végétarien",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 5559.354000011808,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Tajine Bil Khodar Vegetable Tagine",
+   "Vegetable Tagine",
+   "A Very Good Tagine Tajine Vegetarian"
+  ],
+  "expanded": {
+   "tajine": [
+    "tagine"
+   ]
+  },
+  "analysis": {
+   "standalone_question": "Recette de tajine végétarien",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "tagine vegetarian",
+   "dish_names": [
+    "tagine",
+    "tajine"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [
+    "vegetarian"
+   ],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "con06",
+  "category": "constraints",
+  "query": "soupe de légumes sans gluten",
+  "ndcg@10": 0.9477344873475498,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 4742.641000004369,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Vegetable Noodle Soup Gluten Dairy And Egg Free",
+   "Chunky Vegetable Lentil Soup Gluten Free Vegan",
+   "Simple Hamburger Vegetable Soup"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de soupe de légumes sans gluten",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "vegetable soup gluten-free",
+   "dish_names": [
+    "vegetable soup"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [
+    "gluten-free"
+   ],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "con07",
+  "category": "constraints",
+  "query": "quick pasta ready in 20 minutes",
+  "ndcg@10": 0.6975961695061491,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 4012.1586000022944,
+  "grades": [
+   2,
+   0,
+   2,
+   2,
+   0,
+   0,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Healthy Pasta Puttanesca",
+   "Quick Chicken Puttanesca",
+   "Monday Night Pasta Quick And Easy"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Quick pasta ready in 20 minutes?",
+   "language": "en",
+   "intent": "recipe",
+   "search_query": "quick pasta 20 minutes",
+   "dish_names": [
+    "pasta"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [],
+   "max_minutes": 20,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ },
+ {
+  "system": "full_llm",
+  "qid": "con08",
+  "category": "constraints",
+  "query": "salade de quinoa vegan",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 3726.28459999396,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Vegan Greek Quinoa Salad",
+   "Vegan Quinoa Salad",
+   "Warm quinoa salad with broad beans and pomegranate"
+  ],
+  "expanded": {},
+  "analysis": {
+   "standalone_question": "Recette de salade de quinoa vegan",
+   "language": "fr",
+   "intent": "recipe",
+   "search_query": "quinoa salad vegan",
+   "dish_names": [
+    "Quinoa Salad"
+   ],
+   "include_ingredients": [],
+   "exclude_ingredients": [],
+   "diet": [
+    "vegan"
+   ],
+   "max_minutes": null,
+   "max_calories": null,
+   "cuisine": null,
+   "source": "llm"
+  }
+ }
+]

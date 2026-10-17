@@ -1,0 +1,3827 @@
+{
+ "openai/gpt-oss-20b::warm up": {
+  "standalone_question": "How do I warm up a dish?",
+  "language": "en",
+  "intent": "cooking_question",
+  "search_query": "warm up dish",
+  "dish_names": [],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::comment préparer une harira": {
+  "standalone_question": "Comment préparer une harira?",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "harira",
+  "dish_names": [
+   "harira"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::recette de pastilla au poulet": {
+  "standalone_question": "recette de pastilla au poulet",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "pastilla chicken",
+  "dish_names": [
+   "pastilla",
+   "bastilla",
+   "bstilla",
+   "b'stilla"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::rfissa marocaine aux lentilles et msemen": {
+  "standalone_question": "Recette de rfissa marocaine aux lentilles et msemen",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "rfissa marocaine lentilles msemen",
+  "dish_names": [
+   "rfissa",
+   "msemen"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::zaalouk d'aubergines": {
+  "standalone_question": "Recette de zaalouk d'aubergines",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "eggplant zaalouk",
+  "dish_names": [
+   "Zaalouk",
+   "zaalouk",
+   "zoulouk"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::tajine de poulet aux citrons confits et olives": {
+  "standalone_question": "Recette de tajine de poulet aux citrons confits et olives",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chicken tajine with preserved lemons and olives",
+  "dish_names": [
+   "Chicken Tajine with Preserved Lemons and Olives",
+   "tajine de poulet aux citrons confits et olives"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::couscous aux sept légumes": {
+  "standalone_question": "Recette de couscous aux sept légumes",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "couscous seven vegetables",
+  "dish_names": [
+   "couscous"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::tajine de kefta aux oeufs": {
+  "standalone_question": "Recette de tajine de kefta aux oeufs",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "tajine kefta eggs",
+  "dish_names": [
+   "tajine de kefta aux oeufs",
+   "kefta egg tajine",
+   "tajine kefta eggs"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::baghrir, les crêpes mille trous": {
+  "standalone_question": "Recette de baghrir, les crêpes mille trous",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "baghrir Moroccan pancake holes",
+  "dish_names": [
+   "baghrir",
+   "marrakech pancake",
+   "marrakesh pancake"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::msemen feuilleté maison": {
+  "standalone_question": "Recette de msemen feuilleté maison",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "homemade flaky msemen",
+  "dish_names": [
+   "msemen"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::chebakia pour le ramadan": {
+  "standalone_question": "Recette de chebakia pour le Ramadan",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chebakia Ramadan",
+  "dish_names": [
+   "chebakia"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::harcha à la semoule": {
+  "standalone_question": "Recette de harcha à la semoule",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "harcha semoule",
+  "dish_names": [
+   "harcha"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::briouates aux amandes": {
+  "standalone_question": "Recette de briouates aux amandes",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "briouates amandes Moroccan pastry",
+  "dish_names": [
+   "briouates",
+   "briouat",
+   "briouette"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::thé à la menthe marocain": {
+  "standalone_question": "Recette de thé à la menthe marocain",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "Moroccan mint tea",
+  "dish_names": [
+   "Moroccan mint tea",
+   "thé à la menthe marocain"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::pain marocain khobz fait maison": {
+  "standalone_question": "Recette de pain marocain fait maison",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "Moroccan bread homemade",
+  "dish_names": [
+   "Moroccan bread",
+   "khobz",
+   "khobz marocain"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::cornes de gazelle": {
+  "standalone_question": "Recette de cornes de gazelle",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "cornes de gazelle",
+  "dish_names": [
+   "cornes de gazelle"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::tajine de poisson à la chermoula": {
+  "standalone_question": "Tajine de poisson à la chermoula",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "poisson chermoula tajine",
+  "dish_names": [
+   "Tajine de poisson à la chermoula",
+   "Tajine poisson chermoula"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::amlou aux amandes et huile d'argan": {
+  "standalone_question": "Recette d'amlou aux amandes et huile d'argan",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "amlou almonds argan oil",
+  "dish_names": [
+   "amlou"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::bissara, soupe de fèves": {
+  "standalone_question": "Recette de bissara",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "bissara soup beans",
+  "dish_names": [
+   "bissara"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::comment faire une tanjia marrakchia": {
+  "standalone_question": "Comment faire une tanjia marrakchia?",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "tanjia marrakchia",
+  "dish_names": [
+   "tanjia"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::bstilla": {
+  "standalone_question": "Recette de bstilla",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "bstilla",
+  "dish_names": [
+   "pastilla",
+   "bstilla",
+   "bastilla"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::tajine djaj m'hamer": {
+  "standalone_question": "Recette de tajine djaj m'hamer",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "tajine chicken Moroccan",
+  "dish_names": [
+   "Tajine djaj m'hamer"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::rafissa": {
+  "standalone_question": "Recette de rafissa",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "rafissa",
+  "dish_names": [
+   "rafissa"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::zalouk": {
+  "standalone_question": "Recette de zalouk",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "zalouk",
+  "dish_names": [
+   "zalouk"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::msemmen": {
+  "standalone_question": "Recette de msemmen",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "msemmen",
+  "dish_names": [
+   "msemmen"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::beghrir": {
+  "standalone_question": "Recette de beghrir",
+  "language": "ar",
+  "intent": "recipe",
+  "search_query": "beghrir Moroccan bread",
+  "dish_names": [
+   "beghrir"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::chebakya au miel": {
+  "standalone_question": "Recette de chebakya au miel",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chebakya honey",
+  "dish_names": [
+   "chebakya"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::ghoriba": {
+  "standalone_question": "Recette de ghoriba",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "ghoriba",
+  "dish_names": [
+   "ghoriba"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::harsha": {
+  "standalone_question": "Recette de harira",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "harira Moroccan soup lentils tomatoes chickpeas",
+  "dish_names": [
+   "Harira"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::briwat": {
+  "standalone_question": "Recette de briwat",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "briwat",
+  "dish_names": [
+   "briwat"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::kefta mkaouara": {
+  "standalone_question": "Recette de kefta mkaouara",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "kefta mkaouara",
+  "dish_names": [
+   "kefta mkaouara"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::seffa medfouna": {
+  "standalone_question": "Recette de seffa medfouna",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "seffa medfouna",
+  "dish_names": [
+   "Seffa",
+   "seffa medfouna"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::mrouzia": {
+  "standalone_question": "Recette de mrouzia",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "mrouzia",
+  "dish_names": [
+   "Mrouzia"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::bessara": {
+  "standalone_question": "Recette de bessara",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "bessara Moroccan lentil soup",
+  "dish_names": [
+   "bessara"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::classic beef lasagna": {
+  "standalone_question": "Classic beef lasagna",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "classic beef lasagna",
+  "dish_names": [
+   "Beef Lasagna",
+   "lasagne",
+   "lasagna"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::chicken tikka masala": {
+  "standalone_question": "Recipe for chicken tikka masala",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "chicken tikka masala",
+  "dish_names": [
+   "Chicken Tikka Masala",
+   "Tikka Masala"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::moist banana bread": {
+  "standalone_question": "Recette de banana bread moelleux",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "moist banana bread",
+  "dish_names": [
+   "banana bread"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::authentic pad thai with shrimp": {
+  "standalone_question": "Authentic pad thai with shrimp",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "authentic pad thai shrimp",
+  "dish_names": [
+   "Pad Thai"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::french onion soup with gruyere": {
+  "standalone_question": "Recette de soupe à l'oignon française avec Gruyère",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "French onion soup Gruyere",
+  "dish_names": [
+   "French onion soup",
+   "soupe à l'oignon"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::spaghetti carbonara": {
+  "standalone_question": "Recette de spaghetti carbonara",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "spaghetti carbonara",
+  "dish_names": [
+   "Spaghetti Carbonara",
+   "Carbonara"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::creamy mushroom risotto": {
+  "standalone_question": "Creamy mushroom risotto recipe",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "creamy mushroom risotto",
+  "dish_names": [
+   "Mushroom Risotto",
+   "Risotto ai Funghi"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::homemade hummus": {
+  "standalone_question": "Recipe for homemade hummus",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "homemade hummus",
+  "dish_names": [
+   "hummus",
+   "houmous"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::chicken biryani": {
+  "standalone_question": "Chicken biryani recipe",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "chicken biryani",
+  "dish_names": [
+   "Chicken Biryani",
+   "chicken biryani"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::shakshuka with feta": {
+  "standalone_question": "Recette de shakshuka avec feta",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "shakshuka feta",
+  "dish_names": [
+   "Shakshuka"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::classic tiramisu": {
+  "standalone_question": "Recette de tiramisu classique",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "tiramisu classic",
+  "dish_names": [
+   "tiramisu"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::gâteau au chocolat fondant": {
+  "standalone_question": "Recette de gâteau au chocolat fondant",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chocolate fondant cake",
+  "dish_names": [
+   "Chocolate Fondant Cake"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::soupe à l'oignon gratinée": {
+  "standalone_question": "Recette de soupe à l'oignon gratinée",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "onion soup gratinée French",
+  "dish_names": [
+   "soupe à l'oignon gratinée"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "french",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::quiche lorraine": {
+  "standalone_question": "Quiche Lorraine",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "quiche lorraine",
+  "dish_names": [
+   "Quiche Lorraine"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::boeuf bourguignon": {
+  "standalone_question": "Recette de boeuf bourguignon",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "boeuf bourguignon",
+  "dish_names": [
+   "Boeuf Bourguignon",
+   "boeuf bourguignon"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::ratatouille provençale": {
+  "standalone_question": "Recette de ratatouille provençale",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "ratatouille provençale",
+  "dish_names": [
+   "Ratatouille",
+   "ratatouille provençale"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::crème brûlée à la vanille": {
+  "standalone_question": "Recette de crème brûlée à la vanille",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "crème brûlée vanilla",
+  "dish_names": [
+   "Crème brûlée"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::tarte tatin aux pommes": {
+  "standalone_question": "Recette de tarte tatin aux pommes",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "tarte tatin apples",
+  "dish_names": [
+   "Tarte Tatin",
+   "tarte tatin"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "french",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::salade niçoise au thon": {
+  "standalone_question": "Salade niçoise au thon",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "salade niçoise tuna",
+  "dish_names": [
+   "Salade niçoise"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::coq au vin": {
+  "standalone_question": "Recette de coq au vin",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "coq au vin",
+  "dish_names": [
+   "Coq au vin"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::gratin dauphinois": {
+  "standalone_question": "Recette de gratin dauphinois",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "gratin dauphinois",
+  "dish_names": [
+   "Gratin dauphinois",
+   "potato gratin"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::mousse au chocolat facile": {
+  "standalone_question": "Recette de mousse au chocolat facile",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chocolate mousse easy",
+  "dish_names": [
+   "Chocolate Mousse",
+   "mousse au chocolat"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::pâte à crêpes sucrées": {
+  "standalone_question": "Recette de pâte à crêpes sucrées",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "sweet crepe batter",
+  "dish_names": [
+   "crêpe"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::j'ai du poulet, du riz et des poivrons, que puis-je cuisiner ?": {
+  "standalone_question": "Quelles recettes puis-je préparer avec du poulet, du riz et des poivrons ?",
+  "language": "fr",
+  "intent": "ingredients",
+  "search_query": "chicken rice peppers",
+  "dish_names": [
+   "Chicken and Rice with Peppers"
+  ],
+  "include_ingredients": [
+   "chicken",
+   "rice",
+   "peppers"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::what can I make with eggs, spinach and feta": {
+  "standalone_question": "What can I make with eggs, spinach and feta?",
+  "language": "en",
+  "intent": "ingredients",
+  "search_query": "spinach feta eggs omelette",
+  "dish_names": [
+   "Spinach and Feta Omelette"
+  ],
+  "include_ingredients": [
+   "egg",
+   "spinach",
+   "feta"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::recette avec des pois chiches, des tomates et du cumin": {
+  "standalone_question": "Recette avec des pois chiches, des tomates et du cumin",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chickpea tomato cumin recipe",
+  "dish_names": [
+   "Chickpea Tomato Stew"
+  ],
+  "include_ingredients": [
+   "chickpeas",
+   "tomatoes",
+   "cumin"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::I have ground beef, potatoes and onions": {
+  "standalone_question": "I have ground beef, potatoes and onions",
+  "language": "en",
+  "intent": "ingredients",
+  "search_query": "ground beef potatoes onions",
+  "dish_names": [],
+  "include_ingredients": [
+   "ground beef",
+   "potatoes",
+   "onions"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::idée de dessert avec des pommes et de la cannelle": {
+  "standalone_question": "Idée de dessert avec des pommes et de la cannelle",
+  "language": "fr",
+  "intent": "ingredients",
+  "search_query": "apple cinnamon dessert",
+  "dish_names": [
+   "Apple Cinnamon Crumble",
+   "Apple Cinnamon Tart"
+  ],
+  "include_ingredients": [
+   "apple",
+   "cinnamon"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::salmon with lemon and dill": {
+  "standalone_question": "Recette de saumon au citron et à l'aneth",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "salmon lemon dill",
+  "dish_names": [
+   "salmon"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::lentilles corail et lait de coco": {
+  "standalone_question": "Recette de lentilles corail au lait de coco",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "red lentils coconut milk",
+  "dish_names": [
+   "lentils",
+   "lentilles"
+  ],
+  "include_ingredients": [
+   "red lentils",
+   "coconut milk"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::zucchini, tomatoes and mozzarella": {
+  "standalone_question": "Quelles recettes avec courgettes, tomates et mozzarella?",
+  "language": "fr",
+  "intent": "ingredients",
+  "search_query": "zucchini tomatoes mozzarella recipe",
+  "dish_names": [],
+  "include_ingredients": [
+   "zucchini",
+   "tomatoes",
+   "mozzarella"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::tofu and broccoli stir fry": {
+  "standalone_question": "Tofu and broccoli stir fry recipe",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "tofu broccoli stir fry",
+  "dish_names": [
+   "tofu and broccoli stir fry",
+   "tofu broccoli stir fry"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::un plat végétarien rapide, en moins de 30 minutes": {
+  "standalone_question": "Un plat végétarien rapide, en moins de 30 minutes",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "vegetarian quick dish under 30 minutes",
+  "dish_names": [
+   "vegetarian quick dish"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "vegetarian"
+  ],
+  "max_minutes": 30,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::vegan chocolate dessert": {
+  "standalone_question": "vegan chocolate dessert",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "vegan chocolate dessert",
+  "dish_names": [
+   "Chocolate Mousse",
+   "Chocolate Brownie",
+   "Chocolate Cake"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "vegan"
+  ],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::gluten-free bread": {
+  "standalone_question": "Recette de pain sans gluten",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "gluten free bread",
+  "dish_names": [
+   "gluten free bread"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "gluten-free"
+  ],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::chicken dinner under 400 calories": {
+  "standalone_question": "Recette de dîner au poulet sous 400 calories",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chicken dinner low calorie",
+  "dish_names": [
+   "Chicken Salad"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": 400,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::tajine végétarien": {
+  "standalone_question": "Recette de tajine végétarien",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "vegetarian tajine",
+  "dish_names": [
+   "Tajine"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "vegetarian"
+  ],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::soupe de légumes sans gluten": {
+  "standalone_question": "Soupe de légumes sans gluten",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "gluten free vegetable soup",
+  "dish_names": [
+   "vegetable soup"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [
+   "gluten"
+  ],
+  "diet": [
+   "gluten-free"
+  ],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::quick pasta ready in 20 minutes": {
+  "standalone_question": "Quick pasta recipe ready in 20 minutes",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "quick pasta 20 minutes",
+  "dish_names": [
+   "pasta"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": 20,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::salade de quinoa vegan": {
+  "standalone_question": "Recette de salade de quinoa vegan",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "quinoa salad vegan",
+  "dish_names": [
+   "quinoa salad"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "vegan"
+  ],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::j'ai de l'agneau, des pruneaux et des amandes": {
+  "standalone_question": "Quelles recettes puis-je préparer avec de l'agneau, des pruneaux et des amandes ?",
+  "language": "fr",
+  "intent": "ingredients",
+  "search_query": "lamb prunes almonds",
+  "dish_names": [],
+  "include_ingredients": [
+   "lamb",
+   "prunes",
+   "almonds"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::warm up": {
+  "standalone_question": "Comment réchauffer un plat ?",
+  "language": "fr",
+  "intent": "cooking_question",
+  "search_query": "warm up dish",
+  "dish_names": [],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::comment préparer une harira": {
+  "standalone_question": "Comment préparer une harira ?",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "harira",
+  "dish_names": [
+   "harira"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::recette de pastilla au poulet": {
+  "standalone_question": "recette de pastilla au poulet",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "pastilla chicken",
+  "dish_names": [
+   "pastilla"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::rfissa marocaine aux lentilles et msemen": {
+  "standalone_question": "Recette de rfissa marocaine aux lentilles et msemen",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "rfissa lentils msemen",
+  "dish_names": [
+   "rfissa"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::zaalouk d'aubergines": {
+  "standalone_question": "Recette de zaalouk d'aubergines",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "zaalouk aubergine",
+  "dish_names": [
+   "Zaalouk",
+   "zaalouk",
+   "zoulouk"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::tajine de poulet aux citrons confits et olives": {
+  "standalone_question": "Tajine de poulet aux citrons confits et olives",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "tagine chicken lemon confit olives",
+  "dish_names": [
+   "tagine",
+   "tajine"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::couscous aux sept légumes": {
+  "standalone_question": "Recette de couscous aux sept légumes",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "couscous aux sept légumes",
+  "dish_names": [
+   "couscous aux sept légumes",
+   "couscous aux 7 légumes"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::tajine de kefta aux oeufs": {
+  "standalone_question": "Recette de tajine de kefta aux oeufs",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "tagine kefta eggs",
+  "dish_names": [
+   "tagine kefta",
+   "tajine kefta",
+   "kefta tagine"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::baghrir, les crêpes mille trous": {
+  "standalone_question": "Recette de baghrir, les crêpes mille trous",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "baghrir",
+  "dish_names": [
+   "baghrir",
+   "mille trous"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::msemen feuilleté maison": {
+  "standalone_question": "Recette de msemen feuilleté maison",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "msemen feuilleté maison",
+  "dish_names": [
+   "msemen"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::chebakia pour le ramadan": {
+  "standalone_question": "Chebakia pour le Ramadan",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chebakia ramadan",
+  "dish_names": [
+   "chebakia"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::harcha à la semoule": {
+  "standalone_question": "Recette de harcha à la semoule",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "harcha semolina",
+  "dish_names": [
+   "harcha",
+   "harsha"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::briouates aux amandes": {
+  "standalone_question": "Recette de briouates aux amandes",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "briouats amandes",
+  "dish_names": [
+   "briouates",
+   "briouats",
+   "briouate"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::thé à la menthe marocain": {
+  "standalone_question": "Recette de thé à la menthe marocain",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "Moroccan mint tea",
+  "dish_names": [
+   "Moroccan mint tea",
+   "tea à la menthe"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::pain marocain khobz fait maison": {
+  "standalone_question": "Recette de pain marocain fait maison",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "Moroccan bread homemade",
+  "dish_names": [
+   "Moroccan bread",
+   "khobz"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::cornes de gazelle": {
+  "standalone_question": "Recette de cornes de gazelle",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "cornes de gazelle",
+  "dish_names": [
+   "cornes de gazelle"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::tajine de poisson à la chermoula": {
+  "standalone_question": "Recette de tajine de poisson à la chermoula",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "tagine fish chermoula",
+  "dish_names": [
+   "tajine",
+   "tagine"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::amlou aux amandes et huile d'argan": {
+  "standalone_question": "Recette d'amlou aux amandes et huile d'argan",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "amlou almonds argan oil",
+  "dish_names": [
+   "amlou"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::bissara, soupe de fèves": {
+  "standalone_question": "Recette de bissara, soupe de fèves",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "bissara bessara byessar bean soup",
+  "dish_names": [
+   "bissara",
+   "bessara",
+   "byessar"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::comment faire une tanjia marrakchia": {
+  "standalone_question": "Comment faire une tanjia marrakchia?",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "tangia marrakech",
+  "dish_names": [
+   "tangia"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::bstilla": {
+  "standalone_question": "Recette de bstilla",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "bastilla",
+  "dish_names": [
+   "bastilla",
+   "bstilla",
+   "stilla"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::tajine djaj m'hamer": {
+  "standalone_question": "Recette de tajine djaj m'hamer",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "tagine chicken",
+  "dish_names": [
+   "tagine",
+   "tajine"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::rafissa": {
+  "standalone_question": "Recette de rafissa",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "rafissa rfissa",
+  "dish_names": [
+   "rafissa",
+   "rfissa"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::zalouk": {
+  "standalone_question": "Recette de zalouk",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "zaalouk",
+  "dish_names": [
+   "zaalouk",
+   "zalouk"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::msemmen": {
+  "standalone_question": "Recette de msemmen",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "msemmen",
+  "dish_names": [
+   "msemmen",
+   "semmen"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::beghrir": {
+  "standalone_question": "Recette de beghrir",
+  "language": "ar",
+  "intent": "recipe",
+  "search_query": "beghrir",
+  "dish_names": [
+   "beghrir",
+   "bghrir",
+   "bghrira"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::chebakya au miel": {
+  "standalone_question": "Recette de chebakya au miel",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chebakia honey",
+  "dish_names": [
+   "chebakia",
+   "chebakya",
+   "shebakia"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::ghoriba": {
+  "standalone_question": "Recette de ghoriba",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "ghoriba ghriba gorayba",
+  "dish_names": [
+   "ghoriba",
+   "ghriba",
+   "gorayba"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::harsha": {
+  "standalone_question": "Recette de harsha",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "harcha",
+  "dish_names": [
+   "harcha"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::briwat": {
+  "standalone_question": "Recette de briwat",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "briouat",
+  "dish_names": [
+   "briouat",
+   "briwat"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::kefta mkaouara": {
+  "standalone_question": "Recette de kefta mkawra",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "kefta mkawra",
+  "dish_names": [
+   "kefta mkawra",
+   "mkaouara"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::seffa medfouna": {
+  "standalone_question": "Recette de seffa medfouna",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "seffa madfoune",
+  "dish_names": [
+   "seffa",
+   "medfouna",
+   "madfoune"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::mrouzia": {
+  "standalone_question": "Recette de mrouzia",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "mrouzia",
+  "dish_names": [
+   "Mrouzia"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::bessara": {
+  "standalone_question": "Recette de bessara",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "bessara byessar bissara",
+  "dish_names": [
+   "bessara",
+   "byessar",
+   "bissara"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::classic beef lasagna": {
+  "standalone_question": "Recette de lasagne à la bœuf classique",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "classic beef lasagna",
+  "dish_names": [
+   "lasagna",
+   "lasagne"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::chicken tikka masala": {
+  "standalone_question": "Recette de chicken tikka masala",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "chicken tikka masala",
+  "dish_names": [
+   "chicken tikka masala"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::moist banana bread": {
+  "standalone_question": "Moist banana bread recipe",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "banana bread moist",
+  "dish_names": [
+   "banana bread",
+   "banana loaf"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::authentic pad thai with shrimp": {
+  "standalone_question": "Authentic pad thai with shrimp",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "pad thai shrimp authentic",
+  "dish_names": [
+   "Pad Thai"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::french onion soup with gruyere": {
+  "standalone_question": "Recette de soupe à l'oignon française avec gruyère",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "French onion soup gruyere",
+  "dish_names": [
+   "French onion soup",
+   "soupe à l'oignon"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::spaghetti carbonara": {
+  "standalone_question": "Recette de spaghetti carbonara",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "spaghetti carbonara",
+  "dish_names": [
+   "Spaghetti Carbonara",
+   "Carbonara"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::creamy mushroom risotto": {
+  "standalone_question": "Creamy mushroom risotto recipe",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "mushroom risotto creamy",
+  "dish_names": [
+   "Mushroom Risotto",
+   "Risotto ai Funghi"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::homemade hummus": {
+  "standalone_question": "Recette de hummus maison",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "hummus homemade",
+  "dish_names": [
+   "hummus"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::chicken biryani": {
+  "standalone_question": "Chicken biryani",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "chicken biryani",
+  "dish_names": [
+   "chicken biryani"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::shakshuka with feta": {
+  "standalone_question": "shakshuka with feta",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "shakshuka feta",
+  "dish_names": [
+   "shakshuka",
+   "shakshouka"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::classic tiramisu": {
+  "standalone_question": "Recette de tiramisu classique",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "tiramisu classic",
+  "dish_names": [
+   "tiramisu"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::gâteau au chocolat fondant": {
+  "standalone_question": "Recette de gâteau au chocolat fondant",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chocolate fondant cake",
+  "dish_names": [
+   "gâteau au chocolat fondant"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::soupe à l'oignon gratinée": {
+  "standalone_question": "Recette de soupe à l'oignon gratinée",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "onion soup gratinée",
+  "dish_names": [
+   "soupe à l'oignon gratinée"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::quiche lorraine": {
+  "standalone_question": "Quiche Lorraine",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "quiche lorraine",
+  "dish_names": [
+   "Quiche Lorraine",
+   "quiche lorraine"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::boeuf bourguignon": {
+  "standalone_question": "Recette de boeuf bourguignon",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "boeuf bourguignon",
+  "dish_names": [
+   "boeuf bourguignon"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::ratatouille provençale": {
+  "standalone_question": "Recette de ratatouille provençale",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "ratatouille provençale",
+  "dish_names": [
+   "ratatouille",
+   "ratatouille provençale"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::crème brûlée à la vanille": {
+  "standalone_question": "Recette de crème brûlée à la vanille",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "crème brûlée vanilla",
+  "dish_names": [
+   "crème brûlée"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "french",
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::tarte tatin aux pommes": {
+  "standalone_question": "Recette de tarte tatin aux pommes",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "tarte tatin apples",
+  "dish_names": [
+   "tarte tatin"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::salade niçoise au thon": {
+  "standalone_question": "Salade niçoise au thon",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "salade niçoise tuna",
+  "dish_names": [
+   "Salade niçoise",
+   "salade niçoise"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::coq au vin": {
+  "standalone_question": "Recette de coq au vin",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "coq au vin",
+  "dish_names": [
+   "Coq au vin"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::gratin dauphinois": {
+  "standalone_question": "Recette de gratin dauphinois",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "gratin dauphinois",
+  "dish_names": [
+   "gratin dauphinois"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::mousse au chocolat facile": {
+  "standalone_question": "Recette de mousse au chocolat facile",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chocolate mousse easy",
+  "dish_names": [
+   "chocolate mousse"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::pâte à crêpes sucrées": {
+  "standalone_question": "Recette de pâte à crêpes sucrées",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "sweet crepe batter",
+  "dish_names": [
+   "crepe",
+   "crêpe"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::j'ai du poulet, du riz et des poivrons, que puis-je cuisiner ?": {
+  "standalone_question": "j'ai du poulet, du riz et des poivrons, que puis-je cuisiner ?",
+  "language": "fr",
+  "intent": "ingredients",
+  "search_query": "chicken rice peppers",
+  "dish_names": [],
+  "include_ingredients": [
+   "chicken",
+   "rice",
+   "pepper"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::what can I make with eggs, spinach and feta": {
+  "standalone_question": "What can I make with eggs, spinach and feta?",
+  "language": "en",
+  "intent": "ingredients",
+  "search_query": "eggs spinach feta",
+  "dish_names": [
+   "feta spinach omelette"
+  ],
+  "include_ingredients": [
+   "egg",
+   "spinach",
+   "feta"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::recette avec des pois chiches, des tomates et du cumin": {
+  "standalone_question": "Recette avec des pois chiches, des tomates et du cumin",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chickpeas tomatoes cumin",
+  "dish_names": [
+   "chickpea tomato cumin"
+  ],
+  "include_ingredients": [
+   "chickpeas",
+   "tomatoes",
+   "cumin"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::I have ground beef, potatoes and onions": {
+  "standalone_question": "What can I cook with ground beef, potatoes, and onions?",
+  "language": "en",
+  "intent": "ingredients",
+  "search_query": "ground beef potatoes onions",
+  "dish_names": [],
+  "include_ingredients": [
+   "ground beef",
+   "potatoes",
+   "onions"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::idée de dessert avec des pommes et de la cannelle": {
+  "standalone_question": "Idée de dessert avec des pommes et de la cannelle",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "apple cinnamon dessert",
+  "dish_names": [
+   "apple cinnamon dessert"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::salmon with lemon and dill": {
+  "standalone_question": "Salmon with lemon and dill",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "salmon lemon dill",
+  "dish_names": [
+   "salmon"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::lentilles corail et lait de coco": {
+  "standalone_question": "Recette de lentilles corail au lait de coco",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "red lentils coconut milk",
+  "dish_names": [
+   "lentilles corail",
+   "red lentils"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::zucchini, tomatoes and mozzarella": {
+  "standalone_question": "Quelles recettes puis-je préparer avec des courgettes, des tomates et de la mozzarella?",
+  "language": "en",
+  "intent": "ingredients",
+  "search_query": "zucchini tomatoes mozzarella",
+  "dish_names": [],
+  "include_ingredients": [
+   "zucchini",
+   "tomatoes",
+   "mozzarella"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::j'ai de l'agneau, des pruneaux et des amandes": {
+  "standalone_question": "j'ai de l'agneau, des pruneaux et des amandes",
+  "language": "fr",
+  "intent": "ingredients",
+  "search_query": "lamb prunes almonds",
+  "dish_names": [],
+  "include_ingredients": [
+   "lamb",
+   "prunes",
+   "almonds"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::tofu and broccoli stir fry": {
+  "standalone_question": "Recette de tofu et brocoli sauté",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "tofu broccoli stir fry",
+  "dish_names": [
+   "tofu broccoli stir fry"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::un plat végétarien rapide, en moins de 30 minutes": {
+  "standalone_question": "un plat végétarien rapide, en moins de 30 minutes",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "vegetarian quick 30 minutes",
+  "dish_names": [],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "vegetarian"
+  ],
+  "max_minutes": 30,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::vegan chocolate dessert": {
+  "standalone_question": "Recette de dessert au chocolat vegan",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "vegan chocolate dessert",
+  "dish_names": [
+   "Chocolate dessert",
+   "chocolate dessert"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "vegan"
+  ],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::gluten-free bread": {
+  "standalone_question": "Recette de pain sans gluten",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "gluten-free bread",
+  "dish_names": [
+   "gluten-free bread"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "gluten-free"
+  ],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::chicken dinner under 400 calories": {
+  "standalone_question": "Recette de dîner au poulet sous 400 calories",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chicken dinner 400 calories",
+  "dish_names": [
+   "chicken dinner"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": 400,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::tajine végétarien": {
+  "standalone_question": "Recette de tajine végétarien",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "tagine vegetarian",
+  "dish_names": [
+   "tajine",
+   "tagine"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "vegetarian"
+  ],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::soupe de légumes sans gluten": {
+  "standalone_question": "Soupe de légumes sans gluten",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "gluten free vegetable soup",
+  "dish_names": [
+   "vegetable soup",
+   "soupe de légumes"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "gluten-free"
+  ],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::quick pasta ready in 20 minutes": {
+  "standalone_question": "Quick pasta recipe ready in 20 minutes",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "pasta 20 minutes quick",
+  "dish_names": [
+   "pasta"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": 20,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-20b::2f054def::salade de quinoa vegan": {
+  "standalone_question": "Recette de salade de quinoa vegan",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "quinoa salad vegan",
+  "dish_names": [
+   "quinoa salad",
+   "salade de quinoa"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "vegan"
+  ],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::warm up": {
+  "standalone_question": "Warm up",
+  "language": "en",
+  "intent": "greeting",
+  "search_query": "warm up",
+  "dish_names": [],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::comment préparer une harira": {
+  "standalone_question": "Comment préparer une harira ?",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "harira",
+  "dish_names": [
+   "harira"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::recette de pastilla au poulet": {
+  "standalone_question": "Recette de pastilla au poulet",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chicken pastilla",
+  "dish_names": [
+   "pastilla",
+   "bastilla",
+   "bstilla",
+   "b'stilla"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::rfissa marocaine aux lentilles et msemen": {
+  "standalone_question": "Recette de rfissa marocaine aux lentilles et msemen",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "rfissa lentils msemen",
+  "dish_names": [
+   "rfissa"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::zaalouk d'aubergines": {
+  "standalone_question": "Recette de zaalouk d'aubergines",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "Zaalouk eggplant",
+  "dish_names": [
+   "Zaalouk"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::tajine de poulet aux citrons confits et olives": {
+  "standalone_question": "Recette de tajine de poulet aux citrons confits et olives",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chicken tagine preserved lemons olives",
+  "dish_names": [
+   "Chicken Tagine with Preserved Lemons and Olives",
+   "tajine",
+   "tagine"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::couscous aux sept légumes": {
+  "standalone_question": "Recette de couscous aux sept légumes",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "couscous seven vegetables",
+  "dish_names": [
+   "couscous"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::tajine de kefta aux oeufs": {
+  "standalone_question": "Recette de tajine de kefta aux œufs",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "tagine kefta eggs",
+  "dish_names": [
+   "Kefta Tagine",
+   "tajine de kefta",
+   "tagine kefta"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::baghrir, les crêpes mille trous": {
+  "standalone_question": "Recette de baghrir, les crêpes mille trous",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "baghrir",
+  "dish_names": [
+   "baghrir"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::msemen feuilleté maison": {
+  "standalone_question": "Recette de msemen feuilleté maison",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "msemen",
+  "dish_names": [
+   "msemen",
+   "rghaif",
+   "m'semen"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::chebakia pour le ramadan": {
+  "standalone_question": "Recette de chebakia pour le ramadan",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chebakia",
+  "dish_names": [
+   "Chebakia"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::harcha à la semoule": {
+  "standalone_question": "Recette de harcha à la semoule",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "harcha semolina",
+  "dish_names": [
+   "harcha"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::briouates aux amandes": {
+  "standalone_question": "Recette de briouates aux amandes",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "briouats almonds",
+  "dish_names": [
+   "briouats",
+   "briouates",
+   "briouate"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::thé à la menthe marocain": {
+  "standalone_question": "Recette de thé à la menthe marocain",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "Moroccan mint tea",
+  "dish_names": [
+   "Moroccan mint tea",
+   "thé à la menthe",
+   "thé à la menthe marocain"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::pain marocain khobz fait maison": {
+  "standalone_question": "Recette de pain marocain khobz fait maison",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "khobz Moroccan bread homemade",
+  "dish_names": [
+   "khobz",
+   "khobz marocain"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::cornes de gazelle": {
+  "standalone_question": "Recette de cornes de gazelle",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "cornes de gazelle",
+  "dish_names": [
+   "cornes de gazelle"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::tajine de poisson à la chermoula": {
+  "standalone_question": "Recette de tajine de poisson à la chermoula",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "fish tagine chermoula",
+  "dish_names": [
+   "fish tagine",
+   "tajine",
+   "tagine"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::amlou aux amandes et huile d'argan": {
+  "standalone_question": "Recette d'amlou aux amandes et huile d'argan",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "amlou almonds argan oil",
+  "dish_names": [
+   "amlou"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::bissara, soupe de fèves": {
+  "standalone_question": "Recette de bissara, soupe de fèves",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "bessara fava bean soup",
+  "dish_names": [
+   "bissara",
+   "bessara",
+   "byessar"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::comment faire une tanjia marrakchia": {
+  "standalone_question": "Comment faire une tanjia marrakchia ?",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "tangia Marrakech",
+  "dish_names": [
+   "Tangia",
+   "tangia"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::bstilla": {
+  "standalone_question": "Recette de bastilla",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "bastilla",
+  "dish_names": [
+   "bastilla",
+   "bstilla",
+   "stilla"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::tajine djaj m'hamer": {
+  "standalone_question": "Recette de tajine de poulet m'hamer",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chicken tagine",
+  "dish_names": [
+   "chicken tagine",
+   "tajine",
+   "tagine"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::rafissa": {
+  "standalone_question": "Recette de rafissa",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "rfissa",
+  "dish_names": [
+   "Rafissa",
+   "rfissa"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::zalouk": {
+  "standalone_question": "Recette de zaalouk",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "zaalouk",
+  "dish_names": [
+   "Zaalouk",
+   "zalouk"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::msemmen": {
+  "standalone_question": "Recette de msemmen",
+  "language": "ar",
+  "intent": "recipe",
+  "search_query": "msemmen",
+  "dish_names": [
+   "Msemmen",
+   "msmen",
+   "m'semen"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::beghrir": {
+  "standalone_question": "Recette de beghrir",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "beghrir",
+  "dish_names": [
+   "Beghrir",
+   "Baghrir",
+   "Bghrir"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::chebakya au miel": {
+  "standalone_question": "Recette de chebakia au miel",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chebakia honey",
+  "dish_names": [
+   "chebakia",
+   "shebakia"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::ghoriba": {
+  "standalone_question": "Recette de ghoriba",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "ghoriba ghriba gorayba",
+  "dish_names": [
+   "ghoriba",
+   "ghriba",
+   "gorayba"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::harsha": {
+  "standalone_question": "Harsha recipe",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "harcha",
+  "dish_names": [
+   "Harsha",
+   "harcha"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::briwat": {
+  "standalone_question": "Recette de briwat",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "briouat",
+  "dish_names": [
+   "briouat",
+   "briwat"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::kefta mkaouara": {
+  "standalone_question": "Recette de kefta mkawra",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "kefta mkawra",
+  "dish_names": [
+   "kefta mkawra",
+   "kefta mkaouara"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::seffa medfouna": {
+  "standalone_question": "Recette de seffa et medfouna",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "seffa medfouna madfoune",
+  "dish_names": [
+   "seffa",
+   "medfouna",
+   "madfoune"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::mrouzia": {
+  "standalone_question": "Recette de mrouzia",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "mrouzia",
+  "dish_names": [
+   "Mrouzia"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "moroccan",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::bessara": {
+  "standalone_question": "Recette de bessara",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "bessara byessar bissara",
+  "dish_names": [
+   "bessara",
+   "byessar",
+   "bissara"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::classic beef lasagna": {
+  "standalone_question": "Classic beef lasagna recipe",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "classic beef lasagna",
+  "dish_names": [
+   "lasagna"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "italian",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::chicken tikka masala": {
+  "standalone_question": "Recette de chicken tikka masala",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chicken tikka masala",
+  "dish_names": [
+   "chicken tikka masala"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "indian",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::moist banana bread": {
+  "standalone_question": "Moist banana bread recipe",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "banana bread moist",
+  "dish_names": [
+   "banana bread"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::authentic pad thai with shrimp": {
+  "standalone_question": "Authentic Pad Thai with shrimp",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "pad thai shrimp",
+  "dish_names": [
+   "Pad Thai"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "thai",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::french onion soup with gruyere": {
+  "standalone_question": "French onion soup with gruyere",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "French onion soup gruyere",
+  "dish_names": [
+   "French onion soup"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "french",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::spaghetti carbonara": {
+  "standalone_question": "Recette de spaghetti carbonara",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "spaghetti carbonara",
+  "dish_names": [
+   "spaghetti carbonara"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::creamy mushroom risotto": {
+  "standalone_question": "Creamy mushroom risotto recipe",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "mushroom risotto",
+  "dish_names": [
+   "Mushroom Risotto"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "italian",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::homemade hummus": {
+  "standalone_question": "Homemade hummus recipe",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "hummus",
+  "dish_names": [
+   "hummus"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::chicken biryani": {
+  "standalone_question": "Recette de chicken biryani",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chicken biryani",
+  "dish_names": [
+   "chicken biryani"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::shakshuka with feta": {
+  "standalone_question": "Shakshuka with feta",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "shakshuka feta",
+  "dish_names": [
+   "shakshuka"
+  ],
+  "include_ingredients": [
+   "feta"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::classic tiramisu": {
+  "standalone_question": "Classic tiramisu recipe",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "tiramisu",
+  "dish_names": [
+   "tiramisu"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::gâteau au chocolat fondant": {
+  "standalone_question": "Recette de gâteau au chocolat fondant",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chocolate fondant cake",
+  "dish_names": [
+   "Chocolate fondant cake",
+   "gâteau au chocolat fondant"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::soupe à l'oignon gratinée": {
+  "standalone_question": "Recette de soupe à l'oignon gratinée",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "French onion soup gratin",
+  "dish_names": [
+   "French onion soup",
+   "soupe à l'oignon",
+   "onion soup"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "french",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::quiche lorraine": {
+  "standalone_question": "Recette de quiche lorraine",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "quiche lorraine",
+  "dish_names": [
+   "Quiche Lorraine"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "french",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::boeuf bourguignon": {
+  "standalone_question": "Recette de boeuf bourguignon",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "beef bourguignon",
+  "dish_names": [
+   "Beef Bourguignon",
+   "boeuf bourguignon"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::ratatouille provençale": {
+  "standalone_question": "Recette de ratatouille provençale",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "ratatouille provencale",
+  "dish_names": [
+   "ratatouille",
+   "ratatouille provençale"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::crème brûlée à la vanille": {
+  "standalone_question": "Recette de crème brûlée à la vanille",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "crème brûlée vanilla",
+  "dish_names": [
+   "crème brûlée"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::tarte tatin aux pommes": {
+  "standalone_question": "Recette de tarte tatin aux pommes",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "apple tarte tatin",
+  "dish_names": [
+   "Apple Tarte Tatin",
+   "tarte tatin",
+   "tarte tatin aux pommes"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::salade niçoise au thon": {
+  "standalone_question": "Recette de salade niçoise au thon",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "Niçoise salad tuna",
+  "dish_names": [
+   "Niçoise salad",
+   "salade niçoise"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "french",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::coq au vin": {
+  "standalone_question": "Recette de coq au vin",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "coq au vin",
+  "dish_names": [
+   "coq au vin"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "french",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::gratin dauphinois": {
+  "standalone_question": "Recette de gratin dauphinois",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "gratin dauphinois",
+  "dish_names": [
+   "Gratin dauphinois"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "french",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::mousse au chocolat facile": {
+  "standalone_question": "Recette de mousse au chocolat facile",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chocolate mousse easy",
+  "dish_names": [
+   "Chocolate mousse"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::pâte à crêpes sucrées": {
+  "standalone_question": "Recette de pâte à crêpes sucrées",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "sweet crepe batter",
+  "dish_names": [
+   "crêpes",
+   "crepes"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": "french",
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::j'ai du poulet, du riz et des poivrons, que puis-je cuisiner ?": {
+  "standalone_question": "Que puis-je cuisiner avec du poulet, du riz et des poivrons ?",
+  "language": "fr",
+  "intent": "ingredients",
+  "search_query": "chicken rice peppers",
+  "dish_names": [],
+  "include_ingredients": [
+   "chicken",
+   "rice",
+   "bell pepper"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::what can I make with eggs, spinach and feta": {
+  "standalone_question": "What can I make with eggs, spinach and feta?",
+  "language": "en",
+  "intent": "ingredients",
+  "search_query": "eggs spinach feta",
+  "dish_names": [],
+  "include_ingredients": [
+   "egg",
+   "spinach",
+   "feta"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::recette avec des pois chiches, des tomates et du cumin": {
+  "standalone_question": "Recette avec des pois chiches, des tomates et du cumin",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "chickpeas tomatoes cumin",
+  "dish_names": [],
+  "include_ingredients": [
+   "chickpea",
+   "tomato",
+   "cumin"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::I have ground beef, potatoes and onions": {
+  "standalone_question": "What recipes can I make with ground beef, potatoes and onions?",
+  "language": "en",
+  "intent": "ingredients",
+  "search_query": "ground beef potatoes onions",
+  "dish_names": [],
+  "include_ingredients": [
+   "ground beef",
+   "potato",
+   "onion"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::idée de dessert avec des pommes et de la cannelle": {
+  "standalone_question": "Idée de dessert avec des pommes et de la cannelle",
+  "language": "fr",
+  "intent": "ingredients",
+  "search_query": "apple cinnamon dessert",
+  "dish_names": [],
+  "include_ingredients": [
+   "apple",
+   "cinnamon"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::salmon with lemon and dill": {
+  "standalone_question": "Salmon with lemon and dill recipe",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "salmon lemon dill",
+  "dish_names": [
+   "Salmon with lemon and dill"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::lentilles corail et lait de coco": {
+  "standalone_question": "Quelles recettes avec des lentilles corail et du lait de coco ?",
+  "language": "fr",
+  "intent": "ingredients",
+  "search_query": "red lentils coconut milk",
+  "dish_names": [],
+  "include_ingredients": [
+   "red lentil",
+   "coconut milk"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::zucchini, tomatoes and mozzarella": {
+  "standalone_question": "Recipes with zucchini, tomatoes and mozzarella",
+  "language": "en",
+  "intent": "ingredients",
+  "search_query": "zucchini tomatoes mozzarella",
+  "dish_names": [],
+  "include_ingredients": [
+   "zucchini",
+   "tomatoes",
+   "mozzarella"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::j'ai de l'agneau, des pruneaux et des amandes": {
+  "standalone_question": "Quelles recettes puis‑je préparer avec de l'agneau, des pruneaux et des amandes ?",
+  "language": "fr",
+  "intent": "ingredients",
+  "search_query": "j'ai de l'agneau, des pruneaux et des amandes",
+  "dish_names": [],
+  "include_ingredients": [
+   "lamb",
+   "prunes",
+   "almonds"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::tofu and broccoli stir fry": {
+  "standalone_question": "Tofu and broccoli stir fry recipe",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "tofu broccoli stir fry",
+  "dish_names": [
+   "stir fry"
+  ],
+  "include_ingredients": [
+   "tofu",
+   "broccoli"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::un plat végétarien rapide, en moins de 30 minutes": {
+  "standalone_question": "Un plat végétarien rapide en moins de 30 minutes",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "vegetarian quick recipe 30 minutes",
+  "dish_names": [],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "vegetarian"
+  ],
+  "max_minutes": 30,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::vegan chocolate dessert": {
+  "standalone_question": "Recette de dessert au chocolat vegan",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "vegan chocolate dessert",
+  "dish_names": [
+   "chocolate dessert"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "vegan"
+  ],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::gluten-free bread": {
+  "standalone_question": "Gluten-free bread recipe",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "gluten-free bread",
+  "dish_names": [
+   "bread",
+   "pain"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "gluten-free"
+  ],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::chicken dinner under 400 calories": {
+  "standalone_question": "Recette de dîner au poulet sous 400 calories",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "chicken dinner",
+  "dish_names": [
+   "chicken dinner"
+  ],
+  "include_ingredients": [
+   "chicken"
+  ],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": null,
+  "max_calories": 400,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::tajine végétarien": {
+  "standalone_question": "Recette de tajine végétarien",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "tagine vegetarian",
+  "dish_names": [
+   "tagine",
+   "tajine"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "vegetarian"
+  ],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::soupe de légumes sans gluten": {
+  "standalone_question": "Recette de soupe de légumes sans gluten",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "vegetable soup gluten-free",
+  "dish_names": [
+   "vegetable soup"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "gluten-free"
+  ],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::quick pasta ready in 20 minutes": {
+  "standalone_question": "Quick pasta ready in 20 minutes?",
+  "language": "en",
+  "intent": "recipe",
+  "search_query": "quick pasta 20 minutes",
+  "dish_names": [
+   "pasta"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [],
+  "max_minutes": 20,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ },
+ "openai/gpt-oss-120b::2f054def::salade de quinoa vegan": {
+  "standalone_question": "Recette de salade de quinoa vegan",
+  "language": "fr",
+  "intent": "recipe",
+  "search_query": "quinoa salad vegan",
+  "dish_names": [
+   "Quinoa Salad"
+  ],
+  "include_ingredients": [],
+  "exclude_ingredients": [],
+  "diet": [
+   "vegan"
+  ],
+  "max_minutes": null,
+  "max_calories": null,
+  "cuisine": null,
+  "source": "llm"
+ }
+}

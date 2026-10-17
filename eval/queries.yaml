@@ -1,0 +1,219 @@
+# Retrieval evaluation set.
+#
+# Relevance is defined by explicit rules over recipe metadata, NOT by looking
+# at what any retriever returns (avoids biasing the benchmark towards one
+# system). Rules are resolved into qrels by eval/build_qrels.py.
+#
+#   relevant: grade 2 - exactly what the user asked for
+#   partial:  grade 1 - acceptable substitute (same dish family / cuisine)
+#
+# Rule fields (all optional, combined with AND):
+#   name       regex matched against the recipe title (case-insensitive)
+#   ing        list of regexes; EACH must match one of the ingredients
+#   moroccan   true/false
+#   vegetarian / vegan / gluten_free: true
+#   max_minutes / max_calories: numeric limits (recipe must have the value)
+#
+# Categories:
+#   moroccan_fr    Moroccan dish asked in French
+#   darija         Darija / transliterated spelling (tanjia, bstilla, ...)
+#   intl_en        international dish asked in English
+#   intl_fr        international dish asked in French (cross-lingual)
+#   ingredients    "what can I cook with X, Y, Z"
+#   constraints    diet / time / calorie constraints
+#   unanswerable   in-domain but not in the corpus, or off-topic
+#                  (no qrels: used for abstention / confidence calibration)
+
+queries:
+  # ---------------------------------------------------------------- moroccan_fr
+  - {id: mfr01, category: moroccan_fr, query: "comment préparer une harira",
+     relevant: {name: harira}}
+  - {id: mfr02, category: moroccan_fr, query: "recette de pastilla au poulet",
+     relevant: {name: "pastilla|bastilla|bstilla", ing: [chicken]},
+     partial: {name: "pastilla|bastilla|bstilla"}}
+  - {id: mfr03, category: moroccan_fr, query: "rfissa marocaine aux lentilles et msemen",
+     relevant: {name: rfissa}}
+  - {id: mfr04, category: moroccan_fr, query: "zaalouk d'aubergines",
+     relevant: {name: "zaalouk|zalouk"},
+     partial: {moroccan: true, name: "eggplant|aubergine"}}
+  - {id: mfr05, category: moroccan_fr, query: "tajine de poulet aux citrons confits et olives",
+     relevant: {name: "tagine|tajine", ing: [chicken, "preserved lemon"]},
+     partial: {moroccan: true, ing: [chicken, "preserved lemon"]}}
+  - {id: mfr06, category: moroccan_fr, query: "couscous aux sept légumes",
+     relevant: {name: "seven vegetable|7 vegetable|sept l"},
+     partial: {moroccan: true, name: "couscous.*vegetable|vegetable.*couscous"}}
+  - {id: mfr07, category: moroccan_fr, query: "tajine de kefta aux oeufs",
+     relevant: {name: "(kefta|kofta|meatball).*(tagine|tajine)|(tagine|tajine).*(kefta|kofta|meatball)|mkawra|mkaouara"},
+     partial: {moroccan: true, name: "kefta|kofta|meatball"}}
+  - {id: mfr08, category: moroccan_fr, query: "baghrir, les crêpes mille trous",
+     relevant: {name: "baghrir|beghrir"}}
+  - {id: mfr09, category: moroccan_fr, query: "msemen feuilleté maison",
+     relevant: {name: "msemen|msemmen|msmen"}}
+  - {id: mfr10, category: moroccan_fr, query: "chebakia pour le ramadan",
+     relevant: {name: "chebakia|chebakya|shebakia"}}
+  - {id: mfr11, category: moroccan_fr, query: "harcha à la semoule",
+     relevant: {name: harcha}}
+  - {id: mfr12, category: moroccan_fr, query: "briouates aux amandes",
+     relevant: {name: "briouat|briwat", ing: [almond]},
+     partial: {name: "briouat|briwat"}}
+  - {id: mfr13, category: moroccan_fr, query: "thé à la menthe marocain",
+     relevant: {name: "mint tea", moroccan: true},
+     partial: {name: "mint tea"}}
+  - {id: mfr14, category: moroccan_fr, query: "pain marocain khobz fait maison",
+     relevant: {name: "khobz|moroccan bread"}}
+  - {id: mfr15, category: moroccan_fr, query: "cornes de gazelle",
+     relevant: {name: "ghazal|gazelle"}}
+  - {id: mfr16, category: moroccan_fr, query: "tajine de poisson à la chermoula",
+     relevant: {name: "(fish|sea bass|snapper|cod|hake).*(tagine|tajine)|(tagine|tajine).*(fish|sea bass|snapper|cod|hake)"},
+     partial: {moroccan: true, name: "chermoula"}}
+  - {id: mfr17, category: moroccan_fr, query: "amlou aux amandes et huile d'argan",
+     relevant: {name: amlou}}
+  - {id: mfr18, category: moroccan_fr, query: "bissara, soupe de fèves",
+     relevant: {name: "bissara|bessara"}}
+
+  # --------------------------------------------------------------------- darija
+  - {id: dar01, category: darija, query: "comment faire une tanjia marrakchia",
+     relevant: {name: "tangia|tanjia"},
+     partial: {moroccan: true, name: "tagine|tajine", ing: ["lamb|beef"]}}
+  - {id: dar02, category: darija, query: "bstilla",
+     relevant: {name: "pastilla|bastilla|bstilla"}}
+  - {id: dar03, category: darija, query: "tajine djaj m'hamer",
+     relevant: {moroccan: true, name: "tagine|tajine|djaj", ing: [chicken]}}
+  - {id: dar04, category: darija, query: "rafissa",
+     relevant: {name: rfissa}}
+  - {id: dar05, category: darija, query: "zalouk",
+     relevant: {name: "zaalouk|zalouk"}}
+  - {id: dar06, category: darija, query: "msemmen",
+     relevant: {name: "msemen|msemmen|msmen"}}
+  - {id: dar07, category: darija, query: "beghrir",
+     relevant: {name: "baghrir|beghrir"}}
+  - {id: dar08, category: darija, query: "chebakya au miel",
+     relevant: {name: "chebakia|chebakya|shebakia"}}
+  - {id: dar09, category: darija, query: "ghoriba",
+     relevant: {name: "ghriba|ghoriba"}}
+  - {id: dar10, category: darija, query: "harsha",
+     relevant: {name: harcha}}
+  - {id: dar11, category: darija, query: "briwat",
+     relevant: {name: "briouat|briwat"}}
+  - {id: dar12, category: darija, query: "kefta mkaouara",
+     relevant: {moroccan: true, name: "kefta|kofta|meatball|mkawra|mkaouara"}}
+  - {id: dar13, category: darija, query: "seffa medfouna",
+     relevant: {name: "seffa|madfouna|medfouna"}}
+  - {id: dar14, category: darija, query: "mrouzia",
+     relevant: {name: mrouzia},
+     partial: {moroccan: true, name: "tagine|tajine", ing: [lamb, "raisin|prune"]}}
+  - {id: dar15, category: darija, query: "bessara",
+     relevant: {name: "bissara|bessara"}}
+
+  # -------------------------------------------------------------------- intl_en
+  - {id: ien01, category: intl_en, query: "classic beef lasagna",
+     relevant: {name: lasagn, ing: [beef]},
+     partial: {name: lasagn}}
+  - {id: ien02, category: intl_en, query: "chicken tikka masala",
+     relevant: {name: "tikka masala", ing: [chicken]}}
+  - {id: ien03, category: intl_en, query: "moist banana bread",
+     relevant: {name: "banana bread"}}
+  - {id: ien04, category: intl_en, query: "authentic pad thai with shrimp",
+     relevant: {name: "pad thai", ing: ["shrimp|prawn"]},
+     partial: {name: "pad thai"}}
+  - {id: ien05, category: intl_en, query: "french onion soup with gruyere",
+     relevant: {name: "french onion soup"},
+     partial: {name: "onion soup"}}
+  - {id: ien06, category: intl_en, query: "spaghetti carbonara",
+     relevant: {name: carbonara}}
+  - {id: ien07, category: intl_en, query: "creamy mushroom risotto",
+     relevant: {name: "risotto", ing: [mushroom]}}
+  - {id: ien08, category: intl_en, query: "homemade hummus",
+     relevant: {name: "hummus|houmous"}}
+  - {id: ien09, category: intl_en, query: "chicken biryani",
+     relevant: {name: biryani, ing: [chicken]},
+     partial: {name: biryani}}
+  - {id: ien10, category: intl_en, query: "shakshuka with feta",
+     relevant: {name: "shakshuka|shakshouka|chakchouka"}}
+  - {id: ien11, category: intl_en, query: "classic tiramisu",
+     relevant: {name: tiramisu}}
+
+  # -------------------------------------------------------------------- intl_fr
+  - {id: ifr01, category: intl_fr, query: "gâteau au chocolat fondant",
+     relevant: {name: "(lava|molten|fondant).*chocolate|chocolate.*(lava|molten|fondant)"},
+     partial: {name: "chocolate cake"}}
+  - {id: ifr02, category: intl_fr, query: "soupe à l'oignon gratinée",
+     relevant: {name: "french onion soup|onion soup gratin"},
+     partial: {name: "onion soup"}}
+  - {id: ifr03, category: intl_fr, query: "quiche lorraine",
+     relevant: {name: "quiche lorraine"},
+     partial: {name: quiche, ing: [bacon]}}
+  - {id: ifr04, category: intl_fr, query: "boeuf bourguignon",
+     relevant: {name: "bourguignon"}}
+  - {id: ifr05, category: intl_fr, query: "ratatouille provençale",
+     relevant: {name: ratatouille}}
+  - {id: ifr06, category: intl_fr, query: "crème brûlée à la vanille",
+     relevant: {name: "creme brulee|crème brûlée|cream brulee"}}
+  - {id: ifr07, category: intl_fr, query: "tarte tatin aux pommes",
+     relevant: {name: tatin}}
+  - {id: ifr08, category: intl_fr, query: "salade niçoise au thon",
+     relevant: {name: "nicoise|niçoise"}}
+  - {id: ifr09, category: intl_fr, query: "coq au vin",
+     relevant: {name: "coq au vin"}}
+  - {id: ifr10, category: intl_fr, query: "gratin dauphinois",
+     relevant: {name: dauphinois},
+     partial: {name: "potato gratin|gratin.*potato|scalloped potato"}}
+  - {id: ifr11, category: intl_fr, query: "mousse au chocolat facile",
+     relevant: {name: "chocolate mousse|mousse au chocolat"}}
+  - {id: ifr12, category: intl_fr, query: "pâte à crêpes sucrées",
+     relevant: {name: "crepe|crêpe"}}
+
+  # ---------------------------------------------------------------- ingredients
+  - {id: ing01, category: ingredients, query: "j'ai du poulet, du riz et des poivrons, que puis-je cuisiner ?",
+     relevant: {ing: [chicken, "\\brice\\b", "bell pepper|red pepper|green pepper|capsicum"]}}
+  - {id: ing02, category: ingredients, query: "what can I make with eggs, spinach and feta",
+     relevant: {ing: ["\\beggs?\\b", spinach, feta]}}
+  - {id: ing03, category: ingredients, query: "recette avec des pois chiches, des tomates et du cumin",
+     relevant: {ing: ["chickpea|garbanzo", tomato, cumin]}}
+  - {id: ing04, category: ingredients, query: "I have ground beef, potatoes and onions",
+     relevant: {ing: ["ground beef|minced beef|hamburger", potato, onion]}}
+  - {id: ing05, category: ingredients, query: "idée de dessert avec des pommes et de la cannelle",
+     relevant: {ing: ["\\bapples?\\b", cinnamon, "sugar|honey|syrup"]}}
+  - {id: ing06, category: ingredients, query: "salmon with lemon and dill",
+     relevant: {ing: [salmon, lemon, dill]}}
+  - {id: ing07, category: ingredients, query: "lentilles corail et lait de coco",
+     relevant: {ing: ["red lentil", "coconut milk"]},
+     partial: {ing: [lentil, "coconut milk"]}}
+  - {id: ing08, category: ingredients, query: "zucchini, tomatoes and mozzarella",
+     relevant: {ing: ["zucchini|courgette", tomato, mozzarella]}}
+  - {id: ing09, category: ingredients, query: "j'ai de l'agneau, des pruneaux et des amandes",
+     relevant: {ing: [lamb, prune, almond]}}
+  - {id: ing10, category: ingredients, query: "tofu and broccoli stir fry",
+     relevant: {ing: [tofu, broccoli], name: "stir.?fry"},
+     partial: {ing: [tofu, broccoli]}}
+
+  # ---------------------------------------------------------------- constraints
+  - {id: con01, category: constraints, query: "un plat végétarien rapide, en moins de 30 minutes",
+     relevant: {vegetarian: true, max_minutes: 30}}
+  - {id: con02, category: constraints, query: "vegan chocolate dessert",
+     relevant: {vegan: true, name: chocolate}}
+  - {id: con03, category: constraints, query: "gluten-free bread",
+     relevant: {gluten_free: true, name: "bread|loaf"}}
+  - {id: con04, category: constraints, query: "chicken dinner under 400 calories",
+     relevant: {max_calories: 400, ing: [chicken]}}
+  - {id: con05, category: constraints, query: "tajine végétarien",
+     relevant: {vegetarian: true, moroccan: true, name: "tagine|tajine"}}
+  - {id: con06, category: constraints, query: "soupe de légumes sans gluten",
+     relevant: {gluten_free: true, name: soup, vegetarian: true},
+     partial: {gluten_free: true, name: soup}}
+  - {id: con07, category: constraints, query: "quick pasta ready in 20 minutes",
+     relevant: {max_minutes: 20, name: "pasta|spaghetti|penne|linguine|fettuccine|noodle"}}
+  - {id: con08, category: constraints, query: "salade de quinoa vegan",
+     relevant: {vegan: true, name: quinoa}}
+
+  # --------------------------------------------------------------- unanswerable
+  - {id: una01, category: unanswerable, query: "recette du pain mkhamar"}
+  # una02/una03 were first "berkoukes" and "kuku sabzi": the system found them under
+  # spellings the author's manual check missed (Berkoukech, Kukune Sabzi), so they
+  # were replaced by dishes verified absent under every known spelling.
+  - {id: una02, category: unanswerable, query: "comment préparer des mhajeb algériens"}
+  - {id: una03, category: unanswerable, query: "recette de la chakhchoukha de Biskra"}
+  - {id: una04, category: unanswerable, query: "comment réparer un pneu crevé"}
+  - {id: una05, category: unanswerable, query: "quelle est la capitale du Maroc ?"}
+  - {id: una06, category: unanswerable, query: "how do I invest in bitcoin"}
+  - {id: una07, category: unanswerable, query: "authentic senegalese thieboudienne"}

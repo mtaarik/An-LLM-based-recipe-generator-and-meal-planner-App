@@ -16,6 +16,10 @@
         </div>
         
         <nav class="sidebar-nav">
+            <div class="nav-item" id="newChatBtn">
+                <i class="nav-icon fas fa-plus"></i>
+                <span class="nav-text">New chat</span>
+            </div>
             <div class="nav-item active" data-section="chat">
                 <i class="nav-icon fas fa-comments"></i>
                 <span class="nav-text">Chat</span>
@@ -35,7 +39,7 @@
     <div class="main-content">
         <!-- Header -->
         <header class="header">
-            <h1 class="header-title">An LLM Based Recipe Generator</h1>
+            <h1 class="header-title">Moroccan &amp; International Recipe Assistant</h1>
             <div class="user-menu">
                 <div class="user-avatar" id="userAvatar">{{ username[0].upper() }}</div>
                 <div class="dropdown" id="userDropdown">
@@ -60,7 +64,7 @@
                 
                 <div class="chat-input-container">
                     <div class="chat-input-wrapper">
-                        <textarea class="chat-input" id="chatInput" placeholder="Ask me about any recipe or cooking technique..." rows="1"></textarea>
+                        <textarea class="chat-input" id="chatInput" placeholder="Ex : comment faire une tanjia ? / j'ai du poulet et des citrons confits…" rows="1"></textarea>
                         <button class="send-btn" id="sendBtn">
                             <i class="fas fa-paper-plane"></i>
                         </button>
@@ -93,13 +97,58 @@
         </div>
     </div>
 
+    <!-- Recipe modal -->
+    <div class="recipe-modal" id="recipeModal">
+        <div class="recipe-modal-card">
+            <button class="recipe-modal-close" id="recipeModalClose">&times;</button>
+            <div id="recipeModalBody"></div>
+        </div>
+    </div>
+
     <!-- Mobile Overlay -->
     <div class="mobile-overlay" id="mobileOverlay"></div>
 </div>
 
+<style>
+    .message-content p { margin: 0 0 8px; }
+    .message-content ul, .message-content ol { margin: 6px 0 8px 22px; }
+    .message-content li { margin: 2px 0; }
+    .cite { display: inline-block; min-width: 18px; padding: 0 5px; margin: 0 1px; border-radius: 6px;
+            background: rgba(99, 102, 241, 0.35); font-size: 12px; font-weight: 600; text-align: center;
+            cursor: pointer; vertical-align: 1px; }
+    .low-conf { margin-bottom: 8px; padding: 6px 10px; border-radius: 8px; font-size: 13px;
+                background: rgba(245, 158, 11, 0.18); border: 1px solid rgba(245, 158, 11, 0.4); }
+    .sources { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .source-card { flex: 1 1 200px; max-width: 260px; padding: 10px 12px; border-radius: 12px;
+                   background: rgba(15, 23, 42, 0.55); border: 1px solid var(--border); cursor: pointer;
+                   transition: border-color .2s ease, transform .2s ease; }
+    .source-card:hover { border-color: var(--primary); transform: translateY(-2px); }
+    .source-title { font-size: 14px; font-weight: 600; margin-bottom: 6px; }
+    .source-meta { display: flex; flex-wrap: wrap; gap: 4px; }
+    .badge { font-size: 11px; padding: 2px 7px; border-radius: 999px; background: rgba(148, 163, 184, 0.2); }
+    .badge.ma { background: rgba(239, 68, 68, 0.25); }
+    details.trace { margin-top: 10px; font-size: 12px; color: var(--text-muted); }
+    details.trace summary { cursor: pointer; }
+    details.trace table { margin-top: 6px; border-collapse: collapse; }
+    details.trace td { padding: 2px 8px 2px 0; vertical-align: top; }
+    details.trace td:first-child { white-space: nowrap; font-weight: 600; }
+    .recipe-modal { position: fixed; inset: 0; display: none; align-items: center; justify-content: center;
+                    background: rgba(0, 0, 0, 0.6); z-index: 2000; padding: 16px; }
+    .recipe-modal.show { display: flex; }
+    .recipe-modal-card { position: relative; max-width: 720px; width: 100%; max-height: 85vh; overflow-y: auto;
+                         background: #1e293b; border: 1px solid var(--border); border-radius: 16px; padding: 28px; }
+    .recipe-modal-card h2 { margin-bottom: 8px; color: var(--primary); }
+    .recipe-modal-card h3 { margin: 18px 0 8px; }
+    .recipe-modal-card ul, .recipe-modal-card ol { margin-left: 22px; line-height: 1.6; }
+    .recipe-modal-close { position: absolute; top: 10px; right: 14px; background: none; border: none;
+                          color: var(--text); font-size: 28px; cursor: pointer; }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js"></script>
 <script>
     let isLoading = false;
-    let currentUser = '{{ username }}';
+    let currentUser = {{ username | tojson }};
+    let conversationId = null;
 
     document.addEventListener('DOMContentLoaded', function() {
         initializeApp();
@@ -113,36 +162,23 @@
     }
 
     function setupEventListeners() {
-        // Sidebar navigation
-        document.querySelectorAll('.nav-item').forEach(item => {
+        document.querySelectorAll('.nav-item[data-section]').forEach(item => {
             item.addEventListener('click', () => {
-                const section = item.dataset.section;
-                switchSection(section);
-                
-                // Update active nav item
+                switchSection(item.dataset.section);
                 document.querySelectorAll('.nav-item').forEach(nav => nav.classList.remove('active'));
                 item.classList.add('active');
             });
         });
-
-        // Sidebar toggle
+        document.getElementById('newChatBtn').addEventListener('click', newChat);
         document.getElementById('sidebarToggle').addEventListener('click', toggleSidebar);
-
-        // User dropdown
         document.getElementById('userAvatar').addEventListener('click', toggleUserDropdown);
-        
-        // Profile dropdown item
         document.querySelector('.dropdown-item[data-section="profile"]').addEventListener('click', () => {
             switchSection('profile');
             document.querySelectorAll('.nav-item').forEach(nav => nav.classList.remove('active'));
             document.querySelector('.nav-item[data-section="profile"]').classList.add('active');
             toggleUserDropdown();
         });
-
-        // Logout
         document.getElementById('logoutBtn').addEventListener('click', logout);
-
-        // Chat functionality
         document.getElementById('sendBtn').addEventListener('click', sendMessage);
         document.getElementById('chatInput').addEventListener('keypress', (e) => {
             if (e.key === 'Enter' && !e.shiftKey) {
@@ -150,11 +186,12 @@
                 sendMessage();
             }
         });
-
-        // Mobile overlay
         document.getElementById('mobileOverlay').addEventListener('click', closeMobileSidebar);
-
-        // Close dropdown when clicking outside
+        document.getElementById('recipeModalClose').addEventListener('click', closeRecipe);
+        document.getElementById('recipeModal').addEventListener('click', (e) => {
+            if (e.target.id === 'recipeModal') closeRecipe();
+        });
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeRecipe(); });
         document.addEventListener('click', (e) => {
             if (!e.target.closest('.user-menu')) {
                 document.getElementById('userDropdown').classList.remove('show');
@@ -162,34 +199,30 @@
         });
     }
 
+    function newChat() {
+        conversationId = null;
+        document.getElementById('messagesContainer').innerHTML = '';
+        switchSection('chat');
+        document.querySelectorAll('.nav-item').forEach(nav => nav.classList.remove('active'));
+        document.querySelector('.nav-item[data-section="chat"]').classList.add('active');
+        document.getElementById('chatInput').focus();
+    }
+
     function switchSection(sectionName) {
-        // Hide all sections
-        document.querySelectorAll('.content-area').forEach(area => {
-            area.classList.remove('active');
-        });
-        
-        // Show selected section
+        document.querySelectorAll('.content-area').forEach(area => area.classList.remove('active'));
         document.getElementById(sectionName + 'Section').classList.add('active');
-        
-        // Load data if needed
-        if (sectionName === 'history') {
-            loadHistory();
-        } else if (sectionName === 'profile') {
-            loadProfile();
-        }
+        if (sectionName === 'history') loadHistory();
+        else if (sectionName === 'profile') loadProfile();
     }
 
     function toggleSidebar() {
         const container = document.querySelector('.app-container');
         const sidebar = document.getElementById('sidebar');
         const icon = document.querySelector('.sidebar-toggle i');
-        
         if (window.innerWidth <= 768) {
-            // Mobile behavior
             sidebar.classList.toggle('mobile-open');
             document.getElementById('mobileOverlay').classList.toggle('show');
         } else {
-            // Desktop behavior
             container.classList.toggle('expanded');
             icon.classList.toggle('fa-chevron-left');
             icon.classList.toggle('fa-chevron-right');
@@ -213,123 +246,223 @@
         });
     }
 
+    // ---------------------------------------------------------------- rendering
+    function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text == null ? '' : String(text);
+        return div.innerHTML;
+    }
+
+    function renderMarkdown(text) {
+        // LLM output is untrusted: parse markdown, then sanitize before inserting.
+        const html = DOMPurify.sanitize(marked.parse(text || ''));
+        return html.replace(/\[(\d{1,2})\]/g, '<span class="cite" data-n="$1">$1</span>');
+    }
+
+    function addMessage(content, type, options = {}) {
+        const messagesContainer = document.getElementById('messagesContainer');
+        const messageDiv = document.createElement('div');
+        messageDiv.className = `message ${type}`;
+
+        const avatar = document.createElement('div');
+        avatar.className = 'message-avatar';
+        avatar.textContent = type === 'user' ? currentUser[0].toUpperCase() : '🤖';
+
+        const body = document.createElement('div');
+        body.className = 'message-content';
+        if (options.loading) {
+            body.style.opacity = 0.7;
+            body.innerHTML = '<div class="loading"></div> ' + escapeHtml(content);
+        } else if (type === 'user') {
+            body.textContent = content;
+        } else {
+            body.innerHTML = renderMarkdown(content);
+        }
+        messageDiv.append(avatar, body);
+        messagesContainer.appendChild(messageDiv);
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        return messageDiv;
+    }
+
+    function addBotAnswer(data) {
+        const msg = addMessage(data.response, 'bot');
+        const body = msg.querySelector('.message-content');
+        if (data.low_confidence && data.mode === 'rag') {
+            const warn = document.createElement('div');
+            warn.className = 'low-conf';
+            warn.textContent = '⚠️ Low retrieval confidence: the database may not contain this dish.';
+            body.prepend(warn);
+        }
+        const sources = data.sources || [];
+        if (sources.length) {
+            const wrap = document.createElement('div');
+            wrap.className = 'sources';
+            sources.forEach(s => wrap.appendChild(sourceCard(s)));
+            body.appendChild(wrap);
+            body.querySelectorAll('.cite').forEach(c => {
+                const s = sources.find(x => String(x.n) === c.dataset.n);
+                if (s) {
+                    c.title = s.name;
+                    c.addEventListener('click', () => openRecipe(s.recipe_id));
+                }
+            });
+        }
+        if (data.analysis) body.appendChild(traceDetails(data));
+        document.getElementById('messagesContainer').scrollTop = 1e9;
+    }
+
+    function sourceCard(s) {
+        const card = document.createElement('div');
+        card.className = 'source-card';
+        const title = document.createElement('div');
+        title.className = 'source-title';
+        title.textContent = `[${s.n}] ${s.name}`;
+        const meta = document.createElement('div');
+        meta.className = 'source-meta';
+        const badges = [[s.is_moroccan ? 'Moroccan' : 'Food.com', s.is_moroccan ? 'badge ma' : 'badge']];
+        if (s.minutes) badges.push([`⏱ ${s.minutes} min`, 'badge']);
+        if (s.calories) badges.push([`🔥 ${s.calories} kcal`, 'badge']);
+        badges.forEach(([text, cls]) => {
+            const b = document.createElement('span');
+            b.className = cls;
+            b.textContent = text;
+            meta.appendChild(b);
+        });
+        card.append(title, meta);
+        card.addEventListener('click', () => openRecipe(s.recipe_id));
+        return card;
+    }
+
+    function traceDetails(data) {
+        const a = data.analysis;
+        const filters = [...(a.diet || [])];
+        if (a.max_minutes) filters.push(`≤ ${a.max_minutes} min`);
+        if (a.max_calories) filters.push(`≤ ${a.max_calories} kcal`);
+        (a.exclude_ingredients || []).forEach(i => filters.push(`no ${i}`));
+        const variants = Object.entries(data.expanded_terms || {}).map(([k, v]) => `${k} → ${v.join(', ')}`);
+        const t = data.timings_ms || {};
+        const rows = [
+            ['Mode', data.mode],
+            ['Query parser', a.source === 'llm' ? 'LLM' : 'rules (fallback)'],
+            ['Language / intent', `${a.language} / ${a.intent}`],
+            ['Standalone question', a.standalone_question],
+            ['Search query', a.search_query],
+            ['Dish names', (a.dish_names || []).join(', ')],
+            ['Spelling variants', variants.join(' · ')],
+            ['Filters', filters.join(', ')],
+            ['Rerank confidence', data.confidence == null ? '' : data.confidence.toFixed(2)],
+            ['Latency', t.total ? `${Math.round(t.total)} ms` : ''],
+        ].filter(([, v]) => v);
+        const details = document.createElement('details');
+        details.className = 'trace';
+        const summary = document.createElement('summary');
+        summary.textContent = 'How I searched';
+        const table = document.createElement('table');
+        rows.forEach(([k, v]) => {
+            const tr = table.insertRow();
+            tr.insertCell().textContent = k;
+            tr.insertCell().textContent = v;
+        });
+        details.append(summary, table);
+        return details;
+    }
+
+    async function openRecipe(recipeId) {
+        const modal = document.getElementById('recipeModal');
+        const body = document.getElementById('recipeModalBody');
+        body.innerHTML = '<div class="loading"></div>';
+        modal.classList.add('show');
+        try {
+            const res = await fetch('/recipe/' + encodeURIComponent(recipeId), { credentials: 'include' });
+            const r = await res.json();
+            if (!res.ok) throw new Error(r.error);
+            const meta = [r.source === 'moroccan' ? 'Moroccan recipes dataset' : 'Food.com'];
+            if (r.minutes) meta.push(`${r.minutes} min`);
+            if (r.calories) meta.push(`${r.calories} kcal / serving`);
+            body.innerHTML = `
+                <h2>${escapeHtml(r.name)}</h2>
+                <div class="source-meta">${meta.map(m => `<span class="badge">${escapeHtml(m)}</span>`).join('')}</div>
+                ${r.description ? `<p style="margin-top:12px;color:var(--text-muted)">${escapeHtml(r.description)}</p>` : ''}
+                <h3>Ingredients</h3><ul>${r.ingredients.map(i => `<li>${escapeHtml(i)}</li>`).join('')}</ul>
+                <h3>Steps</h3><ol>${r.steps.map(s => `<li>${escapeHtml(s)}</li>`).join('')}</ol>`;
+        } catch (e) {
+            body.textContent = 'Could not load this recipe.';
+        }
+    }
+
+    function closeRecipe() {
+        document.getElementById('recipeModal').classList.remove('show');
+    }
+
+    // ---------------------------------------------------------------- network
     async function sendMessage() {
         if (isLoading) return;
-
         const input = document.getElementById('chatInput');
         const message = input.value.trim();
-        
         if (!message) return;
 
-        // Add user message to chat
         addMessage(message, 'user');
         input.value = '';
         input.style.height = 'auto';
-
-        // Show loading state
         setLoading(true);
-        const loadingMessage = addMessage('Thinking...', 'bot', true);
+        const loadingMessage = addMessage('Searching recipes…', 'bot', { loading: true });
 
         try {
             const response = await fetch('/chat', {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
+                headers: { 'Content-Type': 'application/json' },
                 credentials: 'include',
-                body: JSON.stringify({ prompt: message })
+                body: JSON.stringify({ prompt: message, conversation_id: conversationId })
             });
-
             const data = await response.json();
-
-            // Remove loading message
             loadingMessage.remove();
-
             if (response.ok) {
-                addMessage(data.response, 'bot');
+                conversationId = data.conversation_id;
+                addBotAnswer(data);
             } else {
-                addMessage('Sorry, there was an error processing your request. Please try again.', 'bot');
-                if (data.error === 'Not authenticated') {
-                    window.location.href = '/';
-                }
+                addMessage(data.error || 'Sorry, there was an error processing your request.', 'bot');
+                if (data.error === 'Not authenticated') window.location.href = '/';
             }
         } catch (error) {
             loadingMessage.remove();
             addMessage('Network error. Please check your connection and try again.', 'bot');
         }
-
         setLoading(false);
-    }
-
-    function addMessage(content, type, isLoading = false) {
-        const messagesContainer = document.getElementById('messagesContainer');
-        const messageDiv = document.createElement('div');
-        messageDiv.className = `message ${type}`;
-        
-        const avatar = type === 'user' ? currentUser[0].toUpperCase() : '🤖';
-        const loadingClass = isLoading ? ' style="opacity: 0.7;"' : '';
-        
-        messageDiv.innerHTML = `
-            <div class="message-avatar">${avatar}</div>
-            <div class="message-content"${loadingClass}>
-                ${isLoading ? '<div class="loading"></div> ' + content : content}
-            </div>
-        `;
-        
-        messagesContainer.appendChild(messageDiv);
-        messagesContainer.scrollTop = messagesContainer.scrollHeight;
-        
-        return messageDiv;
     }
 
     function setLoading(loading) {
         isLoading = loading;
         const sendBtn = document.getElementById('sendBtn');
-        const chatInput = document.getElementById('chatInput');
-        
+        document.getElementById('chatInput').disabled = loading;
         sendBtn.disabled = loading;
-        chatInput.disabled = loading;
-        
-        if (loading) {
-            sendBtn.innerHTML = '<div class="loading"></div>';
-        } else {
-            sendBtn.innerHTML = '<i class="fas fa-paper-plane"></i>';
-        }
+        sendBtn.innerHTML = loading ? '<div class="loading"></div>' : '<i class="fas fa-paper-plane"></i>';
     }
 
     async function loadHistory() {
         const historyContent = document.getElementById('historyContent');
         historyContent.innerHTML = '<div style="text-align: center; padding: 40px;"><div class="loading"></div></div>';
-
         try {
-            const response = await fetch('/history', {
-                credentials: 'include'
-            });
-
+            const response = await fetch('/history', { credentials: 'include' });
             const data = await response.json();
-
-            if (response.ok) {
-                if (data.messages && data.messages.length > 0) {
-                    historyContent.innerHTML = '';
-                    data.messages.forEach(msg => {
-                        const historyItem = document.createElement('div');
-                        historyItem.className = 'history-item';
-                        historyItem.innerHTML = `
-                            <div class="history-question">Q: ${msg.prompt}</div>
-                            <div class="history-answer">A: ${msg.response}</div>
-                            <div class="history-timestamp">${formatTimestamp(msg.timestamp)}</div>
-                        `;
-                        historyContent.appendChild(historyItem);
-                    });
-                } else {
-                    historyContent.innerHTML = '<div style="text-align: center; padding: 40px; color: var(--text-muted);">No conversation history yet. Start chatting to see your history here!</div>';
-                }
-            } else {
+            if (!response.ok) {
                 historyContent.innerHTML = '<div style="text-align: center; padding: 40px; color: var(--error);">Error loading history</div>';
-                if (data.error === 'Not authenticated') {
-                    window.location.href = '/';
-                }
+                if (data.error === 'Not authenticated') window.location.href = '/';
+                return;
             }
+            if (!data.messages || !data.messages.length) {
+                historyContent.innerHTML = '<div style="text-align: center; padding: 40px; color: var(--text-muted);">No conversation history yet. Start chatting to see your history here!</div>';
+                return;
+            }
+            historyContent.innerHTML = '';
+            data.messages.forEach(msg => {
+                const item = document.createElement('div');
+                item.className = 'history-item';
+                item.innerHTML = `
+                    <div class="history-question">Q: ${escapeHtml(msg.prompt)}</div>
+                    <div class="history-answer">${renderMarkdown(msg.response)}</div>
+                    <div class="history-timestamp">${escapeHtml(formatTimestamp(msg.timestamp))}</div>`;
+                historyContent.appendChild(item);
+            });
         } catch (error) {
             historyContent.innerHTML = '<div style="text-align: center; padding: 40px; color: var(--error);">Network error loading history</div>';
         }
@@ -338,50 +471,31 @@
     async function loadProfile() {
         const profileInfo = document.getElementById('profileInfo');
         profileInfo.innerHTML = '<div style="text-align: center; padding: 20px;"><div class="loading"></div></div>';
-
         try {
-            const response = await fetch('/profile', {
-                credentials: 'include'
-            });
-
+            const response = await fetch('/profile', { credentials: 'include' });
             const data = await response.json();
-
-            if (response.ok) {
-                profileInfo.innerHTML = `
-                    <div class="info-row">
-                        <span class="info-label">Username</span>
-                        <span class="info-value">${data.username}</span>
-                    </div>
-                    <div class="info-row">
-                        <span class="info-label">Email</span>
-                        <span class="info-value">${data.email}</span>
-                    </div>
-                    <div class="info-row">
-                        <span class="info-label">Member Since</span>
-                        <span class="info-value">${formatTimestamp(data.member_since)}</span>
-                    </div>
-                `;
-            } else {
+            if (!response.ok) {
                 profileInfo.innerHTML = '<div style="text-align: center; padding: 20px; color: var(--error);">Error loading profile</div>';
-                if (data.error === 'Not authenticated') {
-                    window.location.href = '/';
-                }
+                if (data.error === 'Not authenticated') window.location.href = '/';
+                return;
             }
+            profileInfo.innerHTML = `
+                <div class="info-row"><span class="info-label">Username</span><span class="info-value">${escapeHtml(data.username)}</span></div>
+                <div class="info-row"><span class="info-label">Email</span><span class="info-value">${escapeHtml(data.email)}</span></div>
+                <div class="info-row"><span class="info-label">Member Since</span><span class="info-value">${escapeHtml(formatTimestamp(data.member_since))}</span></div>`;
         } catch (error) {
             profileInfo.innerHTML = '<div style="text-align: center; padding: 20px; color: var(--error);">Network error loading profile</div>';
         }
     }
 
     function formatTimestamp(timestamp) {
-        const date = new Date(timestamp);
-        return date.toLocaleString();
+        return new Date(timestamp).toLocaleString();
     }
 
     function logout() {
         window.location.href = '/logout';
     }
 
-    // Handle window resize
     window.addEventListener('resize', () => {
         if (window.innerWidth > 768) {
             document.getElementById('sidebar').classList.remove('mobile-open');
@@ -389,4 +503,5 @@
         }
     });
 </script>
+
 {% endblock %}

@@ -1,0 +1,8938 @@
+[
+ {
+  "system": "v1",
+  "qid": "mfr01",
+  "category": "moroccan_fr",
+  "query": "comment préparer une harira",
+  "ndcg@10": 0.33013764944712026,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 127.50119999691378,
+  "grades": [
+   2,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "harira   chickpea and lentil soup",
+   "Moroccan Lentil and Chickpea Soup",
+   "Harira - Moroccan Chickpea and Lentil Soup Recipe TampaAurora"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr02",
+  "category": "moroccan_fr",
+  "query": "recette de pastilla au poulet",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 97.92650000599679,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "papa s pecan tassies",
+   "fudgy pecan pie",
+   "dark pecan pie   virginian hostess style"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr03",
+  "category": "moroccan_fr",
+  "query": "rfissa marocaine aux lentilles et msemen",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 109.29349999059923,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Traditional Moroccan Breakfast",
+   "Moroccan Chicken Recipe",
+   "Moroccan Chicken-Southern Living Recipe"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr04",
+  "category": "moroccan_fr",
+  "query": "zaalouk d'aubergines",
+  "ndcg@10": 0.3103414471745059,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.25,
+  "latency_ms": 82.08829999784939,
+  "grades": [
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "zaalouk  spicy aubergine salad    morocco",
+   "iranian stuffed aubergines with coconut and almond sauce",
+   "imam bayildi"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr05",
+  "category": "moroccan_fr",
+  "query": "tajine de poulet aux citrons confits et olives",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 119.1499999986263,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Fish Tagine With Olives (Moroccan Stew)",
+   "Moroccan Tagine With Harissa",
+   "Moroccan Vegetable Tagine"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr06",
+  "category": "moroccan_fr",
+  "query": "couscous aux sept légumes",
+  "ndcg@10": 0.10326883122150418,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 157.7097999979742,
+  "grades": [
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "top3": [
+   "Moroccan Whole Grain Couscous",
+   "Sweet and Nutty Moroccan Couscous",
+   "Moroccan Couscous (SBPH2)"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr07",
+  "category": "moroccan_fr",
+  "query": "tajine de kefta aux oeufs",
+  "ndcg@10": 0.2057183813647832,
+  "mrr@10": 0.16666666666666666,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.2,
+  "latency_ms": 113.98460000054911,
+  "grades": [
+   0,
+   0,
+   1,
+   0,
+   0,
+   2,
+   0,
+   2,
+   0,
+   1
+  ],
+  "top3": [
+   "Kofte & Chorizo Stew (Moroccan)",
+   "moroccan beef stew tagine tajine",
+   "Moroccan Kefta Shakshuka"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr08",
+  "category": "moroccan_fr",
+  "query": "baghrir, les crêpes mille trous",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 103.89110000687651,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "claudine marquet s authentic french baguettes",
+   "french vanilla crepes",
+   "french truffle"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr09",
+  "category": "moroccan_fr",
+  "query": "msemen feuilleté maison",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 146.57109999097884,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "lady m",
+   "honeymoon suitetini",
+   "one hot lady godiva"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr10",
+  "category": "moroccan_fr",
+  "query": "chebakia pour le ramadan",
+  "ndcg@10": 0.2748763329142909,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.14285714285714285,
+  "latency_ms": 102.45550000399817,
+  "grades": [
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Chebakia (Sesame Cookies with Honey) for Ramadan",
+   "alla checca",
+   "calzonedilla  italian quesadilla"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr11",
+  "category": "moroccan_fr",
+  "query": "harcha à la semoule",
+  "ndcg@10": 0.4935232796777482,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.3333333333333333,
+  "latency_ms": 129.32329998875502,
+  "grades": [
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "hajar s harcha",
+   "Moroccan Harcha (Harsha) - Semolina Pan-Fried Flatbread",
+   "pescado a la talla"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr12",
+  "category": "moroccan_fr",
+  "query": "briouates aux amandes",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 91.81689999240916,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "alouette extra creamy brie with dried fruit and almonds",
+   "brioche french toast with fresh berry compote",
+   "brioche au fromage"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr13",
+  "category": "moroccan_fr",
+  "query": "thé à la menthe marocain",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 124.17900000582449,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Chicken-Southern Living Recipe",
+   "Traditional Moroccan Breakfast",
+   "Quick Moroccan Salad"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr14",
+  "category": "moroccan_fr",
+  "query": "pain marocain khobz fait maison",
+  "ndcg@10": 0.085143117641621,
+  "mrr@10": 0.2,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.1,
+  "latency_ms": 115.71650000405498,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Traditional Moroccan Breakfast",
+   "Moroccan Chicken Recipe",
+   "Moroccan Rub - Meat, Poultry, or Vegetables"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr15",
+  "category": "moroccan_fr",
+  "query": "cornes de gazelle",
+  "ndcg@10": 0.34304271142002485,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.25,
+  "latency_ms": 106.14000000350643,
+  "grades": [
+   2,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "moroccan gazelle horns  kab el ghzal   cornes de gazelle",
+   "zesty corn quesadillas",
+   "papas quesadilla"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr16",
+  "category": "moroccan_fr",
+  "query": "tajine de poisson à la chermoula",
+  "ndcg@10": 0.3312392961638528,
+  "mrr@10": 0.3333333333333333,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.4,
+  "latency_ms": 149.88300000550225,
+  "grades": [
+   0,
+   0,
+   2,
+   0,
+   0,
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "moroccan beef stew tagine tajine",
+   "Moroccan Beef Tajine With Apple & Apricot",
+   "Fish Stew (Moroccan Tagine)"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr17",
+  "category": "moroccan_fr",
+  "query": "amlou aux amandes et huile d'argan",
+  "ndcg@10": 0.15130120674940675,
+  "mrr@10": 0.3333333333333333,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.16666666666666666,
+  "latency_ms": 187.24049998854753,
+  "grades": [
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "tarte aux abricots   glazed french apricot tart with almonds",
+   "belgium frites french fries",
+   "amlou"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "mfr18",
+  "category": "moroccan_fr",
+  "query": "bissara, soupe de fèves",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 113.7353000085568,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "teresa s potato soup",
+   "california burrito",
+   "santa fe soup"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "dar01",
+  "category": "darija",
+  "query": "comment faire une tanjia marrakchia",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 147.7865000051679,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Easy Moroccan Vegetarian Stew",
+   "Moroccan Lamb Stew Recipe",
+   "Moroccan Lamb Stew with Preserved Lemons"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "dar02",
+  "category": "darija",
+  "query": "bstilla",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 132.1077000029618,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "basboosa",
+   "tortilla stars",
+   "bleu cheese pate"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "dar03",
+  "category": "darija",
+  "query": "tajine djaj m'hamer",
+  "ndcg@10": 0.27267015568947806,
+  "mrr@10": 0.14285714285714285,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.4,
+  "latency_ms": 99.2917999974452,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "moroccan beef stew tagine tajine",
+   "Moroccan Beef Stew Tagine/Tajine",
+   "Moroccan Beef Tajine With Apple & Apricot"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "dar04",
+  "category": "darija",
+  "query": "rafissa",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 125.0856999977259,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "rasamarula",
+   "benihana mai tai",
+   "omani khabeesa    farina or  cream of wheat"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "dar05",
+  "category": "darija",
+  "query": "zalouk",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 69.57819999661297,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "zaremba stew   now this is to die for",
+   "zaar",
+   "zaremba s stew"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "dar06",
+  "category": "darija",
+  "query": "msemmen",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 89.5580000069458,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "aam ras",
+   "chocolate salad  pms salad",
+   "m   m"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "dar07",
+  "category": "darija",
+  "query": "beghrir",
+  "ndcg@10": 0.3589542101716347,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 128.15879999834578,
+  "grades": [
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Beghrir (Moroccan Pancakes)",
+   "Baghrir Recipe preciousmoroccan",
+   "bagel dip"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "dar08",
+  "category": "darija",
+  "query": "chebakya au miel",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 86.67940000304952,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "easy cheesy mielie bread",
+   "trevor s chex party mix",
+   "amaretto mimosa"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "dar09",
+  "category": "darija",
+  "query": "ghoriba",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 139.45349999994505,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "tanzanian tonic",
+   "kilimanjaro",
+   "healthy mango lassi"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "dar10",
+  "category": "darija",
+  "query": "harsha",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 106.28329998871777,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "sacred pakistani chai tea recipe",
+   "omani khabeesa    farina or  cream of wheat",
+   "lumpia  build your own"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "dar11",
+  "category": "darija",
+  "query": "briwat",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 103.18269999697804,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "strawberry brie bites",
+   "chai  east african tea",
+   "qahwa  kashmiri tea"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "dar12",
+  "category": "darija",
+  "query": "kefta mkaouara",
+  "ndcg@10": 0.2489083270225946,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 142.82530000491533,
+  "grades": [
+   0,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "spicy afghan meatball kofta",
+   "Moroccan Kefta Shakshuka",
+   "kofta korma"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "dar13",
+  "category": "darija",
+  "query": "seffa medfouna",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 102.29589999653399,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "seitan and mushrooms in paprika cream",
+   "banana and semolina pudding  sheera",
+   "semolina s chicken cordon bleu pasta"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "dar14",
+  "category": "darija",
+  "query": "mrouzia",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 107.31459999806248,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "maandazi",
+   "meni meniyong  malinese sesame honey sweet",
+   "meni meniyong mali sesame honey candy"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "dar15",
+  "category": "darija",
+  "query": "bessara",
+  "ndcg@10": 0.4692787260227565,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.3333333333333333,
+  "latency_ms": 109.82879999210127,
+  "grades": [
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Bean Dip - Bessara Recipe",
+   "buca di beppo red wine vinaigrette",
+   "enticing azul bebida  cocktail"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ien01",
+  "category": "intl_en",
+  "query": "classic beef lasagna",
+  "ndcg@10": 0.9086768598011254,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 92.72439999040216,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   2,
+   2,
+   1
+  ],
+  "top3": [
+   "beef lasagna",
+   "the best lasagna  ever",
+   "the perfect lasagna"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ien02",
+  "category": "intl_en",
+  "query": "chicken tikka masala",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 88.29440000408795,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "chicken tikka masala   east indian cuisine",
+   "chicken tikka masala",
+   "ww chicken tikka masala"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ien03",
+  "category": "intl_en",
+  "query": "moist banana bread",
+  "ndcg@10": 0.6496872770120412,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 134.5689999870956,
+  "grades": [
+   2,
+   0,
+   2,
+   2,
+   2,
+   0,
+   2,
+   0,
+   2,
+   0
+  ],
+  "top3": [
+   "super moist banana bread",
+   "moist banana nut bread",
+   "moist banana bread"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ien04",
+  "category": "intl_en",
+  "query": "authentic pad thai with shrimp",
+  "ndcg@10": 0.8238375070554743,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 94.77250000054482,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "top3": [
+   "10 minute shrimp pad thai",
+   "lighter shrimp pad thai",
+   "shrimp pad thai"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ien05",
+  "category": "intl_en",
+  "query": "french onion soup with gruyere",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 134.67010000022128,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "a french onion soup lovers french onion soup",
+   "french onion soup  soupe a l oignon",
+   "alton s french onion soup attacked by sandi"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ien06",
+  "category": "intl_en",
+  "query": "spaghetti carbonara",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 113.4468999953242,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "to die for spaghetti carbonara by tom cruise",
+   "carbonara sauce",
+   "quick  easy and tasty spaghetti carbonara"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ien07",
+  "category": "intl_en",
+  "query": "creamy mushroom risotto",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 104.77730000275187,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "risotto with dried wild mushrooms",
+   "flavorful mushroom risotto",
+   "mushroom risotto"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ien08",
+  "category": "intl_en",
+  "query": "homemade hummus",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 141.2205999949947,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "homemade houmous   hummus",
+   "hummus",
+   "super healthy hummus"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ien09",
+  "category": "intl_en",
+  "query": "chicken biryani",
+  "ndcg@10": 0.9432379215722527,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 92.31500000169035,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "fuss free biryani chicken",
+   "simple chicken biryani",
+   "chicken biryani"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ien10",
+  "category": "intl_en",
+  "query": "shakshuka with feta",
+  "ndcg@10": 0.48471198902551854,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.4,
+  "latency_ms": 97.65169999445789,
+  "grades": [
+   2,
+   0,
+   2,
+   0,
+   2,
+   0,
+   0,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "shannon s shakshuka",
+   "roasted vegetables and feta",
+   "shakshuka yemani basted eggs"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ien11",
+  "category": "intl_en",
+  "query": "classic tiramisu",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 110.81680000643246,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "easy tiramisu dessert",
+   "the best tiramisu recipe   really",
+   "tiramisu martini"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ifr01",
+  "category": "intl_fr",
+  "query": "gâteau au chocolat fondant",
+  "ndcg@10": 0.1736666713479918,
+  "mrr@10": 0.3333333333333333,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 104.24950000015087,
+  "grades": [
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2
+  ],
+  "top3": [
+   "fondants au chocolat",
+   "gateau au chocolat i",
+   "sublime hot chocolate fondant"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ifr02",
+  "category": "intl_fr",
+  "query": "soupe à l'oignon gratinée",
+  "ndcg@10": 0.4216468355631883,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.4,
+  "latency_ms": 100.69490000023507,
+  "grades": [
+   0,
+   2,
+   0,
+   2,
+   2,
+   2,
+   1,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "antoine s soupe a l oignon gratine",
+   "soupe a l oignon gratinee  french onion soup",
+   "gigi s soupe a l  oignon"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ifr03",
+  "category": "intl_fr",
+  "query": "quiche lorraine",
+  "ndcg@10": 0.7952054789678341,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 99.6376999974018,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   0,
+   1,
+   2,
+   2
+  ],
+  "top3": [
+   "easy quiche lorraine",
+   "creamy quiche lorraine   wow  em",
+   "quiche lorraine cups"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ifr04",
+  "category": "intl_fr",
+  "query": "boeuf bourguignon",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 94.38429999863729,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "boeuf bourguignon  weight watchers",
+   "boeuf a la bourguignon",
+   "boeuf bourguignon in slow time"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ifr05",
+  "category": "intl_fr",
+  "query": "ratatouille provençale",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 115.83840000093915,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "rat patoodie   my different ratatouille",
+   "ratatouille inspired by the animated film",
+   "farmers market ratatouille"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ifr06",
+  "category": "intl_fr",
+  "query": "crème brûlée à la vanille",
+  "ndcg@10": 0.9363792118010482,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 78.72570000472479,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "vodka creme brulee martini",
+   "creme brulee pie",
+   "commonwealth club creme brulee"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ifr07",
+  "category": "intl_fr",
+  "query": "tarte tatin aux pommes",
+  "ndcg@10": 0.604685538711841,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 126.6001000039978,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "tarte tatin aux poires",
+   "caramelised fruit tarte tatin  upside down pastry pie",
+   "banana tarte tatin"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ifr08",
+  "category": "intl_fr",
+  "query": "salade niçoise au thon",
+  "ndcg@10": 0.8701249883466592,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 107.76100000657607,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "nicoise salad",
+   "authentic salade nicoise",
+   "salade nicoise a ma facon"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ifr09",
+  "category": "intl_fr",
+  "query": "coq au vin",
+  "ndcg@10": 0.6569815082938862,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 91.69829999154899,
+  "grades": [
+   2,
+   2,
+   0,
+   2,
+   0,
+   0,
+   2,
+   0,
+   2,
+   2
+  ],
+  "top3": [
+   "coq au vin  the easy way",
+   "coq au vin by julia child",
+   "french antilles vinaigrette"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ifr10",
+  "category": "intl_fr",
+  "query": "gratin dauphinois",
+  "ndcg@10": 0.9305687780632227,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 113.12549999274779,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   2
+  ],
+  "top3": [
+   "gratin dauphinois   classic french potatoes baked in cream",
+   "gratin dauphinois aussie style",
+   "classic bistro style gratin dauphinois   french gratin potatoes"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ifr11",
+  "category": "intl_fr",
+  "query": "mousse au chocolat facile",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 129.76660000276752,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "la mousse au chocolat  chocolate mousse",
+   "julia child s mousseline au chocolat  chocolate mousse",
+   "easy basic chocolate mousse"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ifr12",
+  "category": "intl_fr",
+  "query": "pâte à crêpes sucrées",
+  "ndcg@10": 0.9216017310213247,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 111.8516999995336,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "french vanilla crepes",
+   "simple crepes",
+   "single crepe"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ing01",
+  "category": "ingredients",
+  "query": "j'ai du poulet, du riz et des poivrons, que puis-je cuisiner ?",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 112.25419999391306,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "aash  e anar  pomegranate stew",
+   "creamy pomegranate chicken",
+   "pomegranate and honey roasted game hens"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ing02",
+  "category": "ingredients",
+  "query": "what can I make with eggs, spinach and feta",
+  "ndcg@10": 0.7034066032439746,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 129.13970000226982,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   2,
+   0,
+   2,
+   0
+  ],
+  "top3": [
+   "very rustic spinach and feta tart",
+   "spinach with apples and feta cheese",
+   "spinach   tomato scrambled egg with feta cheese"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ing03",
+  "category": "ingredients",
+  "query": "recette avec des pois chiches, des tomates et du cumin",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 110.86990000330843,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "cumin flatbread",
+   "cumin and chive stuffed eggs",
+   "tomates  la provenale"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ing04",
+  "category": "ingredients",
+  "query": "I have ground beef, potatoes and onions",
+  "ndcg@10": 0.8263333286520081,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 66.51839999540243,
+  "grades": [
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "savory ground beef vegetable stew",
+   "ground beef with potato lid",
+   "ground beef and potatoes  oh so simple"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ing05",
+  "category": "ingredients",
+  "query": "idée de dessert avec des pommes et de la cannelle",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 140.56069999060128,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "fruit and cheese platter",
+   "cantaloupe pie",
+   "cassis splashed melon with french vanilla ice cream   blackb"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ing06",
+  "category": "ingredients",
+  "query": "salmon with lemon and dill",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 130.3981999953976,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "yet  another salmon with dill recipe",
+   "salmon marinade with dill  butter and lemon",
+   "baked lemon salmon with lemon dill sauce"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ing07",
+  "category": "ingredients",
+  "query": "lentilles corail et lait de coco",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 104.9875000026077,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "seize the day cafe au lait",
+   "littlemafia s romanian lentil soup",
+   "vegetarian  pastel de papa   potato and lentil pastel"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ing08",
+  "category": "ingredients",
+  "query": "zucchini, tomatoes and mozzarella",
+  "ndcg@10": 0.8389574121760601,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 134.94769998942502,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "zucchini con mozzarella",
+   "zucchini   onions with mozzarella cheese",
+   "zucchini   onions with mozzarella"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ing09",
+  "category": "ingredients",
+  "query": "j'ai de l'agneau, des pruneaux et des amandes",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 120.22529999376275,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "far breton french prune cake",
+   "louisiana pecan praline cake",
+   "far breton"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "ing10",
+  "category": "ingredients",
+  "query": "tofu and broccoli stir fry",
+  "ndcg@10": 0.7337026897571411,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 111.5161000052467,
+  "grades": [
+   2,
+   2,
+   1,
+   2,
+   0,
+   2,
+   2,
+   2,
+   1,
+   0
+  ],
+  "top3": [
+   "vegetable and tofu stir fry",
+   "tofu and broccoli stir fry  martha stewart",
+   "tofu stir  fry"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "con01",
+  "category": "constraints",
+  "query": "un plat végétarien rapide, en moins de 30 minutes",
+  "ndcg@10": 0.8482378089219647,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 136.6528000071412,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "le petit marseillais",
+   "genoese",
+   "potatoes lyonnaise"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "con02",
+  "category": "constraints",
+  "query": "vegan chocolate dessert",
+  "ndcg@10": 0.7136540102475307,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 90.34680000331718,
+  "grades": [
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "vegan white chocolate",
+   "deep chocolate vegan cake",
+   "vegan chocolate cake with frosting"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "con03",
+  "category": "constraints",
+  "query": "gluten-free bread",
+  "ndcg@10": 0.5621931439243355,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 87.16980001190677,
+  "grades": [
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   2,
+   2
+  ],
+  "top3": [
+   "easy gluten free bread",
+   "easy gluten free sandwich bread recipe",
+   "gluten free beer bread"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "con04",
+  "category": "constraints",
+  "query": "chicken dinner under 400 calories",
+  "ndcg@10": 0.12987501165334076,
+  "mrr@10": 0.1111111111111111,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.2,
+  "latency_ms": 102.29320000507869,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   2
+  ],
+  "top3": [
+   "tasty baked roast chicken",
+   "baked smothered chicken",
+   "chicken dinner in a pot"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "con05",
+  "category": "constraints",
+  "query": "tajine végétarien",
+  "ndcg@10": 0.11004588314904008,
+  "mrr@10": 0.3333333333333333,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.1,
+  "latency_ms": 148.8762999942992,
+  "grades": [
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Beef Stew Tagine/Tajine",
+   "moroccan beef stew tagine tajine",
+   "Moroccan Tagine With Harissa"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "con06",
+  "category": "constraints",
+  "query": "soupe de légumes sans gluten",
+  "ndcg@10": 0.44006674047819433,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 115.09289999958128,
+  "grades": [
+   0,
+   2,
+   0,
+   2,
+   0,
+   0,
+   2,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "tortilla soup with undercover veggies",
+   "bean soup  fasolatha",
+   "Moroccan Bean Salad"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "con07",
+  "category": "constraints",
+  "query": "quick pasta ready in 20 minutes",
+  "ndcg@10": 0.16815228646891087,
+  "mrr@10": 0.25,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 110.48540000047069,
+  "grades": [
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "quick pasta sauce",
+   "quick pasta supper",
+   "speedy spaghetti"
+  ]
+ },
+ {
+  "system": "v1",
+  "qid": "con08",
+  "category": "constraints",
+  "query": "salade de quinoa vegan",
+  "ndcg@10": 0.6332196796270029,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 140.91329999791924,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "vegan quinoa salad",
+   "really fresh raw quinoa salad  raw  vegan  gluten free",
+   "vegan greek quinoa salad"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr01",
+  "category": "moroccan_fr",
+  "query": "comment préparer une harira",
+  "ndcg@10": 0.5107164012496701,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.4,
+  "latency_ms": 99.3058000021847,
+  "grades": [
+   2,
+   2,
+   0,
+   0,
+   0,
+   2,
+   2,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Harira - A Favourite In Algeria",
+   "moroccan harira   a favourite in algeria",
+   "harissa"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr02",
+  "category": "moroccan_fr",
+  "query": "recette de pastilla au poulet",
+  "ndcg@10": 0.09781856279914673,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 123.6707999923965,
+  "grades": [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "pastillas de leche",
+   "french toddy  for kate and french tart",
+   "pomosa"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr03",
+  "category": "moroccan_fr",
+  "query": "rfissa marocaine aux lentilles et msemen",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 89.70699999190401,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Spicy Moroccan Harissa",
+   "Moroccan Coffee",
+   "Moroccan Spice Blend"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr04",
+  "category": "moroccan_fr",
+  "query": "zaalouk d'aubergines",
+  "ndcg@10": 0.3103414471745059,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.25,
+  "latency_ms": 119.72919999971054,
+  "grades": [
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "zaalouk  spicy aubergine salad    morocco",
+   "iranian stuffed aubergines with coconut and almond sauce",
+   "imam bayildi"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr05",
+  "category": "moroccan_fr",
+  "query": "tajine de poulet aux citrons confits et olives",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 114.6800999995321,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "omelet  la ciboulette",
+   "green olive relish   basic",
+   "chuletas de ternera con aceitunas   veal with olives"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr06",
+  "category": "moroccan_fr",
+  "query": "couscous aux sept légumes",
+  "ndcg@10": 0.1321306243005031,
+  "mrr@10": 0.3333333333333333,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.1,
+  "latency_ms": 94.49740000127349,
+  "grades": [
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "top3": [
+   "Moroccan-Style Carrot And Raisin Couscous",
+   "add a little interest with persian couscous",
+   "seven vegetable couscous"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr07",
+  "category": "moroccan_fr",
+  "query": "tajine de kefta aux oeufs",
+  "ndcg@10": 0.13886244387355454,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.1,
+  "latency_ms": 115.81680001108907,
+  "grades": [
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "frijoles de la olla",
+   "tajine of kefta with eggs",
+   "figs koftas"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr08",
+  "category": "moroccan_fr",
+  "query": "baghrir, les crêpes mille trous",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 95.6105000077514,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "french vanilla crepes",
+   "claudine marquet s authentic french baguettes",
+   "bagel croutons"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr09",
+  "category": "moroccan_fr",
+  "query": "msemen feuilleté maison",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 104.34029999305494,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "lady m",
+   "honeymoon suitetini",
+   "fettucini italiano"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr10",
+  "category": "moroccan_fr",
+  "query": "chebakia pour le ramadan",
+  "ndcg@10": 0.2748763329142909,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.14285714285714285,
+  "latency_ms": 135.33940000343136,
+  "grades": [
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Chebakia (Sesame Cookies with Honey) for Ramadan",
+   "calzonedilla  italian quesadilla",
+   "alla checca"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr11",
+  "category": "moroccan_fr",
+  "query": "harcha à la semoule",
+  "ndcg@10": 0.4935232796777482,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.3333333333333333,
+  "latency_ms": 110.91659999510739,
+  "grades": [
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "hajar s harcha",
+   "Moroccan Harcha (Harsha) - Semolina Pan-Fried Flatbread",
+   "pescado a la talla"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr12",
+  "category": "moroccan_fr",
+  "query": "briouates aux amandes",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 124.9658000015188,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "brioche french toast with fresh berry compote",
+   "brioche au fromage",
+   "alouette extra creamy brie with dried fruit and almonds"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr13",
+  "category": "moroccan_fr",
+  "query": "thé à la menthe marocain",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 135.88240000535734,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "manchego con tomates y romero",
+   "Moroccan Haroseth",
+   "Marinated Moroccan Olives"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr14",
+  "category": "moroccan_fr",
+  "query": "pain marocain khobz fait maison",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 96.63060000457335,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Charmoula Marinade and Sauce",
+   "Spicy Za'Atar - All Purpose Moroccan Seasoning",
+   "Traditional Moroccan Breakfast"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr15",
+  "category": "moroccan_fr",
+  "query": "cornes de gazelle",
+  "ndcg@10": 0.2529427027676572,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.125,
+  "latency_ms": 82.8274999948917,
+  "grades": [
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "moroccan gazelle horns  kab el ghzal   cornes de gazelle",
+   "zesty corn quesadillas",
+   "papas quesadilla"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr16",
+  "category": "moroccan_fr",
+  "query": "tajine de poisson à la chermoula",
+  "ndcg@10": 0.11886547953220875,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 104.34099999838509,
+  "grades": [
+   0,
+   0,
+   1,
+   1,
+   0,
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "chermoula",
+   "cherries poached in vanilla   cerises poches",
+   "chermoula  moroccan fish marinade"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr17",
+  "category": "moroccan_fr",
+  "query": "amlou aux amandes et huile d'argan",
+  "ndcg@10": 0.3026024134988135,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.16666666666666666,
+  "latency_ms": 106.0631000000285,
+  "grades": [
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "amlou",
+   "tarte aux abricots   glazed french apricot tart with almonds",
+   "belgium frites french fries"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "mfr18",
+  "category": "moroccan_fr",
+  "query": "bissara, soupe de fèves",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 78.17680000152905,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "teresa s potato soup",
+   "california burrito",
+   "santa fe soup"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "dar01",
+  "category": "darija",
+  "query": "comment faire une tanjia marrakchia",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 126.48340000305325,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Jewish Tanzeya",
+   "camares piri piri  angola",
+   "Moroccan Salad With Charmoula/Chermoula Dressing"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "dar02",
+  "category": "darija",
+  "query": "bstilla",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 107.42339999706019,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "basboosa",
+   "tortilla stars",
+   "bleu cheese pate"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "dar03",
+  "category": "darija",
+  "query": "tajine djaj m'hamer",
+  "ndcg@10": 0.2489083270225946,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 87.47350001067389,
+  "grades": [
+   0,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "tajine spices",
+   "Tajine Msir Zeetoon - Moroccan Chicken With Lemons",
+   "tajine msir zeetoon   moroccan chicken with lemons"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "dar04",
+  "category": "darija",
+  "query": "rafissa",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 109.3890000047395,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "rasamarula",
+   "benihana mai tai",
+   "omani khabeesa    farina or  cream of wheat"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "dar05",
+  "category": "darija",
+  "query": "zalouk",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 104.57950001000427,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "zaremba stew   now this is to die for",
+   "zaar",
+   "zaremba s stew"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "dar06",
+  "category": "darija",
+  "query": "msemmen",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 122.02399999659974,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "aam ras",
+   "chocolate salad  pms salad",
+   "m   m"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "dar07",
+  "category": "darija",
+  "query": "beghrir",
+  "ndcg@10": 0.3589542101716347,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 139.27159999730065,
+  "grades": [
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Beghrir (Moroccan Pancakes)",
+   "Baghrir Recipe preciousmoroccan",
+   "bagel dip"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "dar08",
+  "category": "darija",
+  "query": "chebakya au miel",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 109.21579999558162,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "easy cheesy mielie bread",
+   "cheesy summer pasta",
+   "trevor s chex party mix"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "dar09",
+  "category": "darija",
+  "query": "ghoriba",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 121.4343000028748,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "tanzanian tonic",
+   "kilimanjaro",
+   "healthy mango lassi"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "dar10",
+  "category": "darija",
+  "query": "harsha",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 155.40340000006836,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "sacred pakistani chai tea recipe",
+   "omani khabeesa    farina or  cream of wheat",
+   "lumpia  build your own"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "dar11",
+  "category": "darija",
+  "query": "briwat",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 99.83559999091085,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "strawberry brie bites",
+   "chai  east african tea",
+   "qahwa  kashmiri tea"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "dar12",
+  "category": "darija",
+  "query": "kefta mkaouara",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 100.90730000229087,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "kauai nightcap",
+   "kulfi",
+   "kefta kebabs"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "dar13",
+  "category": "darija",
+  "query": "seffa medfouna",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 142.28990000265185,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "seitan and mushrooms in paprika cream",
+   "banana and semolina pudding  sheera",
+   "semolina s chicken cordon bleu pasta"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "dar14",
+  "category": "darija",
+  "query": "mrouzia",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 164.46699999505654,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "maandazi",
+   "meni meniyong  malinese sesame honey sweet",
+   "meni meniyong mali sesame honey candy"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "dar15",
+  "category": "darija",
+  "query": "bessara",
+  "ndcg@10": 0.4692787260227565,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.3333333333333333,
+  "latency_ms": 176.31559999426827,
+  "grades": [
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Bean Dip - Bessara Recipe",
+   "buca di beppo red wine vinaigrette",
+   "enticing azul bebida  cocktail"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ien01",
+  "category": "intl_en",
+  "query": "classic beef lasagna",
+  "ndcg@10": 0.9537125187088151,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 65.26339999982156,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   2,
+   2
+  ],
+  "top3": [
+   "beef lasagna",
+   "the best lasagna  ever",
+   "mouthwatering beef lasagna"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ien02",
+  "category": "intl_en",
+  "query": "chicken tikka masala",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 94.14509999623988,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "chicken tikka masala   east indian cuisine",
+   "chicken tikka masala",
+   "ww chicken tikka masala"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ien03",
+  "category": "intl_en",
+  "query": "moist banana bread",
+  "ndcg@10": 0.7759944384848244,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 108.61700000532437,
+  "grades": [
+   2,
+   0,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "super moist banana bread",
+   "moist banana nut bread",
+   "moist banana bread"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ien04",
+  "category": "intl_en",
+  "query": "authentic pad thai with shrimp",
+  "ndcg@10": 0.9510907186004267,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 107.7408999990439,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "10 minute shrimp pad thai",
+   "lighter shrimp pad thai",
+   "pad thai with chicken and shrimp"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ien05",
+  "category": "intl_en",
+  "query": "french onion soup with gruyere",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 98.89889998885337,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "french onion soup  soupe a l oignon",
+   "french onion soup gratinee",
+   "best ever french onion soup"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ien06",
+  "category": "intl_en",
+  "query": "spaghetti carbonara",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 108.39880000276025,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "to die for spaghetti carbonara by tom cruise",
+   "carbonara sauce",
+   "quick  easy and tasty spaghetti carbonara"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ien07",
+  "category": "intl_en",
+  "query": "creamy mushroom risotto",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 114.3000000010943,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "risotto with dried wild mushrooms",
+   "flavorful mushroom risotto",
+   "mushroom risotto"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ien08",
+  "category": "intl_en",
+  "query": "homemade hummus",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 87.46179999434389,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "homemade houmous   hummus",
+   "hummus",
+   "super healthy hummus"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ien09",
+  "category": "intl_en",
+  "query": "chicken biryani",
+  "ndcg@10": 0.9432379215722527,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 131.1827000026824,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "fuss free biryani chicken",
+   "simple chicken biryani",
+   "chicken biryani"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ien10",
+  "category": "intl_en",
+  "query": "shakshuka with feta",
+  "ndcg@10": 0.6275071330616557,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 111.9745000032708,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   2,
+   0,
+   2,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "shannon s shakshuka",
+   "shakshuka",
+   "shakshuka yemani basted eggs"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ien11",
+  "category": "intl_en",
+  "query": "classic tiramisu",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 107.54830000223592,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "easy tiramisu dessert",
+   "the best tiramisu recipe   really",
+   "karen s tiramisu"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ifr01",
+  "category": "intl_fr",
+  "query": "gâteau au chocolat fondant",
+  "ndcg@10": 0.17630010660342912,
+  "mrr@10": 0.3333333333333333,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 135.00959999510087,
+  "grades": [
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0
+  ],
+  "top3": [
+   "fondants au chocolat",
+   "gateau au chocolat i",
+   "sublime hot chocolate fondant"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ifr02",
+  "category": "intl_fr",
+  "query": "soupe à l'oignon gratinée",
+  "ndcg@10": 0.48526762376214005,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 124.18670000624843,
+  "grades": [
+   0,
+   2,
+   0,
+   2,
+   2,
+   2,
+   1,
+   0,
+   0,
+   2
+  ],
+  "top3": [
+   "antoine s soupe a l oignon gratine",
+   "soupe a l oignon gratinee  french onion soup",
+   "gigi s soupe a l  oignon"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ifr03",
+  "category": "intl_fr",
+  "query": "quiche lorraine",
+  "ndcg@10": 0.7952054789678341,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 117.91220000304747,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   0,
+   1,
+   2,
+   2
+  ],
+  "top3": [
+   "easy quiche lorraine",
+   "creamy quiche lorraine   wow  em",
+   "quiche lorraine cups"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ifr04",
+  "category": "intl_fr",
+  "query": "boeuf bourguignon",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 149.32140000746585,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "boeuf bourguignon  weight watchers",
+   "boeuf a la bourguignon",
+   "boeuf bourguignon in slow time"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ifr05",
+  "category": "intl_fr",
+  "query": "ratatouille provençale",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 91.64260000397917,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "ratatouille inspired by the animated film",
+   "farmers market ratatouille",
+   "rat patoodie   my different ratatouille"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ifr06",
+  "category": "intl_fr",
+  "query": "crème brûlée à la vanille",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 138.26390000758693,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "creme brulee pie",
+   "vodka creme brulee martini",
+   "perfect creme brulee"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ifr07",
+  "category": "intl_fr",
+  "query": "tarte tatin aux pommes",
+  "ndcg@10": 0.6168295842361273,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 92.1647000068333,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   0,
+   2,
+   0,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "tarte tatin aux poires",
+   "caramelised fruit tarte tatin  upside down pastry pie",
+   "banana tarte tatin"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ifr08",
+  "category": "intl_fr",
+  "query": "salade niçoise au thon",
+  "ndcg@10": 0.8701249883466592,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 117.09759999939706,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "nicoise salad",
+   "authentic salade nicoise",
+   "salade nicoise a ma facon"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ifr09",
+  "category": "intl_fr",
+  "query": "coq au vin",
+  "ndcg@10": 0.6569815082938862,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 106.57139999966603,
+  "grades": [
+   2,
+   2,
+   0,
+   2,
+   0,
+   0,
+   2,
+   0,
+   2,
+   2
+  ],
+  "top3": [
+   "coq au vin  the easy way",
+   "coq au vin by julia child",
+   "french antilles vinaigrette"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ifr10",
+  "category": "intl_fr",
+  "query": "gratin dauphinois",
+  "ndcg@10": 0.9305687780632227,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 118.34140001155902,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   2
+  ],
+  "top3": [
+   "gratin dauphinois   classic french potatoes baked in cream",
+   "gratin dauphinois aussie style",
+   "classic bistro style gratin dauphinois   french gratin potatoes"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ifr11",
+  "category": "intl_fr",
+  "query": "mousse au chocolat facile",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 111.57470000034664,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "la mousse au chocolat  chocolate mousse",
+   "julia child s mousseline au chocolat  chocolate mousse",
+   "easy basic chocolate mousse"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ifr12",
+  "category": "intl_fr",
+  "query": "pâte à crêpes sucrées",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 118.59969999932218,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "simple crepes",
+   "french vanilla crepes",
+   "single crepe"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ing01",
+  "category": "ingredients",
+  "query": "j'ai du poulet, du riz et des poivrons, que puis-je cuisiner ?",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 94.15839999564923,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "pomegranate glazed cornish game hens",
+   "pomegranate pie",
+   "aash  e anar  pomegranate stew"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ing02",
+  "category": "ingredients",
+  "query": "what can I make with eggs, spinach and feta",
+  "ndcg@10": 0.8630152897016882,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 119.16760000167415,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "very rustic spinach and feta tart",
+   "feta and spinach rolls",
+   "spinach with apples and feta cheese"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ing03",
+  "category": "ingredients",
+  "query": "recette avec des pois chiches, des tomates et du cumin",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 101.14130000874866,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "tomates  la provenale",
+   "fresh herbed crusty bread",
+   "a french country affair  elegant omelette gateau w chive flowers"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ing04",
+  "category": "ingredients",
+  "query": "I have ground beef, potatoes and onions",
+  "ndcg@10": 0.7624164915943118,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 112.57570001180284,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   0,
+   0,
+   2,
+   2
+  ],
+  "top3": [
+   "vegetable  beef and rice potluck",
+   "ground beef with potato lid",
+   "cheap beef in potato nests"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ing05",
+  "category": "ingredients",
+  "query": "idée de dessert avec des pommes et de la cannelle",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 57.633100004750304,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "fruit and cheese platter",
+   "sweet stuffed cannelloni",
+   "italian sunset cocktail"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ing06",
+  "category": "ingredients",
+  "query": "salmon with lemon and dill",
+  "ndcg@10": 0.9363792118010482,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 78.91110000491608,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "yet  another salmon with dill recipe",
+   "salmon marinade with dill  butter and lemon",
+   "salmon with lemon and dill"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ing07",
+  "category": "ingredients",
+  "query": "lentilles corail et lait de coco",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 73.68679999490269,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "littlemafia s romanian lentil soup",
+   "Moroccan Lentil Stew With Raisins",
+   "bulgarian lentil soup"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ing08",
+  "category": "ingredients",
+  "query": "zucchini, tomatoes and mozzarella",
+  "ndcg@10": 0.623574432899073,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 85.78639999905135,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   2,
+   0,
+   0,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "zucchini con mozzarella",
+   "zucchini   onions with mozzarella cheese",
+   "zucchini   onions with mozzarella"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ing09",
+  "category": "ingredients",
+  "query": "j'ai de l'agneau, des pruneaux et des amandes",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 87.90610000141896,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "far breton french prune cake",
+   "louisiana pecan praline cake",
+   "far breton"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "ing10",
+  "category": "ingredients",
+  "query": "tofu and broccoli stir fry",
+  "ndcg@10": 0.738329539431828,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 88.3553000021493,
+  "grades": [
+   2,
+   2,
+   1,
+   2,
+   2,
+   0,
+   2,
+   1,
+   2,
+   0
+  ],
+  "top3": [
+   "vegetable and tofu stir fry",
+   "tofu and broccoli stir fry  martha stewart",
+   "tofu stir  fry"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "con01",
+  "category": "constraints",
+  "query": "un plat végétarien rapide, en moins de 30 minutes",
+  "ndcg@10": 0.5033242827953464,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.4,
+  "latency_ms": 81.20309999503661,
+  "grades": [
+   2,
+   0,
+   2,
+   2,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "my grandmother s tallerini",
+   "speedy chili",
+   "le petit marseillais"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "con02",
+  "category": "constraints",
+  "query": "vegan chocolate dessert",
+  "ndcg@10": 0.7136540102475307,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 101.33200000564102,
+  "grades": [
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "vegan white chocolate",
+   "vegan chocolate cake with frosting",
+   "deep chocolate vegan cake"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "con03",
+  "category": "constraints",
+  "query": "gluten-free bread",
+  "ndcg@10": 0.6601585067762745,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 59.38060001062695,
+  "grades": [
+   2,
+   2,
+   0,
+   2,
+   0,
+   0,
+   2,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "easy gluten free bread",
+   "easy gluten free sandwich bread recipe",
+   "rye bread  gluten free"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "con04",
+  "category": "constraints",
+  "query": "chicken dinner under 400 calories",
+  "ndcg@10": 0.16104258782393982,
+  "mrr@10": 0.25,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 72.43900001049042,
+  "grades": [
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0
+  ],
+  "top3": [
+   "tasty baked roast chicken",
+   "baked chicken that makes its own gravy",
+   "one pan chicken dinner"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "con05",
+  "category": "constraints",
+  "query": "tajine végétarien",
+  "ndcg@10": 0.2489083270225946,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 75.3547000058461,
+  "grades": [
+   0,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Fish Tajine",
+   "Moroccan Tajine With Sweet Potato, Chickpeas And Eggplant",
+   "tajine spices"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "con06",
+  "category": "constraints",
+  "query": "soupe de légumes sans gluten",
+  "ndcg@10": 0.650033222048579,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 86.184100000537,
+  "grades": [
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "tortilla soup with undercover veggies",
+   "gluten free creamy potato soup",
+   "green bean and carrot soup  vegan  gluten free"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "con07",
+  "category": "constraints",
+  "query": "quick pasta ready in 20 minutes",
+  "ndcg@10": 0.27267015568947806,
+  "mrr@10": 0.14285714285714285,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.4,
+  "latency_ms": 94.86149999429472,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "quick pasta sauce",
+   "quick pasta pick me up",
+   "quick pasta supper"
+  ]
+ },
+ {
+  "system": "v1_noexp",
+  "qid": "con08",
+  "category": "constraints",
+  "query": "salade de quinoa vegan",
+  "ndcg@10": 0.9305687780632227,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 88.59400000073947,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   2
+  ],
+  "top3": [
+   "vegan quinoa salad",
+   "really fresh raw quinoa salad  raw  vegan  gluten free",
+   "vegan greek quinoa salad"
+  ]
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr01",
+  "category": "moroccan_fr",
+  "query": "comment préparer une harira",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 20.45850000286009,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Choumicha's Harira",
+   "Moroccan Harira A Favourite In Algeria",
+   "Moroccan Harira Recipe (Thick Soup With Chickpeas & Masoor Dal)"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr02",
+  "category": "moroccan_fr",
+  "query": "recette de pastilla au poulet",
+  "ndcg@10": 0.5936996889067496,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 18.868599989218637,
+  "grades": [
+   1,
+   2,
+   2,
+   1,
+   1,
+   2,
+   0,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "Pastilla For Seafood",
+   "Pastilla with chicken, zucchini and cumin Moroccan style",
+   "Chicken pastilla"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr03",
+  "category": "moroccan_fr",
+  "query": "rfissa marocaine aux lentilles et msemen",
+  "ndcg@10": 0.5531464700081438,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.4,
+  "latency_ms": 18.178400001488626,
+  "grades": [
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Chicken rfissa",
+   "Moroccan Chicken Rfissa - Trid Pastry With Chicken, Lentils, and Fenugreek",
+   "Msemen au Kitchenaid"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr04",
+  "category": "moroccan_fr",
+  "query": "zaalouk d'aubergines",
+  "ndcg@10": 0.7949726098472114,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 18.65189999807626,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Zaalouk Dip",
+   "Zaalouk Spicy Aubergine Salad Morocco",
+   "Zaalouk Focaccia"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr05",
+  "category": "moroccan_fr",
+  "query": "tajine de poulet aux citrons confits et olives",
+  "ndcg@10": 0.16815228646891087,
+  "mrr@10": 0.25,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 8.145200001308694,
+  "grades": [
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan chicken tagine at Mister Cuisine®",
+   "Poulet Au Citron Lemon Chicken",
+   "Lamb and Artichoke Tajine"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr06",
+  "category": "moroccan_fr",
+  "query": "couscous aux sept légumes",
+  "ndcg@10": 0.1179321050151432,
+  "mrr@10": 0.25,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.1,
+  "latency_ms": 18.97250000911299,
+  "grades": [
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "top3": [
+   "Slow Cooker Chicken Tagine",
+   "Family Style Chicken Rice Dinner By Pillsbury Best Ever Chicken Sept 1999",
+   "Couscous And Pomegranate Salad"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr07",
+  "category": "moroccan_fr",
+  "query": "tajine de kefta aux oeufs",
+  "ndcg@10": 0.6971490728095348,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 18.685800008825026,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   0,
+   0,
+   1,
+   0
+  ],
+  "top3": [
+   "Kefta Tagine with Eggs in Tomato Sauce {Kefta Mkawra}",
+   "Tajine Kefta œuf",
+   "Kefta Tajine Moroccan Spiced Meatballs W Eggs In Tomato Sauce"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr08",
+  "category": "moroccan_fr",
+  "query": "baghrir, les crêpes mille trous",
+  "ndcg@10": 0.650033222048579,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 18.384199996944517,
+  "grades": [
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Crêpes With Spiced Fruit Compote",
+   "Baghrir Recipe preciousmoroccan",
+   "Moroccan Pancake Layer Cake - Baghrir Cake"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr09",
+  "category": "moroccan_fr",
+  "query": "msemen feuilleté maison",
+  "ndcg@10": 0.6867151830982591,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 19.579600004362874,
+  "grades": [
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   0,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Msemen au Kitchenaid",
+   "Moroccan Crêpe Msemen",
+   "Chicken rfissa"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr10",
+  "category": "moroccan_fr",
+  "query": "chebakia pour le ramadan",
+  "ndcg@10": 0.8971754588393883,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8571428571428571,
+  "latency_ms": 21.982699996442534,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Chebakia (Sesame Cookies with Honey) for Ramadan",
+   "Chebakia marocaine",
+   "Chebakia"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr11",
+  "category": "moroccan_fr",
+  "query": "harcha à la semoule",
+  "ndcg@10": 0.9705437052559006,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 21.66469999065157,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Plain Harcha + Zaatar and Black Olive Harcha",
+   "Moroccan Harcha (Harsha) - Semolina Pan-Fried Flatbread",
+   "Moroccan Harcha Semolina Pan-Fried Flatbread"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr12",
+  "category": "moroccan_fr",
+  "query": "briouates aux amandes",
+  "ndcg@10": 0.703419602359732,
+  "mrr@10": 0.3333333333333333,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 19.493699990562163,
+  "grades": [
+   1,
+   1,
+   2,
+   0,
+   1,
+   1,
+   2,
+   1,
+   1,
+   0
+  ],
+  "top3": [
+   "Briouate Moroccan chicken",
+   "Moroccan Shrimp Briouat",
+   "Honey Almond Briouats"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr13",
+  "category": "moroccan_fr",
+  "query": "thé à la menthe marocain",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 19.458800001302734,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Chebakia marocaine",
+   "Potage Marocain Moroccan Soup",
+   "Potage Marocain (Moroccan Soup)"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr14",
+  "category": "moroccan_fr",
+  "query": "pain marocain khobz fait maison",
+  "ndcg@10": 0.29345568839744024,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 20.123200010857545,
+  "grades": [
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Bread Khobz",
+   "Chebakia marocaine",
+   "Potage Marocain Moroccan Soup"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr15",
+  "category": "moroccan_fr",
+  "query": "cornes de gazelle",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 21.631299998261966,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Gluten -free gazelle horn",
+   "Moroccan gazelles with orange blossom",
+   "Gazelle horn at peanut"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr16",
+  "category": "moroccan_fr",
+  "query": "tajine de poisson à la chermoula",
+  "ndcg@10": 0.1849336751566706,
+  "mrr@10": 0.3333333333333333,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.1,
+  "latency_ms": 17.98889999918174,
+  "grades": [
+   0,
+   0,
+   2,
+   1,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "top3": [
+   "Chicken Tajine With Preserved Lemon And Olives",
+   "Poisson Cru Or E Ia Ota Tahitian Lime Marinated Tuna",
+   "Quick Fish Tagine with Chermoula + a Video"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr17",
+  "category": "moroccan_fr",
+  "query": "amlou aux amandes et huile d'argan",
+  "ndcg@10": 0.971476156593264,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 21.225399992545135,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Amlou",
+   "Amlou",
+   "Amlou Cookies"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "mfr18",
+  "category": "moroccan_fr",
+  "query": "bissara, soupe de fèves",
+  "ndcg@10": 0.7653606369886218,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6666666666666666,
+  "latency_ms": 22.574100003112108,
+  "grades": [
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Bissara Fava Bean Puree",
+   "Bissara - Split Peas and Fava Beans Dip",
+   "Cheese Soup"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "dar01",
+  "category": "darija",
+  "query": "comment faire une tanjia marrakchia",
+  "ndcg@10": 0.4584660801557625,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 12.942800007294863,
+  "grades": [
+   2
+  ],
+  "top3": [
+   "Moroccan Tangia Marrakchia"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "dar02",
+  "category": "darija",
+  "query": "bstilla",
+  "ndcg@10": 0.22009176629808017,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.1,
+  "latency_ms": 17.017799997120164,
+  "grades": [
+   2
+  ],
+  "top3": [
+   "Moroccan Chicken Pie Bstilla"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "dar03",
+  "category": "darija",
+  "query": "tajine djaj m'hamer",
+  "ndcg@10": 0.36352581989644606,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.4,
+  "latency_ms": 22.182600005180575,
+  "grades": [
+   0,
+   2,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   2,
+   2
+  ],
+  "top3": [
+   "Moroccan Beef Tajine With Apricot And Pear",
+   "Chicken and Walnut Tajine with Quince Paste",
+   "Lamb and Artichoke Tajine"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "dar04",
+  "category": "darija",
+  "query": "rafissa",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 0.4619999963324517,
+  "grades": [],
+  "top3": [],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "dar05",
+  "category": "darija",
+  "query": "zalouk",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 17.688599997200072,
+  "grades": [
+   0
+  ],
+  "top3": [
+   "Hajar S Eggplant Aubergine Braniya Salad"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "dar06",
+  "category": "darija",
+  "query": "msemmen",
+  "ndcg@10": 0.6489315753318465,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 18.421200002194382,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Msemmen Moroccan Crepes",
+   "Msemmen - Moroccan Crepes",
+   "Traditional Msemmen"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "dar07",
+  "category": "darija",
+  "query": "beghrir",
+  "ndcg@10": 0.8006937664098819,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 19.258899992564693,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Moroccan pancakes (in Arabic: Beghrir or a thousand holes)",
+   "Beghrir (Moroccan Pancakes)",
+   "Beghrir (Moroccan Pancakes)"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "dar08",
+  "category": "darija",
+  "query": "chebakya au miel",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 16.61910000257194,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Latte Miel",
+   "Miel De Nuez Mexican Honey Nut Syrup",
+   "Baked Apricots With Honey Albaricoques Al Horno Con Miel"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "dar09",
+  "category": "darija",
+  "query": "ghoriba",
+  "ndcg@10": 0.22009176629808017,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.1,
+  "latency_ms": 18.30379999591969,
+  "grades": [
+   2
+  ],
+  "top3": [
+   "Moroccan Semolina Cookies (Ghoriba)"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "dar10",
+  "category": "darija",
+  "query": "harsha",
+  "ndcg@10": 0.3422220729283414,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.3333333333333333,
+  "latency_ms": 14.237299998058006,
+  "grades": [
+   0,
+   2,
+   2
+  ],
+  "top3": [
+   "L Harsha",
+   "Moroccan Harcha (Harsha) - Semolina Pan-Fried Flatbread",
+   "Moroccan Harcha Semolina Pan-Fried Flatbread"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "dar11",
+  "category": "darija",
+  "query": "briwat",
+  "ndcg@10": 0.3589542101716347,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 18.151500000385568,
+  "grades": [
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "Moroccan Shrimp Briwats Like Egg Rolls",
+   "Moroccan Shrimp Briwats (Like Egg Rolls)",
+   "Jben Moroccan Fresh Cheese"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "dar12",
+  "category": "darija",
+  "query": "kefta mkaouara",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 20.58109999052249,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Meatball Tomato And Egg Tagine Kefta Mkaouara",
+   "Spicy Egg Meatball And Tomato Tagine Kefta Mkaouara",
+   "Moroccan Kefta Tagine"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "dar13",
+  "category": "darija",
+  "query": "seffa medfouna",
+  "ndcg@10": 0.9047172294870752,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 19.77699999406468,
+  "grades": [
+   2,
+   0,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Seffa Medfouna Recipe (Vermicelli With Saffron Chicken)",
+   "Moroccan Saffron Chicken",
+   "Coconut seffa"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "dar14",
+  "category": "darija",
+  "query": "mrouzia",
+  "ndcg@10": 0.5548860438136117,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 14.028999998117797,
+  "grades": [
+   2,
+   1
+  ],
+  "top3": [
+   "Moroccan Lamb Tagine (Mrouzia)",
+   "Moroccan Lamb Tagine With Raisins, Almonds, and Honey"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "dar15",
+  "category": "darija",
+  "query": "bessara",
+  "ndcg@10": 0.4692787260227565,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.3333333333333333,
+  "latency_ms": 18.566300001111813,
+  "grades": [
+   2,
+   0
+  ],
+  "top3": [
+   "Moroccan Bean Dip - Bessara",
+   "Serrouda (Moroccan Chickpea Puree)"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ien01",
+  "category": "intl_en",
+  "query": "classic beef lasagna",
+  "ndcg@10": 0.8645073774981994,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 8.837300003506243,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   2,
+   1,
+   1
+  ],
+  "top3": [
+   "Classic Lasagna",
+   "Lasagna Classic Mueller S",
+   "Lasagna Oamc"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ien02",
+  "category": "intl_en",
+  "query": "chicken tikka masala",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 26.3072999950964,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Tikka Masala Chicken Capsicum Wraps",
+   "Slimming World Chicken Tikka Masala",
+   "Chicken Tikka Masala"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ien03",
+  "category": "intl_en",
+  "query": "moist banana bread",
+  "ndcg@10": 0.6145870006788592,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 7.423400005791336,
+  "grades": [
+   2,
+   0,
+   2,
+   0,
+   2,
+   0,
+   0,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Super Moist Banana Bread",
+   "Moist Banana Nut Bread",
+   "Impossibly Moist Banana Bread"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ien04",
+  "category": "intl_en",
+  "query": "authentic pad thai with shrimp",
+  "ndcg@10": 0.7162874455029681,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 22.262700003921054,
+  "grades": [
+   1,
+   2,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "Thai Noodles Pad Thai",
+   "Pad Thai With Chicken And Shrimp",
+   "Ted S Pad Thai"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ien05",
+  "category": "intl_en",
+  "query": "french onion soup with gruyere",
+  "ndcg@10": 0.7678068918638812,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 9.056800001417287,
+  "grades": [
+   2,
+   1,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "Kellymac S French Onion Soup",
+   "Five Onion Soup With Scallion And Gruyere Croutons",
+   "French Onion Soup Pizza"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ien06",
+  "category": "intl_en",
+  "query": "spaghetti carbonara",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 6.978800010983832,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Alexander S Spaghetti Carbonara",
+   "Saffron Spaghetti Alla Carbonara",
+   "Victoria S Spaghetti Carbonara"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ien07",
+  "category": "intl_en",
+  "query": "creamy mushroom risotto",
+  "ndcg@10": 0.9052116356304492,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 8.124200001475401,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Sausage And Mushroom Risotto",
+   "Creamy Spinach Mushroom Risotto",
+   "Gordon Ramsay S Tomato And Mushroom Risotto"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ien08",
+  "category": "intl_en",
+  "query": "homemade hummus",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 20.102399997995235,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Vegetable Hummus Dip",
+   "Yummy Hummus With Variations",
+   "Sprouts Hummus Sandwich"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ien09",
+  "category": "intl_en",
+  "query": "chicken biryani",
+  "ndcg@10": 0.8842222191013388,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 30.323399987537414,
+  "grades": [
+   2,
+   2,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "top3": [
+   "Hyderabadi Chicken Biryani",
+   "Chicken Biryani In Microwave",
+   "Yogurt Salad For Biryani"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ien10",
+  "category": "intl_en",
+  "query": "shakshuka with feta",
+  "ndcg@10": 0.8364586133797036,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 19.771800012676977,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Shakshuka With Spinach & Feta Cheese",
+   "Shannon S Shakshuka",
+   "Sundried Tomato And Sweet Basil Shakshuka Ragu"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ien11",
+  "category": "intl_en",
+  "query": "classic tiramisu",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 15.192099992418662,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Classic Tiramisu",
+   "Tiramisu",
+   "Light Heavenly Tiramisu"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ifr01",
+  "category": "intl_fr",
+  "query": "gâteau au chocolat fondant",
+  "ndcg@10": 0.22979561007468538,
+  "mrr@10": 0.2,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.3,
+  "latency_ms": 20.26829999522306,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   2,
+   2,
+   0,
+   0,
+   2,
+   0
+  ],
+  "top3": [
+   "Fondants Au Chocolat",
+   "Fondant Stuffed Dates",
+   "Fondant"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ifr02",
+  "category": "intl_fr",
+  "query": "soupe à l'oignon gratinée",
+  "ndcg@10": 0.2899773651602119,
+  "mrr@10": 0.3333333333333333,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.3,
+  "latency_ms": 25.02269999240525,
+  "grades": [
+   0,
+   0,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Gigi S Soupe A L Oignon",
+   "Antoine S Soupe A L Oignon Gratine",
+   "French Onion Soup Soupe A L Oignon"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ifr03",
+  "category": "intl_fr",
+  "query": "quiche lorraine",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 19.853799996781163,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Cottage Cheese Quiche Lorraine",
+   "Easy Quiche Lorraine",
+   "Creamy Quiche Lorraine Wow Em"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ifr04",
+  "category": "intl_fr",
+  "query": "boeuf bourguignon",
+  "ndcg@10": 0.933745776545611,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 21.09589999599848,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "Shortcut Boeuf Beef Bourguignon",
+   "Boeuf Bourguignon In Slow Time",
+   "Boeuf Bourguignon"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ifr05",
+  "category": "intl_fr",
+  "query": "ratatouille provençale",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 20.731399999931455,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Ratatouille With Sole",
+   "Nancy Duke S Ratatouille",
+   "Autumn Ratatouille"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ifr06",
+  "category": "intl_fr",
+  "query": "crème brûlée à la vanille",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 21.476199995959178,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Amazing Lavender Crme Brle",
+   "Whiskey Crme Brle",
+   "Brled Mashed Sweet Potatoes"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ifr07",
+  "category": "intl_fr",
+  "query": "tarte tatin aux pommes",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 20.37809998728335,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Tarte Tatin Aux Poires",
+   "Tarte Tatin Easy Version",
+   "Tarte Tatin Ridiculously Easy"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ifr08",
+  "category": "intl_fr",
+  "query": "salade niçoise au thon",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 27.162899990798905,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Thon En Salade Swiss Tuna Salad Plate",
+   "Mincemeat Bar Cookies For Coolmonday",
+   "The Most Perfect Hard Boiled Eggs No Needles Involved"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ifr09",
+  "category": "intl_fr",
+  "query": "coq au vin",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 17.50059999176301,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Coq Au Vin In A Crock Pot",
+   "J W S Quick Coq Au Vin",
+   "Coq Au Vin Chicken In Wine"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ifr10",
+  "category": "intl_fr",
+  "query": "gratin dauphinois",
+  "ndcg@10": 0.8701249883466592,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 16.90980000421405,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Gratin Dauphinois Aussie Style",
+   "Scalloped Potatoes With Cheese Gratin Dauphinois",
+   "Gratin Potatoes Dauphinois"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ifr11",
+  "category": "intl_fr",
+  "query": "mousse au chocolat facile",
+  "ndcg@10": 0.7273298443105218,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 22.620700008701533,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Mousse Au Chocolat",
+   "La Mousse Au Chocolat Chocolate Mousse",
+   "Mousse Au Chocolat Chocolate Mousse"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ifr12",
+  "category": "intl_fr",
+  "query": "pâte à crêpes sucrées",
+  "ndcg@10": 0.6122496142821665,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 15.014399992651306,
+  "grades": [
+   2,
+   2,
+   0,
+   2,
+   2,
+   0,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Herbed Crepes With Ricotta Green Peppers And Tomato Sauce",
+   "Crpes With Blueberry Coulis Crepes",
+   "Cranberry Avocado Salad W Sweet Balsamic Vinaigrette"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ing01",
+  "category": "ingredients",
+  "query": "j'ai du poulet, du riz et des poivrons, que puis-je cuisiner ?",
+  "ndcg@10": 0.07839826897867534,
+  "mrr@10": 0.16666666666666666,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.1,
+  "latency_ms": 20.36820001376327,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Poivrons Aux Anchois Sweet Peppers W Anchovy Vinaigrette",
+   "Riz Au Lait",
+   "Chicken With Sour Cream Pui Cu Smantana Acra"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ing02",
+  "category": "ingredients",
+  "query": "what can I make with eggs, spinach and feta",
+  "ndcg@10": 0.6578986223737447,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 9.838099998887628,
+  "grades": [
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Feta And Spinach Free Form Pie",
+   "Tomato And Spinach Garlic Linguine With Feta",
+   "Nif S 1 Ww Pt Light Low Fat Spinach And Feta Omelette Omelet"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ing03",
+  "category": "ingredients",
+  "query": "recette avec des pois chiches, des tomates et du cumin",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 25.008399999933317,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Serrouda (Moroccan Chickpea Puree)",
+   "Poi Bread",
+   "Banana Poi"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ing04",
+  "category": "ingredients",
+  "query": "I have ground beef, potatoes and onions",
+  "ndcg@10": 0.933745776545611,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 10.718100005760789,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "Keema Ground Beef Casserole",
+   "Beef Creole With Potato Puffs",
+   "Serbian Ground Beef Veggie And Potato Bake"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ing05",
+  "category": "ingredients",
+  "query": "idée de dessert avec des pommes et de la cannelle",
+  "ndcg@10": 0.24618570546556082,
+  "mrr@10": 0.25,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.3,
+  "latency_ms": 7.910400003311224,
+  "grades": [
+   0,
+   0,
+   0,
+   2,
+   2,
+   0,
+   0,
+   0,
+   2,
+   0
+  ],
+  "top3": [
+   "Far Breton Aux Pommes Apple Pie",
+   "Croustade Aux Pommes Et Erable",
+   "Apple And Berries Crunch Crumble Croustarde Aux Pommes Et Baies"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ing06",
+  "category": "ingredients",
+  "query": "salmon with lemon and dill",
+  "ndcg@10": 0.9052116356304492,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 8.31250000919681,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Salmon Marinade With Dill Butter And Lemon",
+   "Baked Lemon Salmon With Lemon Dill Sauce",
+   "Red Lobster Broiled Dill Salmon"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ing07",
+  "category": "ingredients",
+  "query": "lentilles corail et lait de coco",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 21.353199990699068,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Poulet Au Lait De Coco Chicken With Coconut Milk",
+   "Diabetic Cafe Au Lait Pudding",
+   "Potage Aux Lentilles Et Aux Lard Lentil Bacon And Tomato Soup"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ing08",
+  "category": "ingredients",
+  "query": "zucchini, tomatoes and mozzarella",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 10.194700007559732,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Grilled Zucchini Casserole",
+   "Zucchini Onions With Mozzarella Cheese",
+   "Zucchini Onions With Mozzarella"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ing09",
+  "category": "ingredients",
+  "query": "j'ai de l'agneau, des pruneaux et des amandes",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 16.647799988277256,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Chicken Waterzooi Stew",
+   "Pain D Amandes Brussels Almond Bread Cookies",
+   "Orange Mousse With Almonds Mousse A L Orange Et Aux Amandes"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "ing10",
+  "category": "ingredients",
+  "query": "tofu and broccoli stir fry",
+  "ndcg@10": 0.5082547273551143,
+  "mrr@10": 0.2,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.4,
+  "latency_ms": 7.081799994921312,
+  "grades": [
+   1,
+   1,
+   1,
+   1,
+   2,
+   1,
+   2,
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "Noodles With Stir Fried Tofu And Broccoli",
+   "Stir Fried Tofu Peppers Broccoli",
+   "Broccoli And Tofu With Spicy Peanut Sauce"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "con01",
+  "category": "constraints",
+  "query": "un plat végétarien rapide, en moins de 30 minutes",
+  "ndcg@10": 0.6371523797895856,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 7.759000000078231,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Green Peas And Golden Cheese Salad",
+   "Silky Carrot Hummus",
+   "Muesli With Pears And Walnuts"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "con02",
+  "category": "constraints",
+  "query": "vegan chocolate dessert",
+  "ndcg@10": 0.7753366239771085,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 10.01939999696333,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Vegan Peppermint Chocolate Chip Frozen Dessert",
+   "Decadent Vegan Chocolate Mousse",
+   "Chia Chocolate Pudding Vegan"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "con03",
+  "category": "constraints",
+  "query": "gluten-free bread",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 8.6575999885099,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Gluten Free Banana Bread Or Cake",
+   "Gluten Free Zucchini Bread",
+   "Gluten Free Orange Walnut Bread"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "con04",
+  "category": "constraints",
+  "query": "chicken dinner under 400 calories",
+  "ndcg@10": 0.46712235974543204,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.4,
+  "latency_ms": 9.562699997331947,
+  "grades": [
+   2,
+   0,
+   2,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   2
+  ],
+  "top3": [
+   "Yogurt Mint Marinated Chicken",
+   "Honey Glazed Chicken With Sherry",
+   "Low Fat Lemon Herb Roasted Chicken"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "con05",
+  "category": "constraints",
+  "query": "tajine végétarien",
+  "ndcg@10": 0.07839826897867534,
+  "mrr@10": 0.16666666666666666,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.1,
+  "latency_ms": 21.806099990499206,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Beef Tajine With Apricot And Pear",
+   "Chicken and Walnut Tajine with Quince Paste",
+   "Lamb and Artichoke Tajine"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "con06",
+  "category": "constraints",
+  "query": "soupe de légumes sans gluten",
+  "ndcg@10": 0.09387906757712537,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 28.371699998388067,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   1,
+   1
+  ],
+  "top3": [
+   "Plum Clafouti Sans Dough",
+   "Steak San Marco",
+   "Steak San Marlo Crock Pot Stew"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "con07",
+  "category": "constraints",
+  "query": "quick pasta ready in 20 minutes",
+  "ndcg@10": 0.15457433957839825,
+  "mrr@10": 0.2,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 10.969299997668713,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Quick Pot Lasagna",
+   "Quick Vegetable Beef Soup",
+   "Quick Chicken Puttanesca"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25",
+  "qid": "con08",
+  "category": "constraints",
+  "query": "salade de quinoa vegan",
+  "ndcg@10": 0.9363792118010482,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 28.723099996568635,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "Vegan Quinoa Salad",
+   "Quinoa And Vegetable Tabouli Salad",
+   "Really Fresh Raw Quinoa Salad Raw Vegan Gluten Free"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr01",
+  "category": "moroccan_fr",
+  "query": "comment préparer une harira",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 28.626100000110455,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Choumicha's Harira",
+   "Moroccan Harira A Favourite In Algeria",
+   "Moroccan Harira Recipe (Thick Soup With Chickpeas & Masoor Dal)"
+  ],
+  "expanded": {
+   "preparer": [
+    "prepare",
+    "prepared"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr02",
+  "category": "moroccan_fr",
+  "query": "recette de pastilla au poulet",
+  "ndcg@10": 0.44525366990362364,
+  "mrr@10": 0.3333333333333333,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.4,
+  "latency_ms": 34.22619999037124,
+  "grades": [
+   0,
+   1,
+   2,
+   2,
+   1,
+   1,
+   2,
+   0,
+   2,
+   0
+  ],
+  "top3": [
+   "Renette Apple Dessert",
+   "Pastilla For Seafood",
+   "Pastilla with chicken, zucchini and cumin Moroccan style"
+  ],
+  "expanded": {
+   "recette": [
+    "renette"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr03",
+  "category": "moroccan_fr",
+  "query": "rfissa marocaine aux lentilles et msemen",
+  "ndcg@10": 0.3319039902887233,
+  "mrr@10": 0.16666666666666666,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.6,
+  "latency_ms": 39.84159999527037,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   2,
+   0,
+   0,
+   2
+  ],
+  "top3": [
+   "Potage Aux Lentilles Et Aux Lard Lentil Bacon And Tomato Soup",
+   "Salmon With Lentils And Mustard Herb Butter Saumon Aux Lentille",
+   "Chebakia marocaine"
+  ],
+  "expanded": {
+   "marocaine": [
+    "marocain",
+    "morrocan"
+   ],
+   "lentilles": [
+    "lentille",
+    "lentils"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr04",
+  "category": "moroccan_fr",
+  "query": "zaalouk d'aubergines",
+  "ndcg@10": 0.7949726098472114,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 28.551700001116842,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Zaalouk Dip",
+   "Zaalouk Spicy Aubergine Salad Morocco",
+   "Zaalouk Focaccia"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr05",
+  "category": "moroccan_fr",
+  "query": "tajine de poulet aux citrons confits et olives",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 38.26580000168178,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan chicken tagine at Mister Cuisine®",
+   "Oven vegetable tagine",
+   "Ail Ou Echalotes Confits Garlic Or Shallot Confit"
+  ],
+  "expanded": {
+   "tajine": [
+    "tagine"
+   ],
+   "citrons": [
+    "citron"
+   ],
+   "confits": [
+    "confites",
+    "confit"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr06",
+  "category": "moroccan_fr",
+  "query": "couscous aux sept légumes",
+  "ndcg@10": 0.1179321050151432,
+  "mrr@10": 0.25,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.1,
+  "latency_ms": 38.67740000714548,
+  "grades": [
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "top3": [
+   "Slow Cooker Chicken Tagine",
+   "Family Style Chicken Rice Dinner By Pillsbury Best Ever Chicken Sept 1999",
+   "Couscous And Pomegranate Salad"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr07",
+  "category": "moroccan_fr",
+  "query": "tajine de kefta aux oeufs",
+  "ndcg@10": 0.8643145546088337,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 41.55710000486579,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   2
+  ],
+  "top3": [
+   "Tajine Kefta œuf",
+   "Kefta Tajine Moroccan Spiced Meatballs W Eggs In Tomato Sauce",
+   "Kefta Tagine with Eggs in Tomato Sauce {Kefta Mkawra}"
+  ],
+  "expanded": {
+   "tajine": [
+    "tagine"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr08",
+  "category": "moroccan_fr",
+  "query": "baghrir, les crêpes mille trous",
+  "ndcg@10": 0.6004311286161025,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 45.49770000448916,
+  "grades": [
+   0,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   2
+  ],
+  "top3": [
+   "Moroccan Crêpes With Spiced Fruit Compote",
+   "Baghrir Recipe preciousmoroccan",
+   "Noodles And Pot Cheese Turos Teszia"
+  ],
+  "expanded": {
+   "mille": [
+    "mile"
+   ],
+   "trous": [
+    "turos",
+    "trois"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr09",
+  "category": "moroccan_fr",
+  "query": "msemen feuilleté maison",
+  "ndcg@10": 0.6594803070902427,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 41.1725000012666,
+  "grades": [
+   2,
+   2,
+   0,
+   0,
+   2,
+   2,
+   2,
+   0,
+   0,
+   2
+  ],
+  "top3": [
+   "Msemen au Kitchenaid",
+   "Moroccan Crêpe Msemen",
+   "Chicken rfissa"
+  ],
+  "expanded": {
+   "feuillete": [
+    "feuille",
+    "fillet"
+   ],
+   "maison": [
+    "madison",
+    "mason"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr10",
+  "category": "moroccan_fr",
+  "query": "chebakia pour le ramadan",
+  "ndcg@10": 0.8971754588393883,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8571428571428571,
+  "latency_ms": 36.50489999563433,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Chebakia (Sesame Cookies with Honey) for Ramadan",
+   "Chebakia marocaine",
+   "Chebakia"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr11",
+  "category": "moroccan_fr",
+  "query": "harcha à la semoule",
+  "ndcg@10": 0.8883444449388405,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 32.06599999975879,
+  "grades": [
+   2,
+   0,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Plain Harcha + Zaatar and Black Olive Harcha",
+   "Smul Paj Crumb Pie",
+   "Moroccan Harcha (Harsha) - Semolina Pan-Fried Flatbread"
+  ],
+  "expanded": {
+   "semoule": [
+    "smul"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr12",
+  "category": "moroccan_fr",
+  "query": "briouates aux amandes",
+  "ndcg@10": 0.8014910969353671,
+  "mrr@10": 0.3333333333333333,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 34.37280000071041,
+  "grades": [
+   1,
+   1,
+   2,
+   1,
+   1,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "top3": [
+   "Briouate Moroccan chicken",
+   "Moroccan Shrimp Briouat",
+   "Honey Almond Briouats"
+  ],
+  "expanded": {
+   "briouates": [
+    "briouats",
+    "briouate"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr13",
+  "category": "moroccan_fr",
+  "query": "thé à la menthe marocain",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 36.33050000644289,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Chebakia marocaine",
+   "Potage Marocain Moroccan Soup",
+   "Potage Marocain (Moroccan Soup)"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr14",
+  "category": "moroccan_fr",
+  "query": "pain marocain khobz fait maison",
+  "ndcg@10": 0.29345568839744024,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 48.07530000107363,
+  "grades": [
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Bread Khobz",
+   "Chebakia marocaine",
+   "Potage Marocain Moroccan Soup"
+  ],
+  "expanded": {
+   "maison": [
+    "madison",
+    "mason"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr15",
+  "category": "moroccan_fr",
+  "query": "cornes de gazelle",
+  "ndcg@10": 0.6585696678247529,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.625,
+  "latency_ms": 31.39740000187885,
+  "grades": [
+   2,
+   2,
+   0,
+   0,
+   0,
+   2,
+   0,
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "Moroccan gazelles with orange blossom",
+   "Moroccan gazelles of my grandmother",
+   "Hg S Holy Moly Cannoli Cones Ww Points 3"
+  ],
+  "expanded": {
+   "cornes": [
+    "corners",
+    "cones"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr16",
+  "category": "moroccan_fr",
+  "query": "tajine de poisson à la chermoula",
+  "ndcg@10": 0.3660246186928026,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.4,
+  "latency_ms": 42.09310001169797,
+  "grades": [
+   0,
+   2,
+   0,
+   0,
+   2,
+   2,
+   0,
+   0,
+   0,
+   2
+  ],
+  "top3": [
+   "Chicken Tajine With Preserved Lemon And Olives",
+   "Quick Fish Tagine with Chermoula + a Video",
+   "Vegetable Tagine"
+  ],
+  "expanded": {
+   "tajine": [
+    "tagine"
+   ],
+   "poisson": [
+    "poison"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr17",
+  "category": "moroccan_fr",
+  "query": "amlou aux amandes et huile d'argan",
+  "ndcg@10": 0.971476156593264,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 41.32370000297669,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Amlou",
+   "Amlou",
+   "Amlou Cookies"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "mfr18",
+  "category": "moroccan_fr",
+  "query": "bissara, soupe de fèves",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 41.19039999204688,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Bissara Fava Bean Puree",
+   "Bissara - Split Peas and Fava Beans Dip",
+   "Moroccan Bean Dip - Bessara"
+  ],
+  "expanded": {
+   "bissara": [
+    "bessara",
+    "byessar"
+   ],
+   "feves": [
+    "fves"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "dar01",
+  "category": "darija",
+  "query": "comment faire une tanjia marrakchia",
+  "ndcg@10": 0.4584660801557625,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 46.69529999955557,
+  "grades": [
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Tangia Marrakchia",
+   "Marrakesh Couscous",
+   "Cafe Marrakech"
+  ],
+  "expanded": {
+   "faire": [
+    "fire",
+    "fair"
+   ],
+   "tanjia": [
+    "tangia"
+   ],
+   "marrakchia": [
+    "marrakech",
+    "marrakesh"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "dar02",
+  "category": "darija",
+  "query": "bstilla",
+  "ndcg@10": 0.6745711375739728,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 25.061599997570738,
+  "grades": [
+   2,
+   2,
+   0,
+   2,
+   2,
+   0,
+   0,
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "Chicken Bastilla Pie",
+   "Seafood Bastilla With Shrimp, Calamari and Fish",
+   "Individual B'stillas (Moroccan Chicken and Almond Pies)"
+  ],
+  "expanded": {
+   "bstilla": [
+    "bastilla",
+    "stilla"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "dar03",
+  "category": "darija",
+  "query": "tajine djaj m'hamer",
+  "ndcg@10": 0.2984900352767555,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 43.39299999992363,
+  "grades": [
+   2,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Moroccan Chicken and Onion Tagine Recipe With Djaj Beldi",
+   "Lamb Tagine with Peas and Potatoes",
+   "Beef And Prunes A La Tajine Tagine"
+  ],
+  "expanded": {
+   "tajine": [
+    "tagine"
+   ],
+   "hamer": [
+    "hammer"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "dar04",
+  "category": "darija",
+  "query": "rafissa",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 23.950299990247004,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Rfissa Express – Fragrant chicken and lentils with papardelle",
+   "Chicken rfissa",
+   "Rfissa Moroccan Chicken With Lentils"
+  ],
+  "expanded": {
+   "rafissa": [
+    "rfissa"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "dar05",
+  "category": "darija",
+  "query": "zalouk",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 26.090100000146776,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Zaalouk Focaccia",
+   "Zaalouk Dip",
+   "Zaalouk Spicy Aubergine Salad Morocco"
+  ],
+  "expanded": {
+   "zalouk": [
+    "zaalouk"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "dar06",
+  "category": "darija",
+  "query": "msemmen",
+  "ndcg@10": 0.6489315753318465,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.5,
+  "latency_ms": 25.709900000947528,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Msemmen Moroccan Crepes",
+   "Msemmen - Moroccan Crepes",
+   "Traditional Msemmen"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "dar07",
+  "category": "darija",
+  "query": "beghrir",
+  "ndcg@10": 0.8006937664098819,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 22.514900003443472,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Moroccan pancakes (in Arabic: Beghrir or a thousand holes)",
+   "Beghrir (Moroccan Pancakes)",
+   "Beghrir (Moroccan Pancakes)"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "dar08",
+  "category": "darija",
+  "query": "chebakya au miel",
+  "ndcg@10": 0.8847838959703266,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8571428571428571,
+  "latency_ms": 34.77619998739101,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   0,
+   0,
+   2,
+   0
+  ],
+  "top3": [
+   "Chebakia marocaine",
+   "Moroccan Chebakia (Sesame Cookies with Honey) for Ramadan",
+   "Chebakia"
+  ],
+  "expanded": {
+   "chebakya": [
+    "chebakia",
+    "shebakia"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "dar09",
+  "category": "darija",
+  "query": "ghoriba",
+  "ndcg@10": 0.914856882358379,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 26.961099996697158,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Moroccan Semolina Cookies (Ghoriba)",
+   "Orange and Cardamom Ghriba",
+   "Walnut and Matcha Ghriba - Gluten free"
+  ],
+  "expanded": {
+   "ghoriba": [
+    "ghriba",
+    "gorayba"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "dar10",
+  "category": "darija",
+  "query": "harsha",
+  "ndcg@10": 0.9930783166417602,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 23.825600001146086,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "Moroccan Harcha (Harsha) - Semolina Pan-Fried Flatbread",
+   "Moroccan Harcha Semolina Pan-Fried Flatbread",
+   "Plain Harcha + Zaatar and Black Olive Harcha"
+  ],
+  "expanded": {
+   "harsha": [
+    "harcha"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "dar11",
+  "category": "darija",
+  "query": "briwat",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 24.87559999281075,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Moroccan Shrimp Briwats Like Egg Rolls",
+   "Briouate Moroccan chicken",
+   "Moroccan Shrimp Briouat"
+  ],
+  "expanded": {
+   "briwat": [
+    "briouat"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "dar12",
+  "category": "darija",
+  "query": "kefta mkaouara",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 35.57340000406839,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Tagine Kefta Mkawra (Moroccan Tagine of Meatballs)",
+   "Kefta Tagine with Eggs in Tomato Sauce {Kefta Mkawra}",
+   "Meatball Tomato And Egg Tagine Kefta Mkaouara"
+  ],
+  "expanded": {
+   "mkaouara": [
+    "mkawra"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "dar13",
+  "category": "darija",
+  "query": "seffa medfouna",
+  "ndcg@10": 0.8485833840018001,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 33.2269000064116,
+  "grades": [
+   2,
+   0,
+   0,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Seffa Medfouna Recipe (Vermicelli With Saffron Chicken)",
+   "Moroccan Saffron Chicken",
+   "Chicken Madfoune couscous"
+  ],
+  "expanded": {
+   "medfouna": [
+    "madfoune"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "dar14",
+  "category": "darija",
+  "query": "mrouzia",
+  "ndcg@10": 0.5548860438136117,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 23.13950000097975,
+  "grades": [
+   2,
+   1
+  ],
+  "top3": [
+   "Moroccan Lamb Tagine (Mrouzia)",
+   "Moroccan Lamb Tagine With Raisins, Almonds, and Honey"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "dar15",
+  "category": "darija",
+  "query": "bessara",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 32.908699999097735,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Bissara Fava Bean Puree",
+   "Bissara - Split Peas and Fava Beans Dip",
+   "Moroccan Bean Dip - Bessara"
+  ],
+  "expanded": {
+   "bessara": [
+    "byessar",
+    "bissara"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ien01",
+  "category": "intl_en",
+  "query": "classic beef lasagna",
+  "ndcg@10": 0.8645073774981994,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 28.833600008510984,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   2,
+   1,
+   1
+  ],
+  "top3": [
+   "Classic Lasagna",
+   "Lasagna Classic Mueller S",
+   "Lasagna Oamc"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ien02",
+  "category": "intl_en",
+  "query": "chicken tikka masala",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 50.40559999179095,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Tikka Masala Chicken Capsicum Wraps",
+   "Slimming World Chicken Tikka Masala",
+   "Chicken Tikka Masala"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ien03",
+  "category": "intl_en",
+  "query": "moist banana bread",
+  "ndcg@10": 0.6145870006788592,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 25.64459999848623,
+  "grades": [
+   2,
+   0,
+   2,
+   0,
+   2,
+   0,
+   0,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Super Moist Banana Bread",
+   "Moist Banana Nut Bread",
+   "Impossibly Moist Banana Bread"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ien04",
+  "category": "intl_en",
+  "query": "authentic pad thai with shrimp",
+  "ndcg@10": 0.7162874455029681,
+  "mrr@10": 0.5,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 51.95919999096077,
+  "grades": [
+   1,
+   2,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "Thai Noodles Pad Thai",
+   "Pad Thai With Chicken And Shrimp",
+   "Ted S Pad Thai"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ien05",
+  "category": "intl_en",
+  "query": "french onion soup with gruyere",
+  "ndcg@10": 0.7678068918638812,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 31.127900001592934,
+  "grades": [
+   2,
+   1,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "Kellymac S French Onion Soup",
+   "Five Onion Soup With Scallion And Gruyere Croutons",
+   "French Onion Soup Pizza"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ien06",
+  "category": "intl_en",
+  "query": "spaghetti carbonara",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 22.58859999710694,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Alexander S Spaghetti Carbonara",
+   "Saffron Spaghetti Alla Carbonara",
+   "Victoria S Spaghetti Carbonara"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ien07",
+  "category": "intl_en",
+  "query": "creamy mushroom risotto",
+  "ndcg@10": 0.9052116356304492,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 28.23029999854043,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Sausage And Mushroom Risotto",
+   "Creamy Spinach Mushroom Risotto",
+   "Gordon Ramsay S Tomato And Mushroom Risotto"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ien08",
+  "category": "intl_en",
+  "query": "homemade hummus",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 34.46720000647474,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Vegetable Hummus Dip",
+   "Yummy Hummus With Variations",
+   "Sprouts Hummus Sandwich"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ien09",
+  "category": "intl_en",
+  "query": "chicken biryani",
+  "ndcg@10": 0.8842222191013388,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 40.83050000190269,
+  "grades": [
+   2,
+   2,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "top3": [
+   "Hyderabadi Chicken Biryani",
+   "Chicken Biryani In Microwave",
+   "Yogurt Salad For Biryani"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ien10",
+  "category": "intl_en",
+  "query": "shakshuka with feta",
+  "ndcg@10": 0.8364586133797036,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 35.21499999624211,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Shakshuka With Spinach & Feta Cheese",
+   "Shannon S Shakshuka",
+   "Sundried Tomato And Sweet Basil Shakshuka Ragu"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ien11",
+  "category": "intl_en",
+  "query": "classic tiramisu",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 34.2705999937607,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Classic Tiramisu",
+   "Tiramisu",
+   "Light Heavenly Tiramisu"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ifr01",
+  "category": "intl_fr",
+  "query": "gâteau au chocolat fondant",
+  "ndcg@10": 0.22979561007468538,
+  "mrr@10": 0.2,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.3,
+  "latency_ms": 39.82299999915995,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   2,
+   2,
+   0,
+   0,
+   2,
+   0
+  ],
+  "top3": [
+   "Fondants Au Chocolat",
+   "Fondant Stuffed Dates",
+   "Fondant"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ifr02",
+  "category": "intl_fr",
+  "query": "soupe à l'oignon gratinée",
+  "ndcg@10": 0.2899773651602119,
+  "mrr@10": 0.3333333333333333,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.3,
+  "latency_ms": 40.48660000262316,
+  "grades": [
+   0,
+   0,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Gigi S Soupe A L Oignon",
+   "Antoine S Soupe A L Oignon Gratine",
+   "French Onion Soup Soupe A L Oignon"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ifr03",
+  "category": "intl_fr",
+  "query": "quiche lorraine",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 34.971800007042475,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Cottage Cheese Quiche Lorraine",
+   "Easy Quiche Lorraine",
+   "Creamy Quiche Lorraine Wow Em"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ifr04",
+  "category": "intl_fr",
+  "query": "boeuf bourguignon",
+  "ndcg@10": 0.933745776545611,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 33.339200002956204,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "Shortcut Boeuf Beef Bourguignon",
+   "Boeuf Bourguignon In Slow Time",
+   "Boeuf Bourguignon"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ifr05",
+  "category": "intl_fr",
+  "query": "ratatouille provençale",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 32.95079999952577,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Ratatouille With Sole",
+   "Nancy Duke S Ratatouille",
+   "Autumn Ratatouille"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ifr06",
+  "category": "intl_fr",
+  "query": "crème brûlée à la vanille",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 37.80960000585765,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Amazing Lavender Crme Brle",
+   "Whiskey Crme Brle",
+   "Brled Mashed Sweet Potatoes"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ifr07",
+  "category": "intl_fr",
+  "query": "tarte tatin aux pommes",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 38.15869998652488,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Tarte Tatin Aux Poires",
+   "Tarte Tatin Easy Version",
+   "Tarte Tatin Ridiculously Easy"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ifr08",
+  "category": "intl_fr",
+  "query": "salade niçoise au thon",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 40.687999993679114,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Thon En Salade Swiss Tuna Salad Plate",
+   "Mincemeat Bar Cookies For Coolmonday",
+   "The Most Perfect Hard Boiled Eggs No Needles Involved"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ifr09",
+  "category": "intl_fr",
+  "query": "coq au vin",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 14.935899991542101,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Coq Au Vin In A Crock Pot",
+   "J W S Quick Coq Au Vin",
+   "Coq Au Vin Chicken In Wine"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ifr10",
+  "category": "intl_fr",
+  "query": "gratin dauphinois",
+  "ndcg@10": 0.8701249883466592,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.8,
+  "latency_ms": 32.92089999013115,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Gratin Dauphinois Aussie Style",
+   "Scalloped Potatoes With Cheese Gratin Dauphinois",
+   "Gratin Potatoes Dauphinois"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ifr11",
+  "category": "intl_fr",
+  "query": "mousse au chocolat facile",
+  "ndcg@10": 0.3038377318600771,
+  "mrr@10": 0.25,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.4,
+  "latency_ms": 40.810999998939224,
+  "grades": [
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   2,
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "Tres Facile Bell Pepper And Tomato Salad",
+   "Guacamole Muy Facil",
+   "Chicken Enchiladas Muy Bien Super Facil"
+  ],
+  "expanded": {
+   "facile": [
+    "facil",
+    "facial"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ifr12",
+  "category": "intl_fr",
+  "query": "pâte à crêpes sucrées",
+  "ndcg@10": 0.35659643859662626,
+  "mrr@10": 0.3333333333333333,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.4,
+  "latency_ms": 37.622299991198815,
+  "grades": [
+   0,
+   0,
+   2,
+   2,
+   0,
+   2,
+   2,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Kasha Patate Sucree Or Kasha Pilaf With Sweet Potato Puree And A",
+   "Glazed Kiwi Tart",
+   "Herbed Crepes With Ricotta Green Peppers And Tomato Sauce"
+  ],
+  "expanded": {
+   "sucrees": [
+    "sucree",
+    "screws"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ing01",
+  "category": "ingredients",
+  "query": "j'ai du poulet, du riz et des poivrons, que puis-je cuisiner ?",
+  "ndcg@10": 0.07839826897867534,
+  "mrr@10": 0.16666666666666666,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.1,
+  "latency_ms": 32.31189999496564,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Poivrons Aux Anchois Sweet Peppers W Anchovy Vinaigrette",
+   "Riz Au Lait",
+   "Riz Za Pizza"
+  ],
+  "expanded": {
+   "cuisiner": [
+    "cuisine"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ing02",
+  "category": "ingredients",
+  "query": "what can I make with eggs, spinach and feta",
+  "ndcg@10": 0.6578986223737447,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.6,
+  "latency_ms": 37.98560000723228,
+  "grades": [
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Feta And Spinach Free Form Pie",
+   "Tomato And Spinach Garlic Linguine With Feta",
+   "Nif S 1 Ww Pt Light Low Fat Spinach And Feta Omelette Omelet"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ing03",
+  "category": "ingredients",
+  "query": "recette avec des pois chiches, des tomates et du cumin",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 55.53689999214839,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Serrouda (Moroccan Chickpea Puree)",
+   "Renette Apple Dessert",
+   "Poi Bread"
+  ],
+  "expanded": {
+   "recette": [
+    "renette"
+   ],
+   "chiches": [
+    "choices",
+    "whiches"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ing04",
+  "category": "ingredients",
+  "query": "I have ground beef, potatoes and onions",
+  "ndcg@10": 0.933745776545611,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 43.014000009861775,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   2
+  ],
+  "top3": [
+   "Keema Ground Beef Casserole",
+   "Beef Creole With Potato Puffs",
+   "Serbian Ground Beef Veggie And Potato Bake"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ing05",
+  "category": "ingredients",
+  "query": "idée de dessert avec des pommes et de la cannelle",
+  "ndcg@10": 0.22716217481924803,
+  "mrr@10": 0.2,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.3,
+  "latency_ms": 57.744599995203316,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   2,
+   2,
+   0,
+   0,
+   0,
+   2
+  ],
+  "top3": [
+   "Baked Beans A Family Recipe From Chef Patrick O Connell",
+   "Far Breton Aux Pommes Apple Pie",
+   "Croustade Aux Pommes Et Erable"
+  ],
+  "expanded": {
+   "cannelle": [
+    "channell",
+    "connell"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ing06",
+  "category": "ingredients",
+  "query": "salmon with lemon and dill",
+  "ndcg@10": 0.9052116356304492,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 27.088800008641556,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Salmon Marinade With Dill Butter And Lemon",
+   "Baked Lemon Salmon With Lemon Dill Sauce",
+   "Red Lobster Broiled Dill Salmon"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ing07",
+  "category": "ingredients",
+  "query": "lentilles corail et lait de coco",
+  "ndcg@10": 0.028381039213873666,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 45.45979999238625,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Potage Aux Lentilles Et Aux Lard Lentil Bacon And Tomato Soup",
+   "Salmon With Lentils And Mustard Herb Butter Saumon Aux Lentille",
+   "Empress Dal"
+  ],
+  "expanded": {
+   "lentilles": [
+    "lentille",
+    "lentils"
+   ],
+   "corail": [
+    "coral",
+    "corral"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ing08",
+  "category": "ingredients",
+  "query": "zucchini, tomatoes and mozzarella",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 44.73310000321362,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Grilled Zucchini Casserole",
+   "Zucchini Onions With Mozzarella Cheese",
+   "Zucchini Onions With Mozzarella"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ing09",
+  "category": "ingredients",
+  "query": "j'ai de l'agneau, des pruneaux et des amandes",
+  "ndcg@10": 0.0,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 42.60600000270642,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "Chicken Waterzooi Stew",
+   "Pain D Amandes Brussels Almond Bread Cookies",
+   "Orange Mousse With Almonds Mousse A L Orange Et Aux Amandes"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "ing10",
+  "category": "ingredients",
+  "query": "tofu and broccoli stir fry",
+  "ndcg@10": 0.5082547273551143,
+  "mrr@10": 0.2,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.4,
+  "latency_ms": 28.45789999992121,
+  "grades": [
+   1,
+   1,
+   1,
+   1,
+   2,
+   1,
+   2,
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "Noodles With Stir Fried Tofu And Broccoli",
+   "Stir Fried Tofu Peppers Broccoli",
+   "Broccoli And Tofu With Spicy Peanut Sauce"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "con01",
+  "category": "constraints",
+  "query": "un plat végétarien rapide, en moins de 30 minutes",
+  "ndcg@10": 0.0636207881989517,
+  "mrr@10": 0.1,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.1,
+  "latency_ms": 47.82579999300651,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2
+  ],
+  "top3": [
+   "Dr Oz 2 Week Rapid Weight Loss Diet Detox Broth",
+   "Rapid Rise Whole Wheat Bread Bread Machine",
+   "Sweet Potato And Goats Cheese Pie"
+  ],
+  "expanded": {
+   "plat": [
+    "blat"
+   ],
+   "vegetarien": [
+    "vegetarian",
+    "vegetarians"
+   ],
+   "rapide": [
+    "rapid",
+    "rapido"
+   ],
+   "moins": [
+    "minis",
+    "moons"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "con02",
+  "category": "constraints",
+  "query": "vegan chocolate dessert",
+  "ndcg@10": 0.7753366239771085,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.7,
+  "latency_ms": 28.425600001355633,
+  "grades": [
+   2,
+   2,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Vegan Peppermint Chocolate Chip Frozen Dessert",
+   "Decadent Vegan Chocolate Mousse",
+   "Chia Chocolate Pudding Vegan"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "con03",
+  "category": "constraints",
+  "query": "gluten-free bread",
+  "ndcg@10": 1.0,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 1.0,
+  "latency_ms": 28.863500003353693,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3": [
+   "Gluten Free Banana Bread Or Cake",
+   "Gluten Free Zucchini Bread",
+   "Gluten Free Orange Walnut Bread"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "con04",
+  "category": "constraints",
+  "query": "chicken dinner under 400 calories",
+  "ndcg@10": 0.46712235974543204,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.4,
+  "latency_ms": 35.62549999332987,
+  "grades": [
+   2,
+   0,
+   2,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   2
+  ],
+  "top3": [
+   "Yogurt Mint Marinated Chicken",
+   "Honey Glazed Chicken With Sherry",
+   "Low Fat Lemon Herb Roasted Chicken"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "con05",
+  "category": "constraints",
+  "query": "tajine végétarien",
+  "ndcg@10": 0.3589542101716347,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 26.23249999305699,
+  "grades": [
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "top3": [
+   "A Very Good Tagine Tajine Vegetarian",
+   "Tajine Bil Khodar Vegetable Tagine",
+   "Lamb Tagine with Peas and Potatoes"
+  ],
+  "expanded": {
+   "tajine": [
+    "tagine"
+   ],
+   "vegetarien": [
+    "vegetarian",
+    "vegetarians"
+   ]
+  },
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "con06",
+  "category": "constraints",
+  "query": "soupe de légumes sans gluten",
+  "ndcg@10": 0.09387906757712537,
+  "mrr@10": 0.0,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "recall@10": 0.0,
+  "latency_ms": 58.61509998794645,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   1,
+   1
+  ],
+  "top3": [
+   "Plum Clafouti Sans Dough",
+   "Steak San Marco",
+   "Steak San Marlo Crock Pot Stew"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "con07",
+  "category": "constraints",
+  "query": "quick pasta ready in 20 minutes",
+  "ndcg@10": 0.15457433957839825,
+  "mrr@10": 0.2,
+  "hit@1": 0.0,
+  "hit@5": 1.0,
+  "recall@10": 0.2,
+  "latency_ms": 40.38109999964945,
+  "grades": [
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   2,
+   0,
+   0
+  ],
+  "top3": [
+   "Quick Pot Lasagna",
+   "Quick Vegetable Beef Soup",
+   "Quick Chicken Puttanesca"
+  ],
+  "expanded": {},
+  "analysis": null
+ },
+ {
+  "system": "bm25_lex",
+  "qid": "con08",
+  "category": "constraints",
+  "query": "salade de quinoa vegan",
+  "ndcg@10": 0.9363792118010482,
+  "mrr@10": 1.0,
+  "hit@1": 1.0,
+  "hit@5": 1.0,
+  "recall@10": 0.9,
+  "latency_ms": 70.81630000902805,
+  "grades": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "top3": [
+   "Vegan Quinoa Salad",
+   "Quinoa And Vegetable Tabouli Salad",
+   "Really Fresh Raw Quinoa Salad Raw Vegan Gluten Free"
+  ],
+  "expanded": {},
+  "analysis": null
+ }
+]

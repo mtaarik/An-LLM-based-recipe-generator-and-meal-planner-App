@@ -1,5 +1,6 @@
 # --- Security ---
 .env
+!.env.example
 
 # --- Python / Environment ---
 venv/
@@ -22,6 +23,8 @@ __pycache__/
 data/raw/
 data/processed/
 data/embeddings/
+data/index/
+models/
 # Note: You usually want to keep the folder structure but ignore the files. 
 # GitHub doesn't track empty folders, so people often put a '.gitkeep' file inside.
 
@@ -35,3 +38,11 @@ Thumbs.db
 
 # --- Logs ---
 *.log
+logs/
+
+# --- Tooling ---
+.pytest_cache/
+# --- Local tool config ---
+.claude/
+colab_jobs.parquet
+embeddings.zip
